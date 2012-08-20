@@ -14,4 +14,4 @@ YalePulse is a polling website developed for the Yale College Council to gather 
 Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.
 
 ##Collaboration
-Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.
+Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.

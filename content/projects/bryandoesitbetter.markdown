@@ -8,7 +8,6 @@ tools: Static website, visual design
 image_path: images/bryandoesitbetter.png
 ---
 
-##Description
 I designed the website for my friend Bryan's campaign for Yale College Council Events Director. I also designed his campaign's visual identity.
 
 ##Visual Design

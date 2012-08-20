@@ -1,4 +1,4 @@
-{:	data{)I"/:ET{:default{:	lastI"�)<!DOCTYPE html>
+{:	data{)I"/:ET{:default{:	lastI"*<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -109,7 +109,7 @@
 <p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 
     <a href="javascript:void(0);" class="toggle_details">Show more details</a>
     
@@ -153,7 +153,7 @@
 <p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 
     <a href="javascript:void(0);" class="toggle_details">Show more details</a>
     
@@ -169,8 +169,7 @@
     <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
   
   <div class="project_description">
-    <h2 id="description">Description</h2>
-<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+    <p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
 
 <h2 id="visual-design">Visual Design</h2>
 <p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
@@ -5213,7 +5212,7 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
 <p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
 
 <p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
-;T;@DI"/projects/;T{;{;I"0<div class="panel_title">
+;T;@DI"/projects/;T{;{;I"n<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Projects</h1>
 </div>
@@ -5255,7 +5254,7 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
 <p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 
     <a href="javascript:void(0);" class="toggle_details">Show more details</a>
     
@@ -5299,7 +5298,7 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
 <p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 
     <a href="javascript:void(0);" class="toggle_details">Show more details</a>
     
@@ -5315,8 +5314,7 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
     <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
   
   <div class="project_description">
-    <h2 id="description">Description</h2>
-<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+    <p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
 
 <h2 id="visual-design">Visual Design</h2>
 <p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
@@ -5424,7 +5422,7 @@ I"�<p>Classroulette is a simple online interface to explore the Yale course ca
 
 <h2 id="tech-stack">Tech Stack</h2>
 <p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
-;T;@lI"/projects/sendquest/;T{;{	;I"v<div class="project_box">
+;T;@lI"/projects/sendquest/;T{;{	;I"�<div class="project_box">
   
     <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
     <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
@@ -5437,27 +5435,27 @@ I"�<p>Classroulette is a simple online interface to explore the Yale course ca
 <p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 
     <a href="javascript:void(0);" class="toggle_details">Show more details</a>
     
       <a href="http://sendquest.in" target="_blank" class="view_live">View it live!</a>
     
   </div>
-</div>;T;	I"	Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.
+</div>;T;	I";Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.
 
 ##Tech Stack
 The site uses the Twilio API to interface with users over SMS, and some custom JS -- the available libraries weren't pretty enough :) -- to update graphs in realtime. Deployed on Heroku.
 
 ##Collaboration
-Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.;T;
-I"T<p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.;T;
+I"�<p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
 
 <h2 id="tech-stack">Tech Stack</h2>
 <p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 ;T;@rI"/images/sendquest/;T{;{ I"/images/deneb/;T{;{ I"/projects/deneb/;T{;{	;I"�<div class="project_box">
   
     <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
@@ -5492,7 +5490,7 @@ I"�<p>A static website for Deneb Renewable, a solar energy startup based in To
 
 <h2 id="tech-stack">Tech Stack</h2>
 <p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
-;T;@~I"/images/yalepulse/;T{;{ I"/projects/yalepulse/;T{;{	;I"G<div class="project_box">
+;T;@~I"/images/yalepulse/;T{;{ I"/projects/yalepulse/;T{;{	;I"y<div class="project_box">
   
     <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
     <h2 class="project_tools">Ruby on Rails, Javascript</h2>
@@ -5505,36 +5503,35 @@ I"�<p>A static website for Deneb Renewable, a solar energy startup based in To
 <p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
 
     <a href="javascript:void(0);" class="toggle_details">Show more details</a>
     
       <a href="http://yalepulse.com" target="_blank" class="view_live">View it live!</a>
     
   </div>
-</div>;T;	I"�YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use -- for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.
+</div>;T;	I"YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use -- for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.
 
 ##Tech Stack
 Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.
 
 ##Collaboration
-Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.;T;
-I"1<p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.;T;
+I"c<p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
 
 <h2 id="tech-stack">Tech Stack</h2>
 <p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
 
 <h2 id="collaboration">Collaboration</h2>
-<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
-;T;@�I"!/projects/bryandoesitbetter/;T{;{	;I".<div class="project_box">
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
+;T;@�I"!/projects/bryandoesitbetter/;T{;{	;I"<div class="project_box">
   
     <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
     <h2 class="project_tools">Static website, visual design</h2>
     <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
   
   <div class="project_description">
-    <h2 id="description">Description</h2>
-<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+    <p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
 
 <h2 id="visual-design">Visual Design</h2>
 <p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
@@ -5544,13 +5541,11 @@ I"1<p>YalePulse is a polling website developed for the Yale College Council to
       <a href="http://bryandoesitbetter.com" target="_blank" class="view_live">View it live!</a>
     
   </div>
-</div>;T;	I"�##Description
-I designed the website for my friend Bryan's campaign for Yale College Council Events Director. I also designed his campaign's visual identity.
+</div>;T;	I"�I designed the website for my friend Bryan's campaign for Yale College Council Events Director. I also designed his campaign's visual identity.
 
 ##Visual Design
 The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren't too interested in details, so I made sure the front page contained a personal pitch with all the important info.;T;
-I"�<h2 id="description">Description</h2>
-<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+I"�<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
 
 <h2 id="visual-design">Visual Design</h2>
 <p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
