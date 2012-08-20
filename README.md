@@ -1,0 +1,1 @@
+The code for my personal homepage, [geoffreylitt.com](http://geoffreylitt.com). It uses the [nanoc](http://nanoc.stoneship.org/) static site generator to produce purely static HTML from a set of Markdown content documents.
