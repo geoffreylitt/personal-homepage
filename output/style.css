@@ -434,11 +434,26 @@ body {
 a {
   color: #416891;
   text-decoration: none;
-  font-weight: bold; }
+  font-weight: bold;
+  outline: none;
+  -moz-outline-style: none; }
 
 a:active {
   position: relative;
-  top: 1px; }
+  top: 1px;
+  outline: none; }
+
+a:focus {
+  outline: none;
+  -moz-outline-style: none; }
+
+a:visited {
+  outline: none;
+  -moz-outline-style: none; }
+
+a:hover {
+  outline: none;
+  -moz-outline-style: none; }
 
 p {
   margin-top: 0px; }

@@ -24,22 +24,24 @@ By Geoffrey Litt
 
     layoutProjects();
 
+    var $prev_link = $();
+
     $("a.toggle_details").click(function(){
       this_box = $(this).parents(".project_box").get(0);
-      smooth_open = setInterval(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 50); //keep relaying out during animation
-      if($(this).siblings("p:visible").length > 1){
-        $(this).text("Show more details");
-        $(this).siblings("p").slice(1).slideUp(100);
-        $(this).siblings("h2").slideUp(100);
-        //line below waits 100ms after the animation is over...should work usually
-        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 1000);}); //hacky...figure out the right callback
+      prev_box = ($prev_link.length > 0) ? $prev_link.parents(".project_box").get(0) : null;
+      if (prev_box){
+        $prev_link.show();
+        $prev_link.siblings("p").slice(1).slideUp(100, function(){
+          setTimeout(function(){$("#projects_container").isotope('shiftColumnOfItem', prev_box);}, 100);
+        });
+        $prev_link.siblings("h2").slideUp(100);
       }
-      else{
-        $(this).text("Hide details");
-        $(this).siblings("p").slideDown(100);
-        $(this).siblings("h2").slideDown(100);
-        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 1000);}); //hacky...figure out the right callback
-      }
+      $prev_link = $(this);
+      $(this).hide();
+      $(this).siblings("p").slideDown(125, function(){
+        setTimeout(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 100);
+      });
+      $(this).siblings("h2").slideDown(125);
     });
   });
 

@@ -1,7 +1,9 @@
-{:	data{)I"/:ET{:default{:	lastI"*<!DOCTYPE html>
+{:	data{)I"/:ET{:default{:	lastI"è*<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="Geoffrey Litt web design developer Ruby on Rails MUBI Yale">
+    <meta name="description" content="Geoffrey Litt is a web developer and designer currently studying at Yale University.">
     <title>Geoffrey Litt</title>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
@@ -217,10 +219,12 @@
     </div>
   </body>
 </html>
-;T:rawI"Œ<!DOCTYPE html>
+;T:rawI"i<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="Geoffrey Litt web design developer Ruby on Rails MUBI Yale">
+    <meta name="description" content="Geoffrey Litt is a web developer and designer currently studying at Yale University.">
     <title>Geoffrey Litt</title>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
@@ -3044,7 +3048,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-;T;@&I"/images/favicon/;T{;{ I"/images/favicon (3)/;T{;{ I"/stylesheets/stylesheet/;T{;{;I"òE/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+;T;@&I"/images/favicon/;T{;{ I"/images/favicon (3)/;T{;{ I"/stylesheets/stylesheet/;T{;{;I"àF/* normalize.css v1.0.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -3480,11 +3484,26 @@ body {
 a {
   color: #416891;
   text-decoration: none;
-  font-weight: bold; }
+  font-weight: bold;
+  outline: none;
+  -moz-outline-style: none; }
 
 a:active {
   position: relative;
-  top: 1px; }
+  top: 1px;
+  outline: none; }
+
+a:focus {
+  outline: none;
+  -moz-outline-style: none; }
+
+a:visited {
+  outline: none;
+  -moz-outline-style: none; }
+
+a:hover {
+  outline: none;
+  -moz-outline-style: none; }
 
 p {
   margin-top: 0px; }
@@ -3729,7 +3748,7 @@ p {
 
 .panel#blog_panel {
   border-top: solid 6px #f3d42a; }
-;T;	I"C//import CSS reset ("normalize")
+;T;	I".//import CSS reset ("normalize")
 @import "normalize";
 
 //mixins
@@ -3795,11 +3814,29 @@ a{
   color: $color_lightblue;
   text-decoration: none;
   font-weight: bold;
+  outline: none;
+  -moz-outline-style: none;
 }
 
 a:active{
   position: relative;
   top: 1px;
+  outline: none;
+}
+
+a:focus{
+  outline: none;
+  -moz-outline-style: none;
+}
+
+a:visited{
+  outline: none;
+  -moz-outline-style: none;
+}
+
+a:hover{
+  outline: none;
+  -moz-outline-style: none;
 }
 
 p{
@@ -4941,7 +4978,7 @@ table {
     border-spacing: 0;
 }
 ;T;
-@7I"/js/main/;T{;{;I"+/*
+@7I"/js/main/;T{;{;I"C/*
 Main JS for geoffreylitt.com
 By Geoffrey Litt
 */
@@ -4967,22 +5004,24 @@ By Geoffrey Litt
 
     layoutProjects();
 
+    var $prev_link = $();
+
     $("a.toggle_details").click(function(){
       this_box = $(this).parents(".project_box").get(0);
-      smooth_open = setInterval(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 50); //keep relaying out during animation
-      if($(this).siblings("p:visible").length > 1){
-        $(this).text("Show more details");
-        $(this).siblings("p").slice(1).slideUp(100);
-        $(this).siblings("h2").slideUp(100);
-        //line below waits 100ms after the animation is over...should work usually
-        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 1000);}); //hacky...figure out the right callback
+      prev_box = ($prev_link.length > 0) ? $prev_link.parents(".project_box").get(0) : null;
+      if (prev_box){
+        $prev_link.show();
+        $prev_link.siblings("p").slice(1).slideUp(100, function(){
+          setTimeout(function(){$("#projects_container").isotope('shiftColumnOfItem', prev_box);}, 100);
+        });
+        $prev_link.siblings("h2").slideUp(100);
       }
-      else{
-        $(this).text("Hide details");
-        $(this).siblings("p").slideDown(100);
-        $(this).siblings("h2").slideDown(100);
-        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 1000);}); //hacky...figure out the right callback
-      }
+      $prev_link = $(this);
+      $(this).hide();
+      $(this).siblings("p").slideDown(125, function(){
+        setTimeout(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 100);
+      });
+      $(this).siblings("h2").slideDown(125);
     });
   });
 
