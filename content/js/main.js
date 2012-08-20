@@ -26,19 +26,19 @@ By Geoffrey Litt
 
     $("a.toggle_details").click(function(){
       this_box = $(this).parents(".project_box").get(0);
-      smooth_open = setInterval(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 1); //keep relaying out during animation
+      smooth_open = setInterval(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 50); //keep relaying out during animation
       if($(this).siblings("p:visible").length > 1){
         $(this).text("Show more details");
         $(this).siblings("p").slice(1).slideUp(100);
         $(this).siblings("h2").slideUp(100);
         //line below waits 100ms after the animation is over...should work usually
-        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 100);}); //hacky...figure out the right callback
+        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 1000);}); //hacky...figure out the right callback
       }
       else{
         $(this).text("Hide details");
         $(this).siblings("p").slideDown(100);
         $(this).siblings("h2").slideDown(100);
-        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 100);}); //hacky...figure out the right callback
+        $(this).siblings("p").promise().done(function(){setTimeout(function(){clearInterval(smooth_open);}, 1000);}); //hacky...figure out the right callback
       }
     });
   });
