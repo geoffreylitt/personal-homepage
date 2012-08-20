@@ -1,0 +1,5593 @@
+{:	data{)I"/:ET{:default{:	lastI"�)<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Geoffrey Litt</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="jquery.isotope.min.js"></script>
+    <script src="jquery.ba-hashchange.min.js"></script>
+    <script src="jquery.imagesloaded.min.js"></script>
+    <script src="main.js"></script>
+
+    <meta name="generator" content="nanoc 3.3.7">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <a class="ajax" href="/#about">
+          <img id="circle_photo" src="images/circle-photo.png" />
+          <div id="name">Geoffrey Litt</div>
+        </a>
+        <div id="links">
+          <a href="/#about" class="ajax header_tab" id="about_link">About Me</a>
+          <a href="/#projects" class="ajax header_tab" id="projects_link">Projects</a>
+          <a href="/#blog" class="ajax header_tab" id="blog_link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel_container">
+      <div id="about_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>About Me</h1>
+</div>
+
+<div class="panel_content">
+  <div id="about_main">
+    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+
+<p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
+
+<p>I also program in <strong>C</strong>. I’m interested in <strong>robotics</strong> and I’ve worked with the <strong>Arduino</strong> and <strong>PIC</strong> microcontrollers, mostly working on code that runs a <a href="https://github.com/geoffreylitt/Yale-Formula-Hybrid" target="_blank">hybrid racecar</a>.</p>
+
+<p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
+
+<p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
+
+  </div>
+
+  <div id="about_sidebar">
+    <img class="about_photo" src="images/about-photo.jpg" />
+    <p>You can find me on:</p>
+    <ul class="contacts">
+      <li><a href="http://www.linkedin.com/in/geoffreylitt" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/geoffreylitt" target="_blank">Github</a></li>
+      <li><a href="http://twitter.com/geoffreylitt" target="_blank">Twitter</a></li>
+      <li><a href="mailto:gklitt@gmail.com">Email</a></li>
+    </ul>
+
+  </div>
+</div>
+
+      </div>
+      <div id="projects_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Projects</h1>
+</div>
+
+<div class="panel_content">
+  <p>These are some of the public web projects I've worked on.</p>
+  <div id="projects_container">
+      <!-- todo: put in a helper -->
+    
+      <div class="project_box">
+  
+    <a href="http://yaleclassroulette.com" target="_blank"><h1 class="project_name">Yale Classroulette</h1></a>
+    <h2 class="project_tools">Javascript, Ruby/Sinatra</h2>
+    <a href="http://yaleclassroulette.com" target="_blank"><img class="project_image" src="images/classroulette.png" /></a>
+  
+  <div class="project_description">
+    <p>Classroulette is a simple online interface to explore the Yale course catalog. It’s designed to mimic the experience of flipping through a physical coursebook and help students find random courses.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yaleclassroulette.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
+    <a href="http://sendquest.in" target="_blank"><img class="project_image" src="images/sendquest.png" /></a>
+  
+  <div class="project_description">
+    <p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://sendquest.in" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
+    <h2 class="project_tools">Static website, brand design</h2>
+    <a href="http://denebre.com" target="_blank"><img class="project_image" src="images/deneb.png" /></a>
+  
+  <div class="project_description">
+    <p>A static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word “deneb” is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company’s name.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://denebre.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript</h2>
+    <a href="http://yalepulse.com" target="_blank"><img class="project_image" src="images/yalepulse.png" /></a>
+  
+  <div class="project_description">
+    <p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalepulse.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
+    <h2 class="project_tools">Static website, visual design</h2>
+    <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
+  
+  <div class="project_description">
+    <h2 id="description">Description</h2>
+<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://bryandoesitbetter.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalebluprint.com" target="_blank"><h1 class="project_name">Bluebooker</h1></a>
+    <h2 class="project_tools">PHP, Javascript</h2>
+    <a href="http://yalebluprint.com" target="_blank"><img class="project_image" src="images/bluebooker.png" /></a>
+  
+  <div class="project_description">
+    <p>Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it’s since morphed into Yale Bluprint.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalebluprint.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+  </div>
+</div>
+      </div>
+      <div id="blog_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Blog</h1>
+</div>
+
+<div class="panel_content">
+  Blog content coming soon.
+</div>
+      </div>
+    </div>
+  </body>
+</html>
+;T:rawI"�<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Geoffrey Litt</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="jquery.isotope.min.js"></script>
+    <script src="jquery.ba-hashchange.min.js"></script>
+    <script src="jquery.imagesloaded.min.js"></script>
+    <script src="main.js"></script>
+
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <a class="ajax" href="/#about">
+          <img id="circle_photo" src="images/circle-photo.png" />
+          <div id="name">Geoffrey Litt</div>
+        </a>
+        <div id="links">
+          <a href="/#about" class="ajax header_tab" id="about_link">About Me</a>
+          <a href="/#projects" class="ajax header_tab" id="projects_link">Projects</a>
+          <a href="/#blog" class="ajax header_tab" id="blog_link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel_container">
+      <div id="about_panel" class="panel">
+        <% about = @items.select{|item| item.identifier == '/about/'}.first %>
+        <%= about.compiled_content(:snapshot => :last) %>
+      </div>
+      <div id="projects_panel" class="panel">
+        <% projects = @items.select{|item| item.identifier == '/projects/'}.first %>
+        <%= projects.compiled_content(:snapshot => :last) %>
+      </div>
+      <div id="blog_panel" class="panel">
+        <% blog = @items.select{|item| item.identifier == '/blog/'}.first %>
+        <%= blog.compiled_content(:snapshot => :last) %>
+      </div>
+    </div>
+  </body>
+</html>
+;T:pre@
+I"/stylesheet/;T{;{;I"�3/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 40px; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0; }
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none; }
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+small {
+  font-size: 75%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0; }
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */ }
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*----- start main CSS -----*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #DDD;
+  background-image: url(images/lghtmesh.png); }
+
+a:active {
+  position: relative;
+  top: 1px; }
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #23324c;
+  -moz-box-shadow: 0 2px 10px #555555;
+  -webkit-box-shadow: 0 2px 10px #555555;
+  box-shadow: 0 2px 10px #555555;
+  background: #32436b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32436b), color-stop(100%, #23324c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #32436b 0%, #23324c 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#32436b', endColorstr='#23324c',GradientType=0 );
+  /* IE6-9 */ }
+
+#header_content {
+  width: 700px;
+  margin: 0 auto; }
+  #header_content img#circle_photo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px 10px 0; }
+  #header_content #name {
+    float: left;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    height: 40px; }
+  #header_content #links {
+    float: right; }
+    #header_content #links a.header_tab {
+      float: left;
+      width: 80px;
+      height: 14px;
+      padding: 6px 10px 14px 10px;
+      margin: 20px 0 0 10px;
+      background-color: #416891;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      -webkit-border-top-left-radius: 3px;
+      -webkit-border-top-right-radius: 3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-topright: 3px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      background: #5181b5;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #5181b5 1%, #416891 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #5181b5), color-stop(100%, #416891));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #5181b5 1%, #416891 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #5181b5 1%, #416891 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #5181b5 1%, #416891 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #5181b5 1%, #416891 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5181b5', endColorstr='#416891',GradientType=0 );
+      /* IE6-9 */ }
+      #header_content #links a.header_tab:hover {
+        background: #4b72a8;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #4b72a8 1%, #395b7f 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #4b72a8), color-stop(100%, #395b7f));
+        /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #4b72a8 1%, #395b7f 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #4b72a8 1%, #395b7f 100%);
+        /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #4b72a8 1%, #395b7f 100%);
+        /* IE10+ */
+        background: linear-gradient(to bottom, #4b72a8 1%, #395b7f 100%);
+        /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b72a8', endColorstr='#395b7f',GradientType=0 );
+        /* IE6-9 */ }
+    #header_content #links a#about_link {
+      border-bottom: solid 6px #930000; }
+    #header_content #links a#projects_link {
+      border-bottom: solid 6px #2caf82; }
+    #header_content #links a#blog_link {
+      border-bottom: solid 6px #d09412; }
+
+.panel {
+  width: 670px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+.panel#about_panel {
+  border-top: solid 6px #930000;
+  -moz-box-shadow: 2px 2px 10px #444444;
+  -webkit-box-shadow: 2px 2px 10px #444444;
+  box-shadow: 2px 2px 10px #444444; }
+
+.panel#projects_panel {
+  display: none;
+  border-top: solid 6px #2caf82; }
+;T;	I"�//import CSS reset ("normalize")
+@import "normalize";
+
+//mixins
+$default_corner_radius: 5px;
+@mixin border-radius($radius: $default_corner_radius){
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin border-top-radius($radius: $default_corner_radius){
+  -webkit-border-top-left-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+  -moz-border-radius-topleft: $radius;
+  -moz-border-radius-topright: $radius;
+  border-top-left-radius: $radius;
+  border-top-right-radius: $radius;
+}
+
+$default_x_offset: 2px;
+$default_y_offset: 2px;
+$default_radius: 10px;
+$default_color: #444;
+
+@mixin box-shadow($x_offset: $default_x_offset, $y_offset: $default_y_offset, $radius: $default_radius, $color: $default_color){
+  -moz-box-shadow: $x_offset $y_offset $radius $color;
+  -webkit-box-shadow: $x_offset $y_offset $radius $color;
+  box-shadow: $x_offset $y_offset $radius $color;
+}
+
+//layout variables: for easy access
+$site_width: 700px;
+$panel_padding: 15px;
+
+//color variables
+$color_blue: #23324c;
+$color_lightblue: #416891;
+$color_red: #930000;
+$color_teal: #2caf82;
+$color_orange: #d09412;
+
+/*----- start main CSS -----*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #DDD; //fallback for bg-image, and filler during loading
+  background-image: url(images/lghtmesh.png);
+}
+
+a:active{
+  position: relative;
+  top: 1px;
+}
+
+#header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: $color_blue;
+  @include box-shadow(0, 2px, 10px, #555);
+
+  background: rgb(50,67,107); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(50,67,107,1) 0%, rgba(35,50,76,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(50,67,107,1)), color-stop(100%,rgba(35,50,76,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(50,67,107,1) 0%,rgba(35,50,76,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(50,67,107,1) 0%,rgba(35,50,76,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(50,67,107,1) 0%,rgba(35,50,76,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(50,67,107,1) 0%,rgba(35,50,76,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32436b', endColorstr='#23324c',GradientType=0 ); /* IE6-9 */
+}
+
+#header_content{
+  width: $site_width;
+  margin: 0 auto;
+
+  img#circle_photo{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px 10px 0;
+  }
+
+  #name{
+    float: left;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+  #links{
+    float: right;
+
+    a.header_tab{
+      float: left;
+      width: 80px;
+      height: 14px;
+      padding: 6px 10px 14px 10px;
+      margin: 20px 0 0 10px;
+      background-color: $color_lightblue;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      @include border-top-radius(3px);
+
+      background: rgb(81,129,181); /* Old browsers */
+      background: -moz-linear-gradient(top, rgba(81,129,181,1) 1%, rgba(65,104,145,1) 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(81,129,181,1)), color-stop(100%,rgba(65,104,145,1))); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, rgba(81,129,181,1) 1%,rgba(65,104,145,1) 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, rgba(81,129,181,1) 1%,rgba(65,104,145,1) 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, rgba(81,129,181,1) 1%,rgba(65,104,145,1) 100%); /* IE10+ */
+      background: linear-gradient(to bottom, rgba(81,129,181,1) 1%,rgba(65,104,145,1) 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5181b5', endColorstr='#416891',GradientType=0 ); /* IE6-9 */
+
+      &:hover{
+        background: rgb(75,114,168); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(75,114,168,1) 1%, rgba(57,91,127,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(75,114,168,1)), color-stop(100%,rgba(57,91,127,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(75,114,168,1) 1%,rgba(57,91,127,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(75,114,168,1) 1%,rgba(57,91,127,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(75,114,168,1) 1%,rgba(57,91,127,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(75,114,168,1) 1%,rgba(57,91,127,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b72a8', endColorstr='#395b7f',GradientType=0 ); /* IE6-9 */
+      }
+    }
+
+    a#about_link{
+      border-bottom: solid 6px $color_red;
+    }
+
+    a#projects_link{
+      border-bottom: solid 6px $color_teal;
+    }
+
+    a#blog_link{
+      border-bottom: solid 6px $color_orange;
+    }
+  }
+}
+
+.panel{
+  width: $site_width - (2*$panel_padding);
+  padding: $panel_padding;
+  background-color: #fff;
+  @include border-radius;
+}
+
+.panel#about_panel{
+  border-top: solid 6px $color_red;
+  @include box-shadow;
+}
+
+.panel#projects_panel{
+  display: none;
+  border-top: solid 6px $color_teal;
+};T;
+@I"/normalize/;T{;{	;I"<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Geoffrey Litt's Homepage</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+
+    <meta name="generator" content="nanoc 3.4.0">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <img id="circle-photo" src="images/circle-photo.png" />
+        <div id="name">Geoffrey Litt</div>
+        <div id="links">
+          <a href="/" class="header-tab" id="about-link">About Me</a>
+          <a href="/projects" class="header-tab" id="projects-link">Projects</a>
+          <a href="/blog" class="header-tab" id="blog-link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="panel">
+      <h1>About</h1>
+      <p>This is the content of the panel.</p>
+    </div>
+  </body>
+</html>
+;T;	I"!#/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+;T;
+I"!#/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+;T:	post@I"/images/dark_Tire/;T{;{ I"/images/lghtmesh/;T{;{ I"/images/lghtmesh_@2X/;T{;{ I"/images/circle-photo/;T{;{ I"/_normalize/;T{;{	;I"&<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Geoffrey Litt's Homepage</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+
+    <meta name="generator" content="nanoc 3.3.7">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <img id="circle_photo" src="images/circle-photo.png" />
+        <div id="name">Geoffrey Litt</div>
+        <div id="links">
+          <a href="/#about" class="header_tab" id="about_link">About Me</a>
+          <a href="/#projects" class="header_tab" id="projects_link">Projects</a>
+          <a href="/#blog" class="header_tab" id="blog_link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel_container">
+      <div id="about_panel" class="panel">
+        <h1>About</h1>
+        <p>This is the content of the panel.</p>
+      </div>
+      <div id="projects_panel" class="panel">
+        <h1>Projects</h1>
+        <p>Some projects I've done.</p>
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"!#/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+;T;
+I"!#/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+;T;@&I"/images/favicon/;T{;{ I"/images/favicon (3)/;T{;{ I"/stylesheets/stylesheet/;T{;{;I"�E/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 40px; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0; }
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none; }
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+small {
+  font-size: 75%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0; }
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */ }
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*----- start main CSS -----*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #001530;
+  background-color: #DDD;
+  background-image: url(images/lghtmesh.png); }
+
+a {
+  color: #416891;
+  text-decoration: none;
+  font-weight: bold; }
+
+a:active {
+  position: relative;
+  top: 1px; }
+
+p {
+  margin-top: 0px; }
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #23324c;
+  -moz-box-shadow: 0 2px 10px #555555;
+  -webkit-box-shadow: 0 2px 10px #555555;
+  box-shadow: 0 2px 10px #555555;
+  background: #23324c;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32436b), color-stop(100%, #23324c));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #32436b 0%, #23324c 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #32436b 0%, #23324c 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 );
+  /* IE6-9 */
+  z-index: 100; }
+
+#header_content {
+  width: 800px;
+  margin: 0 auto; }
+  #header_content img#circle_photo {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px 10px 0; }
+  #header_content #name {
+    float: left;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    height: 40px; }
+  #header_content #links {
+    float: right; }
+    #header_content #links a.header_tab {
+      float: left;
+      width: 80px;
+      height: 14px;
+      padding: 6px 10px 14px 10px;
+      margin: 20px 0 0 10px;
+      background-color: #416891;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: normal;
+      -webkit-border-top-left-radius: 3px;
+      -webkit-border-top-right-radius: 3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-topright: 3px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      background: #416891;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #5181b5 0%, #416891 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5181b5), color-stop(100%, #416891));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #5181b5 0%, #416891 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #5181b5 0%, #416891 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #5181b5 0%, #416891 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #5181b5 0%, #416891 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 );
+      /* IE6-9 */ }
+      #header_content #links a.header_tab:hover {
+        background: #395b7f;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4b72a8), color-stop(100%, #395b7f));
+        /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+        /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+        /* IE10+ */
+        background: linear-gradient(to bottom, #4b72a8 0%, #395b7f 100%);
+        /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 );
+        /* IE6-9 */ }
+    #header_content #links a#about_link {
+      border-bottom: solid 6px #c90e0e; }
+    #header_content #links a#projects_link {
+      border-bottom: solid 6px #30c7a3; }
+    #header_content #links a#blog_link {
+      border-bottom: solid 6px #f3d42a; }
+
+#panel_container {
+  overflow: hidden;
+  width: auto;
+  padding: 80px 0 50px 0; }
+
+.panel {
+  float: left;
+  width: 800px;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 2px 2px 10px #444444;
+  -webkit-box-shadow: 2px 2px 10px #444444;
+  box-shadow: 2px 2px 10px #444444; }
+  .panel .panel_title {
+    padding: 3px 0 3px 20px;
+    background-color: #E0E5EC;
+    border-bottom: solid thin #B9C5DB; }
+    .panel .panel_title span.slashes {
+      color: #919191;
+      font-size: 16px; }
+    .panel .panel_title h1 {
+      display: inline;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #23324c;
+      font-weight: normal; }
+  .panel .panel_content {
+    overflow: hidden;
+    padding: 30px 20px 20px 20px; }
+
+.panel#about_panel {
+  border-top: solid 6px #c90e0e; }
+  .panel#about_panel #about_main {
+    float: left;
+    width: 499px;
+    padding: 0 30px 0 0;
+    border-right: solid thin #c9c9c9; }
+  .panel#about_panel #about_sidebar {
+    float: left;
+    width: 200px;
+    padding: 0 0 0 30px; }
+    .panel#about_panel #about_sidebar img.about_photo {
+      margin-bottom: 10px;
+      border: solid thin #A3A3A3; }
+    .panel#about_panel #about_sidebar ul.contacts {
+      list-style: none;
+      padding: 0; }
+      .panel#about_panel #about_sidebar ul.contacts li {
+        margin-bottom: 8px; }
+
+.panel#projects_panel {
+  border-top: solid 6px #30c7a3; }
+  .panel#projects_panel .project_box {
+    float: left;
+    width: 215px;
+    padding: 10px;
+    margin: 0 16px 16px 0;
+    border: solid thin #c9c9c9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #F1F1F1; }
+    .panel#projects_panel .project_box h1.project_name {
+      font-size: 16px;
+      margin: 0;
+      color: #001530; }
+    .panel#projects_panel .project_box h2.project_tools {
+      font-size: 12px;
+      margin-top: 0;
+      font-weight: normal; }
+    .panel#projects_panel .project_box img.project_image {
+      width: 213px;
+      margin-bottom: 5px;
+      border: solid thin #c9c9c9;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px; }
+    .panel#projects_panel .project_box .project_description {
+      font-size: 12px;
+      line-height: 1.3em; }
+      .panel#projects_panel .project_box .project_description h2 {
+        margin: 0 0 2px 0;
+        font-size: 10px;
+        text-transform: uppercase;
+        border-bottom: solid thin #c9c9c9;
+        display: none; }
+      .panel#projects_panel .project_box .project_description p {
+        margin-bottom: 8px;
+        display: none; }
+      .panel#projects_panel .project_box .project_description a.view_live {
+        display: block;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        background: #416891;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #5181b5 0%, #416891 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5181b5), color-stop(100%, #416891));
+        /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #5181b5 0%, #416891 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #5181b5 0%, #416891 100%);
+        /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #5181b5 0%, #416891 100%);
+        /* IE10+ */
+        background: linear-gradient(to bottom, #5181b5 0%, #416891 100%);
+        /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 );
+        /* IE6-9 */
+        padding: 5px 0;
+        margin-top: 15px; }
+        .panel#projects_panel .project_box .project_description a.view_live:hover {
+          background: #395b7f;
+          /* Old browsers */
+          background: -moz-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+          /* FF3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4b72a8), color-stop(100%, #395b7f));
+          /* Chrome,Safari4+ */
+          background: -webkit-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+          /* Chrome10+,Safari5.1+ */
+          background: -o-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+          /* Opera 11.10+ */
+          background: -ms-linear-gradient(top, #4b72a8 0%, #395b7f 100%);
+          /* IE10+ */
+          background: linear-gradient(to bottom, #4b72a8 0%, #395b7f 100%);
+          /* W3C */
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 );
+          /* IE6-9 */ }
+    .panel#projects_panel .project_box .project_tools {
+      font-size: 12px; }
+
+.panel#blog_panel {
+  border-top: solid 6px #f3d42a; }
+;T;	I"C//import CSS reset ("normalize")
+@import "normalize";
+
+//mixins
+$default_corner_radius: 5px;
+@mixin border-radius($radius: $default_corner_radius){
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin border-top-radius($radius: $default_corner_radius){
+  -webkit-border-top-left-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+  -moz-border-radius-topleft: $radius;
+  -moz-border-radius-topright: $radius;
+  border-top-left-radius: $radius;
+  border-top-right-radius: $radius;
+}
+
+$default_x_offset: 2px;
+$default_y_offset: 2px;
+$default_radius: 10px;
+$default_color: #444;
+
+@mixin box-shadow($x_offset: $default_x_offset, $y_offset: $default_y_offset, $radius: $default_radius, $color: $default_color){
+  -moz-box-shadow: $x_offset $y_offset $radius $color;
+  -webkit-box-shadow: $x_offset $y_offset $radius $color;
+  box-shadow: $x_offset $y_offset $radius $color;
+}
+
+@mixin vertical-gradient($top_color, $bottom_color){
+  background: $bottom_color; /* Old browsers */
+  background: -moz-linear-gradient(top, $top_color 0%, $bottom_color 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top_color), color-stop(100%,$bottom_color)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $top_color 0%,$bottom_color 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $top_color 0%,$bottom_color 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $top_color 0%,$bottom_color 100%); /* IE10+ */
+  background: linear-gradient(to bottom, $top_color 0%,$bottom_color 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 ); /* IE6-9 */
+}
+
+//layout variables: for easy access
+$site_width: 800px;
+
+//color variables
+$color_blue: #23324c;
+$color_lightblue: #416891;
+$color_about: #C90E0E;
+$color_projects: #30C7A3;
+$color_blog: #F3D42A;
+$color_text: #001530;
+$color_grey: #C9C9C9;
+
+/*----- start main CSS -----*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: $color_text;
+  background-color: #DDD; //fallback for bg-image, and filler during loading
+  background-image: url(images/lghtmesh.png);
+}
+
+a{
+  color: $color_lightblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:active{
+  position: relative;
+  top: 1px;
+}
+
+p{
+  margin-top: 0px;
+}
+
+#header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: $color_blue;
+  @include box-shadow(0, 2px, 10px, #555);
+  @include vertical-gradient(#32436B, $color_blue);
+  z-index: 100; //show over masonry content
+}
+
+#header_content{
+  width: $site_width;
+  margin: 0 auto;
+
+  img#circle_photo{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px 10px 0;
+  }
+
+  #name{
+    float: left;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+  #links{
+    float: right;
+
+    a.header_tab{
+      float: left;
+      width: 80px;
+      height: 14px;
+      padding: 6px 10px 14px 10px;
+      margin: 20px 0 0 10px;
+      background-color: $color_lightblue;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: normal;
+      @include border-top-radius(3px);
+      @include vertical-gradient(#5181B5, $color_lightblue);
+
+      &:hover{
+        @include vertical-gradient(#4b72a8, #395b7f);
+      }
+    }
+
+    a#about_link{
+      border-bottom: solid 6px $color_about;
+    }
+
+    a#projects_link{
+      border-bottom: solid 6px $color_projects;
+    }
+
+    a#blog_link{
+      border-bottom: solid 6px $color_blog;
+    }
+  }
+}
+
+#panel_container{
+  overflow: hidden;
+  width: auto;
+  padding: 80px 0 50px 0;
+}
+
+.panel{
+  float: left;
+  width: $site_width;
+  background-color: #fff;
+  @include border-radius;
+  @include box-shadow;
+
+  .panel_title{
+    padding: 3px 0 3px 20px;
+    background-color: #E0E5EC;
+    border-bottom: solid thin #B9C5DB;
+
+    span.slashes{
+      color: #919191;
+      font-size: 16px;
+    }
+
+    h1{
+      display: inline;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $color_blue;
+      font-weight: normal;
+    }
+  }
+
+  .panel_content{
+    overflow: hidden; //clearfix
+    padding: 30px 20px 20px 20px;
+  }
+}
+
+.panel#about_panel{
+  border-top: solid 6px $color_about;
+
+  #about_main{
+    float: left;
+    width: 499px;
+    padding: 0 30px 0 0;
+    border-right: solid thin $color_grey;
+  }
+
+  #about_sidebar{
+    float: left;
+    width: 200px;
+    padding: 0 0 0 30px;
+
+    img.about_photo{
+      margin-bottom: 10px;
+      border: solid thin #A3A3A3;
+    }
+
+    ul.contacts{
+      list-style: none;
+      padding: 0;
+
+      li{
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+.panel#projects_panel{
+  border-top: solid 6px $color_projects;
+
+  .project_box{
+    float: left;
+    width: 215px;
+    padding: 10px;
+    margin: 0 16px 16px 0;
+    border: solid thin $color_grey;
+    @include border-radius;
+    background-color: #F1F1F1;
+
+    h1.project_name{
+      font-size: 16px;
+      margin: 0;
+      color: $color_text;
+    }
+
+    h2.project_tools{
+      font-size: 12px;
+      margin-top: 0;
+      font-weight: normal;
+    }
+
+    img.project_image{
+      width: 213px;
+      margin-bottom: 5px;
+      border: solid thin $color_grey;
+      @include border-radius;
+    }
+
+    .project_description{
+      font-size: 12px;
+      line-height: 1.3em;
+
+      h2{
+        margin: 0 0 2px 0;
+        font-size: 10px;
+        text-transform: uppercase;
+        border-bottom: solid thin $color_grey;
+        display: none; //use JS to only show first by default
+      }
+
+      p{
+        margin-bottom: 8px;
+        display: none; //use JS to only show first by default
+      }
+
+      a.view_live{
+        display: block;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        @include border-radius;
+        @include vertical-gradient(#5181B5, $color_lightblue);
+        padding: 5px 0;
+        margin-top: 15px;
+
+        &:hover{
+          @include vertical-gradient(#4b72a8, #395b7f);
+        }
+      }
+    }
+
+    .project_tools{
+      font-size: 12px;
+    }
+  }
+}
+
+.panel#blog_panel{
+  border-top: solid 6px $color_blog;
+};T;
+@2I"/stylesheets/_normalize/;T{;{;I"`"/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 40px; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0; }
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none; }
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+small {
+  font-size: 75%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0; }
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */ }
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+;T;	I"!#/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+small {
+    font-size: 75%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+;T;
+@7I"/js/main/;T{;{;I"9/*
+Main JS for geoffreylitt.com
+By Geoffrey Litt
+*/
+
+(function(){
+  //globals
+  var siteWidth = $("#header_content").width();
+  var panels = ['about', 'projects', 'blog'];
+  var containerWidth = 0;
+  var containerOffset = 0;
+
+  $(document).ready(function() {
+    positionPanels();
+    updatePanel(false); //
+
+    $(window).resize(positionPanels); //resize layout on window resize
+    $(window).hashchange(function(){updatePanel(true)}); //wire up panel changing logic
+
+    //project
+    $(".project_description").each(function(i, element){
+      $(this).find("p").first().show();
+    });
+
+    layoutProjects();
+
+    $("a.toggle_details").click(function(){
+      this_box = $(this).parents(".project_box").get(0);
+      smooth_open = setInterval(function(){$("#projects_container").isotope('shiftColumnOfItem', this_box);}, 1); //keep relaying out during animation
+      setTimeout(function(){clearInterval(smooth_open);}, 200); //stop relaying out after 200ms (TODO: figure out why this didn't work in animation callback)
+      if($(this).siblings("p:visible").length > 1){
+        $(this).text("Show more details");
+        $(this).siblings("p").slice(1).slideUp(100);
+        $(this).siblings("h2").slideUp(100);
+      }
+      else{
+        $(this).text("Hide details");
+        $(this).siblings("p").slideDown(100);
+        $(this).siblings("h2").slideDown(100);
+      }
+    });
+  });
+
+  function positionPanels(){
+    var numberOfPanels = $(".panel").length;
+    var windowWidth = $(window).width();
+    containerWidth = numberOfPanels * windowWidth; //full width including hidden parts
+    $("#panel_container").width(windowWidth);
+    for (i = 0; i < numberOfPanels; i++)
+    {
+      var $panel = $('#' + panels[i] + '_panel');
+      var horizontalMargin = (windowWidth - $panel.outerWidth())/2 + 'px';
+      var margin = '0 ' + horizontalMargin;
+      $panel.css('margin', margin);
+    }
+  }
+
+  function updatePanel(animate){
+    if (window.location.hash !== '')
+      panel = window.location.hash.split("#")[1];
+    else
+      panel = 'about';
+
+    layoutProjects();
+    var numberOfPanels = $(".panel").length;
+    var windowWidth = $(window).width();
+    var windowHeight = $(window).height()-20; //stop the appearance of the horizontal scrollbar from creating a vertical scrollbar
+    var panelIndex = $.inArray(panel, panels);
+    var panelExists = (panelIndex !== -1);
+    var goalOffset = panelIndex * windowWidth * -1;
+    var animationDuration = animate ? windowWidth/4 : 0; //animation speed is constant, duration proportional to animation distance
+
+    if (panelExists) {
+      $('#panel_container').css({'width':containerWidth, 'height':windowHeight+'px', 'margin-left':containerOffset});
+      $('.panel').show();
+      $('#panel_container').animate({'marginLeft': goalOffset + 'px'}, animationDuration, function(){
+        containerOffset = goalOffset;
+        $('.panel').not($('#'+panel+'_panel')).hide();
+        $('#panel_container').css({'marginLeft':'0px', 'width':windowWidth+'px', 'height':'auto'});
+        positionPanels();
+      });
+    }
+  }
+
+  function layoutProjects(){
+    var $projects_container = $('#projects_container');
+    $projects_container.imagesLoaded(function(){
+      $projects_container.isotope({
+        itemSelector: '.project_box',
+        layoutMode: 'masonryColumnShift'
+      });
+    });
+  }
+
+    // custom layout mode
+  $.Isotope.prototype._masonryColumnShiftReset = function() {
+    // layout-specific props
+    var props = this.masonryColumnShift = {
+      columnBricks: []
+    };
+    // FIXME shouldn't have to call this again
+    this._getSegments();
+    var i = props.cols;
+    props.colYs = [];
+    while (i--) {
+      props.colYs.push( 0 );
+      // push an array, for bricks in each column
+      props.columnBricks.push([])
+    }
+  };
+
+  $.Isotope.prototype._masonryColumnShiftLayout = function( $elems ) {
+    var instance = this,
+        props = instance.masonryColumnShift;
+    $elems.each(function(){
+      var $brick  = $(this);
+      var setY = props.colYs;
+
+      // get the minimum Y value from the columns
+      var minimumY = Math.min.apply( Math, setY ),
+          shortCol = 0;
+
+      // Find index of short column, the first from the left
+      for (var i=0, len = setY.length; i < len; i++) {
+        if ( setY[i] === minimumY ) {
+          shortCol = i;
+          break;
+        }
+      }
+
+      // position the brick
+      var x = props.columnWidth * shortCol,
+          y = minimumY;
+      instance._pushPosition( $brick, x, y );
+      // keep track of columnIndex
+      $.data( this, 'masonryColumnIndex', i );
+      props.columnBricks[i].push( this );
+
+      // apply setHeight to necessary columns
+      var setHeight = minimumY + $brick.outerHeight(true),
+          setSpan = props.cols + 1 - len;
+      for ( i=0; i < setSpan; i++ ) {
+        props.colYs[ shortCol + i ] = setHeight;
+      }
+
+    });
+  };
+
+ $.Isotope.prototype._masonryColumnShiftGetContainerSize = function() {
+    var containerHeight = Math.max.apply( Math, this.masonryColumnShift.colYs );
+    return { height: containerHeight };
+  };
+
+  $.Isotope.prototype._masonryColumnShiftResizeChanged = function() {
+    return this._checkIfSegmentsChanged();
+  };
+
+  $.Isotope.prototype.shiftColumnOfItem = function( itemElem, callback ) {
+
+    var columnIndex = $.data( itemElem, 'masonryColumnIndex' );
+
+    // don't proceed if no columnIndex
+    if ( !isFinite(columnIndex) ) {
+      return;
+    }
+
+    var props = this.masonryColumnShift;
+    var columnBricks = props.columnBricks[ columnIndex ];
+    var $brick;
+    var x = props.columnWidth * columnIndex;
+    var y = 0;
+    for (var i=0, len = columnBricks.length; i < len; i++) {
+      $brick = $( columnBricks[i] );
+      this._pushPosition( $brick, x, y );
+      y += $brick.outerHeight(true);
+    }
+
+    // set the size of the container
+    if ( this.options.resizesContainer ) {
+      var containerStyle = this._masonryColumnShiftGetContainerSize();
+      containerStyle.height = Math.max( y, containerStyle.height );
+      this.styleQueue.push({ $el: this.element, style: containerStyle });
+    }
+
+    this._processStyleQueue( $(columnBricks), callback )
+
+  };
+
+  $(function(){
+
+    var $container = $('#container');
+
+    $container.isotope({
+      itemSelector: '.shifty-item',
+      layoutMode: 'masonryColumnShift'
+    });
+
+    $container.find('.shifty-item').hover(
+      function() {
+        $(this).css({ height: "+=100" });
+        // note that element is passed in, not jQuery object
+        $container.isotope( 'shiftColumnOfItem', this );
+      },
+      function() {
+        $(this).css({ height: "-=100" });
+        $container.isotope( 'shiftColumnOfItem', this );
+      }
+    );
+
+  });
+
+})();;T;	@<;
+@<I"/js/jquery/;T{;{;I"[/**
+ * jQuery Masonry v2.1.05
+ * A dynamic layout plugin for jQuery
+ * The flip-side of CSS Floats
+ * http://masonry.desandro.com
+ *
+ * Licensed under the MIT license.
+ * Copyright 2012 David DeSandro
+ */
+(function(a,b,c){"use strict";var d=b.event,e;d.special.smartresize={setup:function(){b(this).bind("resize",d.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",d.special.smartresize.handler)},handler:function(a,c){var d=this,f=arguments;a.type="smartresize",e&&clearTimeout(e),e=setTimeout(function(){b.event.handle.apply(d,f)},c==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Mason=function(a,c){this.element=b(c),this._create(a),this._init()},b.Mason.settings={isResizable:!0,isAnimated:!1,animationOptions:{queue:!1,duration:500},gutterWidth:0,isRTL:!1,isFitWidth:!1,containerStyle:{position:"relative"}},b.Mason.prototype={_filterFindBricks:function(a){var b=this.options.itemSelector;return b?a.filter(b).add(a.find(b)):a},_getBricks:function(a){var b=this._filterFindBricks(a).css({position:"absolute"}).addClass("masonry-brick");return b},_create:function(c){this.options=b.extend(!0,{},b.Mason.settings,c),this.styleQueue=[];var d=this.element[0].style;this.originalStyle={height:d.height||""};var e=this.options.containerStyle;for(var f in e)this.originalStyle[f]=d[f]||"";this.element.css(e),this.horizontalDirection=this.options.isRTL?"right":"left",this.offset={x:parseInt(this.element.css("padding-"+this.horizontalDirection),10),y:parseInt(this.element.css("padding-top"),10)},this.isFluid=this.options.columnWidth&&typeof this.options.columnWidth=="function";var g=this;setTimeout(function(){g.element.addClass("masonry")},0),this.options.isResizable&&b(a).bind("smartresize.masonry",function(){g.resize()}),this.reloadItems()},_init:function(a){this._getColumns(),this._reLayout(a)},option:function(a,c){b.isPlainObject(a)&&(this.options=b.extend(!0,this.options,a))},layout:function(a,b){for(var c=0,d=a.length;c<d;c++)this._placeBrick(a[c]);var e={};e.height=Math.max.apply(Math,this.colYs);if(this.options.isFitWidth){var f=0;c=this.cols;while(--c){if(this.colYs[c]!==0)break;f++}e.width=(this.cols-f)*this.columnWidth-this.options.gutterWidth}this.styleQueue.push({$el:this.element,style:e});var g=this.isLaidOut?this.options.isAnimated?"animate":"css":"css",h=this.options.animationOptions,i;for(c=0,d=this.styleQueue.length;c<d;c++)i=this.styleQueue[c],i.$el[g](i.style,h);this.styleQueue=[],b&&b.call(a),this.isLaidOut=!0},_getColumns:function(){var a=this.options.isFitWidth?this.element.parent():this.element,b=a.width();this.columnWidth=this.isFluid?this.options.columnWidth(b):this.options.columnWidth||this.$bricks.outerWidth(!0)||b,this.columnWidth+=this.options.gutterWidth,this.cols=Math.floor((b+this.options.gutterWidth)/this.columnWidth),this.cols=Math.max(this.cols,1)},_placeBrick:function(a){var c=b(a),d,e,f,g,h;d=Math.ceil(c.outerWidth(!0)/this.columnWidth),d=Math.min(d,this.cols);if(d===1)f=this.colYs;else{e=this.cols+1-d,f=[];for(h=0;h<e;h++)g=this.colYs.slice(h,h+d),f[h]=Math.max.apply(Math,g)}var i=Math.min.apply(Math,f),j=0;for(var k=0,l=f.length;k<l;k++)if(f[k]===i){j=k;break}var m={top:i+this.offset.y};m[this.horizontalDirection]=this.columnWidth*j+this.offset.x,this.styleQueue.push({$el:c,style:m});var n=i+c.outerHeight(!0),o=this.cols+1-l;for(k=0;k<o;k++)this.colYs[j+k]=n},resize:function(){var a=this.cols;this._getColumns(),(this.isFluid||this.cols!==a)&&this._reLayout()},_reLayout:function(a){var b=this.cols;this.colYs=[];while(b--)this.colYs.push(0);this.layout(this.$bricks,a)},reloadItems:function(){this.$bricks=this._getBricks(this.element.children())},reload:function(a){this.reloadItems(),this._init(a)},appended:function(a,b,c){if(b){this._filterFindBricks(a).css({top:this.element.height()});var d=this;setTimeout(function(){d._appended(a,c)},1)}else this._appended(a,c)},_appended:function(a,b){var c=this._getBricks(a);this.$bricks=this.$bricks.add(c),this.layout(c,b)},remove:function(a){this.$bricks=this.$bricks.not(a),a.remove()},destroy:function(){this.$bricks.removeClass("masonry-brick").each(function(){this.style.position="",this.style.top="",this.style.left=""});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".masonry").removeClass("masonry").removeData("masonry"),b(a).unbind(".masonry")}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var f=function(b){a.console&&a.console.error(b)};b.fn.masonry=function(a){if(typeof a=="string"){var c=Array.prototype.slice.call(arguments,1);this.each(function(){var d=b.data(this,"masonry");if(!d){f("cannot call methods on masonry prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(d[a])||a.charAt(0)==="_"){f("no such method '"+a+"' for masonry instance");return}d[a].apply(d,c)})}else this.each(function(){var c=b.data(this,"masonry");c?(c.option(a||{}),c._init()):b.data(this,"masonry",new b.Mason(a,this))});return this}})(window,jQuery);;T;	@@;
+@@I"/about/;T{;{	;I"�<div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>About Me</h1>
+</div>
+
+<div class="panel_content">
+  <div id="about_main">
+    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+
+<p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
+
+<p>I also program in <strong>C</strong>. I’m interested in <strong>robotics</strong> and I’ve worked with the <strong>Arduino</strong> and <strong>PIC</strong> microcontrollers, mostly working on code that runs a <a href="https://github.com/geoffreylitt/Yale-Formula-Hybrid" target="_blank">hybrid racecar</a>.</p>
+
+<p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
+
+<p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
+
+  </div>
+
+  <div id="about_sidebar">
+    <img class="about_photo" src="images/about-photo.jpg" />
+    <p>You can find me on:</p>
+    <ul class="contacts">
+      <li><a href="http://www.linkedin.com/in/geoffreylitt" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/geoffreylitt" target="_blank">Github</a></li>
+      <li><a href="http://twitter.com/geoffreylitt" target="_blank">Twitter</a></li>
+      <li><a href="mailto:gklitt@gmail.com">Email</a></li>
+    </ul>
+
+  </div>
+</div>
+;T;	I"�Hi there! I'm a **web developer and designer**, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building **dynamic web applications** (mainly in **Ruby**, and some **PHP**), as well as designing **static websites**.
+
+I enjoy building **simple and usable interfaces**. You can check out stuff I've built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.
+
+I also program in **C**. I'm interested in **robotics** and I've worked with the **Arduino** and **PIC** microcontrollers, mostly working on code that runs a <a href="https://github.com/geoffreylitt/Yale-Formula-Hybrid" target="_blank">hybrid racecar</a>.
+
+I'm available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.
+
+In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.;T;
+I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+
+<p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
+
+<p>I also program in <strong>C</strong>. I’m interested in <strong>robotics</strong> and I’ve worked with the <strong>Arduino</strong> and <strong>PIC</strong> microcontrollers, mostly working on code that runs a <a href="https://github.com/geoffreylitt/Yale-Formula-Hybrid" target="_blank">hybrid racecar</a>.</p>
+
+<p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
+
+<p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
+;T;@DI"/projects/;T{;{;I"*<div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Projects</h1>
+</div>
+
+<div class="panel_content">
+  <p>These are some of the public web projects I've worked on.</p>
+  <div id="projects_container">
+      <!-- todo: put in a helper -->
+    
+      <div class="project_box">
+  
+    <a href="http://yaleclassroulette.com" target="_blank"><h1 class="project_name">Yale Classroulette</h1></a>
+    <h2 class="project_tools">Javascript, Ruby/Sinatra</h2>
+    <a href="http://yaleclassroulette.com" target="_blank"><img class="project_image" src="images/classroulette.png" /></a>
+  
+  <div class="project_description">
+    <p>Classroulette is a simple online interface to explore the Yale course catalog. It’s designed to mimic the experience of flipping through a physical coursebook and help students find random courses.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yaleclassroulette.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
+    <a href="http://sendquest.in" target="_blank"><img class="project_image" src="images/sendquest.png" /></a>
+  
+  <div class="project_description">
+    <p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://sendquest.in" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
+    <h2 class="project_tools">Static website, brand design</h2>
+    <a href="http://denebre.com" target="_blank"><img class="project_image" src="images/deneb.png" /></a>
+  
+  <div class="project_description">
+    <p>A static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word “deneb” is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company’s name.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://denebre.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript</h2>
+    <a href="http://yalepulse.com" target="_blank"><img class="project_image" src="images/yalepulse.png" /></a>
+  
+  <div class="project_description">
+    <p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalepulse.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
+    <h2 class="project_tools">Static website, visual design</h2>
+    <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
+  
+  <div class="project_description">
+    <h2 id="description">Description</h2>
+<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://bryandoesitbetter.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalebluprint.com" target="_blank"><h1 class="project_name">Bluebooker</h1></a>
+    <h2 class="project_tools">PHP, Javascript</h2>
+    <a href="http://yalebluprint.com" target="_blank"><img class="project_image" src="images/bluebooker.png" /></a>
+  
+  <div class="project_description">
+    <p>Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it’s since morphed into Yale Bluprint.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalebluprint.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+  </div>
+</div>;T;	I"�<div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Projects</h1>
+</div>
+
+<div class="panel_content">
+  <p>These are some of the public web projects I've worked on.</p>
+  <div id="projects_container">
+    <% projects = @items.select{|item| item.attributes[:kind] == 'project'}.sort_by{|project| project.attributes[:priority]} %>  <!-- todo: put in a helper -->
+    <% projects.each do |project| %>
+      <%= project.compiled_content(:snapshot => :last) %>
+    <% end %>
+  </div>
+</div>;T;
+@JI"/blog/;T{;{;I"�<div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Blog</h1>
+</div>
+
+<div class="panel_content">
+  Blog content coming soon.
+</div>;T;	I"�<div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Blog</h1>
+</div>
+
+<div class="panel_content">
+  Blog content coming soon.
+</div>;T;
+@OI"/js/hashchange/;T{;{;I"�/*
+ * jQuery hashchange event - v1.3 - 7/21/2010
+ * http://benalman.com/projects/jquery-hashchange-plugin/
+ * 
+ * Copyright (c) 2010 "Cowboy" Ben Alman
+ * Dual licensed under the MIT and GPL licenses.
+ * http://benalman.com/about/license/
+ */
+(function($,e,b){var c="hashchange",h=document,f,g=$.event.special,i=h.documentMode,d="on"+c in e&&(i===b||i>7);function a(j){j=j||location.href;return"#"+j.replace(/^[^#]*#?(.*)$/,"$1")}$.fn[c]=function(j){return j?this.bind(c,j):this.trigger(c)};$.fn[c].delay=50;g[c]=$.extend(g[c],{setup:function(){if(d){return false}$(f.start)},teardown:function(){if(d){return false}$(f.stop)}});f=(function(){var j={},p,m=a(),k=function(q){return q},l=k,o=k;j.start=function(){p||n()};j.stop=function(){p&&clearTimeout(p);p=b};function n(){var r=a(),q=o(m);if(r!==m){l(m=r,q);$(e).trigger(c)}else{if(q!==m){location.href=location.href.replace(/#.*/,"")+q}}p=setTimeout(n,$.fn[c].delay)}$.browser.msie&&!d&&(function(){var q,r;j.start=function(){if(!q){r=$.fn[c].src;r=r&&r+a();q=$('<iframe tabindex="-1" title="empty"/>').hide().one("load",function(){r||l(a());n()}).attr("src",r||"javascript:0").insertAfter("body")[0].contentWindow;h.onpropertychange=function(){try{if(event.propertyName==="title"){q.document.title=h.title}}catch(s){}}}};j.stop=k;o=function(){return a(q.location.href)};l=function(v,s){var u=q.document,t=$.fn[c].domain;if(v!==s){u.title=h.title;u.open();t&&u.write('<script>document.domain="'+t+'"<\/script>');u.close();q.location.hash=v}}})();return j})()})(jQuery,this);;T;	@T;
+@TI"/js/masonry/;T{;{;I"[/**
+ * jQuery Masonry v2.1.05
+ * A dynamic layout plugin for jQuery
+ * The flip-side of CSS Floats
+ * http://masonry.desandro.com
+ *
+ * Licensed under the MIT license.
+ * Copyright 2012 David DeSandro
+ */
+(function(a,b,c){"use strict";var d=b.event,e;d.special.smartresize={setup:function(){b(this).bind("resize",d.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",d.special.smartresize.handler)},handler:function(a,c){var d=this,f=arguments;a.type="smartresize",e&&clearTimeout(e),e=setTimeout(function(){b.event.handle.apply(d,f)},c==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Mason=function(a,c){this.element=b(c),this._create(a),this._init()},b.Mason.settings={isResizable:!0,isAnimated:!1,animationOptions:{queue:!1,duration:500},gutterWidth:0,isRTL:!1,isFitWidth:!1,containerStyle:{position:"relative"}},b.Mason.prototype={_filterFindBricks:function(a){var b=this.options.itemSelector;return b?a.filter(b).add(a.find(b)):a},_getBricks:function(a){var b=this._filterFindBricks(a).css({position:"absolute"}).addClass("masonry-brick");return b},_create:function(c){this.options=b.extend(!0,{},b.Mason.settings,c),this.styleQueue=[];var d=this.element[0].style;this.originalStyle={height:d.height||""};var e=this.options.containerStyle;for(var f in e)this.originalStyle[f]=d[f]||"";this.element.css(e),this.horizontalDirection=this.options.isRTL?"right":"left",this.offset={x:parseInt(this.element.css("padding-"+this.horizontalDirection),10),y:parseInt(this.element.css("padding-top"),10)},this.isFluid=this.options.columnWidth&&typeof this.options.columnWidth=="function";var g=this;setTimeout(function(){g.element.addClass("masonry")},0),this.options.isResizable&&b(a).bind("smartresize.masonry",function(){g.resize()}),this.reloadItems()},_init:function(a){this._getColumns(),this._reLayout(a)},option:function(a,c){b.isPlainObject(a)&&(this.options=b.extend(!0,this.options,a))},layout:function(a,b){for(var c=0,d=a.length;c<d;c++)this._placeBrick(a[c]);var e={};e.height=Math.max.apply(Math,this.colYs);if(this.options.isFitWidth){var f=0;c=this.cols;while(--c){if(this.colYs[c]!==0)break;f++}e.width=(this.cols-f)*this.columnWidth-this.options.gutterWidth}this.styleQueue.push({$el:this.element,style:e});var g=this.isLaidOut?this.options.isAnimated?"animate":"css":"css",h=this.options.animationOptions,i;for(c=0,d=this.styleQueue.length;c<d;c++)i=this.styleQueue[c],i.$el[g](i.style,h);this.styleQueue=[],b&&b.call(a),this.isLaidOut=!0},_getColumns:function(){var a=this.options.isFitWidth?this.element.parent():this.element,b=a.width();this.columnWidth=this.isFluid?this.options.columnWidth(b):this.options.columnWidth||this.$bricks.outerWidth(!0)||b,this.columnWidth+=this.options.gutterWidth,this.cols=Math.floor((b+this.options.gutterWidth)/this.columnWidth),this.cols=Math.max(this.cols,1)},_placeBrick:function(a){var c=b(a),d,e,f,g,h;d=Math.ceil(c.outerWidth(!0)/this.columnWidth),d=Math.min(d,this.cols);if(d===1)f=this.colYs;else{e=this.cols+1-d,f=[];for(h=0;h<e;h++)g=this.colYs.slice(h,h+d),f[h]=Math.max.apply(Math,g)}var i=Math.min.apply(Math,f),j=0;for(var k=0,l=f.length;k<l;k++)if(f[k]===i){j=k;break}var m={top:i+this.offset.y};m[this.horizontalDirection]=this.columnWidth*j+this.offset.x,this.styleQueue.push({$el:c,style:m});var n=i+c.outerHeight(!0),o=this.cols+1-l;for(k=0;k<o;k++)this.colYs[j+k]=n},resize:function(){var a=this.cols;this._getColumns(),(this.isFluid||this.cols!==a)&&this._reLayout()},_reLayout:function(a){var b=this.cols;this.colYs=[];while(b--)this.colYs.push(0);this.layout(this.$bricks,a)},reloadItems:function(){this.$bricks=this._getBricks(this.element.children())},reload:function(a){this.reloadItems(),this._init(a)},appended:function(a,b,c){if(b){this._filterFindBricks(a).css({top:this.element.height()});var d=this;setTimeout(function(){d._appended(a,c)},1)}else this._appended(a,c)},_appended:function(a,b){var c=this._getBricks(a);this.$bricks=this.$bricks.add(c),this.layout(c,b)},remove:function(a){this.$bricks=this.$bricks.not(a),a.remove()},destroy:function(){this.$bricks.removeClass("masonry-brick").each(function(){this.style.position="",this.style.top="",this.style.left=""});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".masonry").removeClass("masonry").removeData("masonry"),b(a).unbind(".masonry")}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var f=function(b){a.console&&a.console.error(b)};b.fn.masonry=function(a){if(typeof a=="string"){var c=Array.prototype.slice.call(arguments,1);this.each(function(){var d=b.data(this,"masonry");if(!d){f("cannot call methods on masonry prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(d[a])||a.charAt(0)==="_"){f("no such method '"+a+"' for masonry instance");return}d[a].apply(d,c)})}else this.each(function(){var c=b.data(this,"masonry");c?(c.option(a||{}),c._init()):b.data(this,"masonry",new b.Mason(a,this))});return this}})(window,jQuery);;T;	@X;
+@XI"/js/imagesloaded/;T{;{;I"�(function(c,n){var k="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";c.fn.imagesLoaded=function(l){function m(){var b=c(h),a=c(g);d&&(g.length?d.reject(e,b,a):d.resolve(e));c.isFunction(l)&&l.call(f,e,b,a)}function i(b,a){b.src===k||-1!==c.inArray(b,j)||(j.push(b),a?g.push(b):h.push(b),c.data(b,"imagesLoaded",{isBroken:a,src:b.src}),o&&d.notifyWith(c(b),[a,e,c(h),c(g)]),e.length===j.length&&(setTimeout(m),e.unbind(".imagesLoaded")))}var f=this,d=c.isFunction(c.Deferred)?c.Deferred():
+0,o=c.isFunction(d.notify),e=f.find("img").add(f.filter("img")),j=[],h=[],g=[];e.length?e.bind("load.imagesLoaded error.imagesLoaded",function(b){i(b.target,"error"===b.type)}).each(function(b,a){var e=a.src,d=c.data(a,"imagesLoaded");if(d&&d.src===e)i(a,d.isBroken);else if(a.complete&&a.naturalWidth!==n)i(a,0===a.naturalWidth||0===a.naturalHeight);else if(a.readyState||a.complete)a.src=k,a.src=e}):m();return d?d.promise(f):f}})(jQuery);
+;T;	@\;
+@\I"/images/linkedin/;T{;{ I"/images/github/;T{;{ I"/images/classroulette/;T{;{ I"/images/about-photo/;T{;{ I"/projects/classroulette/;T{;{	;I"�<div class="project_box">
+  
+    <a href="http://yaleclassroulette.com" target="_blank"><h1 class="project_name">Yale Classroulette</h1></a>
+    <h2 class="project_tools">Javascript, Ruby/Sinatra</h2>
+    <a href="http://yaleclassroulette.com" target="_blank"><img class="project_image" src="images/classroulette.png" /></a>
+  
+  <div class="project_description">
+    <p>Classroulette is a simple online interface to explore the Yale course catalog. It’s designed to mimic the experience of flipping through a physical coursebook and help students find random courses.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yaleclassroulette.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>;T;	I"�Classroulette is a simple online interface to explore the Yale course catalog. It's designed to mimic the experience of flipping through a physical coursebook and help students find random courses.
+
+##Tech Stack
+The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.;T;
+I"�<p>Classroulette is a simple online interface to explore the Yale course catalog. It’s designed to mimic the experience of flipping through a physical coursebook and help students find random courses.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
+;T;@lI"/projects/sendquest/;T{;{	;I"u<div class="project_box">
+  
+    <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
+    <a href="http://sendquest.in" target="_blank"><img class="project_image" src="images/sendquest.png" /></a>
+  
+  <div class="project_description">
+    <p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://sendquest.in" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>;T;	I"	Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.
+
+##Tech Stack
+The site uses the Twilio API to interface with users over SMS, and some custom JS -- the available libraries weren't pretty enough :) -- to update graphs in realtime. Deployed on Heroku.
+
+##Collaboration
+Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.;T;
+I"T<p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+;T;@rI"/images/sendquest/;T{;{ I"/images/deneb/;T{;{ I"/projects/deneb/;T{;{	;I"�<div class="project_box">
+  
+    <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
+    <h2 class="project_tools">Static website, brand design</h2>
+    <a href="http://denebre.com" target="_blank"><img class="project_image" src="images/deneb.png" /></a>
+  
+  <div class="project_description">
+    <p>A static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word “deneb” is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company’s name.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://denebre.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>;T;	I"uA static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.
+
+##Visual Design
+I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word "deneb" is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company's name.
+
+##Tech Stack
+The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.;T;
+I"�<p>A static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word “deneb” is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company’s name.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
+;T;@~I"/images/yalepulse/;T{;{ I"/projects/yalepulse/;T{;{	;I"F<div class="project_box">
+  
+    <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript</h2>
+    <a href="http://yalepulse.com" target="_blank"><img class="project_image" src="images/yalepulse.png" /></a>
+  
+  <div class="project_description">
+    <p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalepulse.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>;T;	I"�YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use -- for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.
+
+##Tech Stack
+Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.
+
+##Collaboration
+Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.;T;
+I"1<p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+;T;@�I"!/projects/bryandoesitbetter/;T{;{	;I"-<div class="project_box">
+  
+    <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
+    <h2 class="project_tools">Static website, visual design</h2>
+    <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
+  
+  <div class="project_description">
+    <h2 id="description">Description</h2>
+<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://bryandoesitbetter.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>;T;	I"�##Description
+I designed the website for my friend Bryan's campaign for Yale College Council Events Director. I also designed his campaign's visual identity.
+
+##Visual Design
+The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren't too interested in details, so I made sure the front page contained a personal pitch with all the important info.;T;
+I"�<h2 id="description">Description</h2>
+<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
+;T;@�I"/images/bryandoesitbetter/;T{;{ I"/js/isotope/;T{;{;I">/**
+ * Isotope v1.5.19
+ * An exquisite jQuery plugin for magical layouts
+ * http://isotope.metafizzy.co
+ *
+ * Commercial use requires one-time license fee
+ * http://metafizzy.co/#licenses
+ *
+ * Copyright 2012 David DeSandro / Metafizzy
+ */
+(function(a,b,c){"use strict";var d=a.document,e=a.Modernizr,f=function(a){return a.charAt(0).toUpperCase()+a.slice(1)},g="Moz Webkit O Ms".split(" "),h=function(a){var b=d.documentElement.style,c;if(typeof b[a]=="string")return a;a=f(a);for(var e=0,h=g.length;e<h;e++){c=g[e]+a;if(typeof b[c]=="string")return c}},i=h("transform"),j=h("transitionProperty"),k={csstransforms:function(){return!!i},csstransforms3d:function(){var a=!!h("perspective");if(a){var c=" -o- -moz- -ms- -webkit- -khtml- ".split(" "),d="@media ("+c.join("transform-3d),(")+"modernizr)",e=b("<style>"+d+"{#modernizr{height:3px}}"+"</style>").appendTo("head"),f=b('<div id="modernizr" />').appendTo("html");a=f.height()===3,f.remove(),e.remove()}return a},csstransitions:function(){return!!j}},l;if(e)for(l in k)e.hasOwnProperty(l)||e.addTest(l,k[l]);else{e=a.Modernizr={_version:"1.6ish: miniModernizr for Isotope"};var m=" ",n;for(l in k)n=k[l](),e[l]=n,m+=" "+(n?"":"no-")+l;b("html").addClass(m)}if(e.csstransforms){var o=e.csstransforms3d?{translate:function(a){return"translate3d("+a[0]+"px, "+a[1]+"px, 0) "},scale:function(a){return"scale3d("+a+", "+a+", 1) "}}:{translate:function(a){return"translate("+a[0]+"px, "+a[1]+"px) "},scale:function(a){return"scale("+a+") "}},p=function(a,c,d){var e=b.data(a,"isoTransform")||{},f={},g,h={},j;f[c]=d,b.extend(e,f);for(g in e)j=e[g],h[g]=o[g](j);var k=h.translate||"",l=h.scale||"",m=k+l;b.data(a,"isoTransform",e),a.style[i]=m};b.cssNumber.scale=!0,b.cssHooks.scale={set:function(a,b){p(a,"scale",b)},get:function(a,c){var d=b.data(a,"isoTransform");return d&&d.scale?d.scale:1}},b.fx.step.scale=function(a){b.cssHooks.scale.set(a.elem,a.now+a.unit)},b.cssNumber.translate=!0,b.cssHooks.translate={set:function(a,b){p(a,"translate",b)},get:function(a,c){var d=b.data(a,"isoTransform");return d&&d.translate?d.translate:[0,0]}}}var q,r;e.csstransitions&&(q={WebkitTransitionProperty:"webkitTransitionEnd",MozTransitionProperty:"transitionend",OTransitionProperty:"oTransitionEnd",transitionProperty:"transitionEnd"}[j],r=h("transitionDuration"));var s=b.event,t;s.special.smartresize={setup:function(){b(this).bind("resize",s.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",s.special.smartresize.handler)},handler:function(a,b){var c=this,d=arguments;a.type="smartresize",t&&clearTimeout(t),t=setTimeout(function(){jQuery.event.handle.apply(c,d)},b==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Isotope=function(a,c,d){this.element=b(c),this._create(a),this._init(d)};var u=["width","height"],v=b(a);b.Isotope.settings={resizable:!0,layoutMode:"masonry",containerClass:"isotope",itemClass:"isotope-item",hiddenClass:"isotope-hidden",hiddenStyle:{opacity:0,scale:.001},visibleStyle:{opacity:1,scale:1},containerStyle:{position:"relative",overflow:"hidden"},animationEngine:"best-available",animationOptions:{queue:!1,duration:800},sortBy:"original-order",sortAscending:!0,resizesContainer:!0,transformsEnabled:!b.browser.opera,itemPositionDataEnabled:!1},b.Isotope.prototype={_create:function(a){this.options=b.extend({},b.Isotope.settings,a),this.styleQueue=[],this.elemCount=0;var c=this.element[0].style;this.originalStyle={};var d=u.slice(0);for(var e in this.options.containerStyle)d.push(e);for(var f=0,g=d.length;f<g;f++)e=d[f],this.originalStyle[e]=c[e]||"";this.element.css(this.options.containerStyle),this._updateAnimationEngine(),this._updateUsingTransforms();var h={"original-order":function(a,b){return b.elemCount++,b.elemCount},random:function(){return Math.random()}};this.options.getSortData=b.extend(this.options.getSortData,h),this.reloadItems(),this.offset={left:parseInt(this.element.css("padding-left")||0,10),top:parseInt(this.element.css("padding-top")||0,10)};var i=this;setTimeout(function(){i.element.addClass(i.options.containerClass)},0),this.options.resizable&&v.bind("smartresize.isotope",function(){i.resize()}),this.element.delegate("."+this.options.hiddenClass,"click",function(){return!1})},_getAtoms:function(a){var b=this.options.itemSelector,c=b?a.filter(b).add(a.find(b)):a,d={position:"absolute"};return this.usingTransforms&&(d.left=0,d.top=0),c.css(d).addClass(this.options.itemClass),this.updateSortData(c,!0),c},_init:function(a){this.$filteredAtoms=this._filter(this.$allAtoms),this._sort(),this.reLayout(a)},option:function(a){if(b.isPlainObject(a)){this.options=b.extend(!0,this.options,a);var c;for(var d in a)c="_update"+f(d),this[c]&&this[c]()}},_updateAnimationEngine:function(){var a=this.options.animationEngine.toLowerCase().replace(/[ _\-]/g,""),b;switch(a){case"css":case"none":b=!1;break;case"jquery":b=!0;break;default:b=!e.csstransitions}this.isUsingJQueryAnimation=b,this._updateUsingTransforms()},_updateTransformsEnabled:function(){this._updateUsingTransforms()},_updateUsingTransforms:function(){var a=this.usingTransforms=this.options.transformsEnabled&&e.csstransforms&&e.csstransitions&&!this.isUsingJQueryAnimation;a||(delete this.options.hiddenStyle.scale,delete this.options.visibleStyle.scale),this.getPositionStyles=a?this._translate:this._positionAbs},_filter:function(a){var b=this.options.filter===""?"*":this.options.filter;if(!b)return a;var c=this.options.hiddenClass,d="."+c,e=a.filter(d),f=e;if(b!=="*"){f=e.filter(b);var g=a.not(d).not(b).addClass(c);this.styleQueue.push({$el:g,style:this.options.hiddenStyle})}return this.styleQueue.push({$el:f,style:this.options.visibleStyle}),f.removeClass(c),a.filter(b)},updateSortData:function(a,c){var d=this,e=this.options.getSortData,f,g;a.each(function(){f=b(this),g={};for(var a in e)!c&&a==="original-order"?g[a]=b.data(this,"isotope-sort-data")[a]:g[a]=e[a](f,d);b.data(this,"isotope-sort-data",g)})},_sort:function(){var a=this.options.sortBy,b=this._getSorter,c=this.options.sortAscending?1:-1,d=function(d,e){var f=b(d,a),g=b(e,a);return f===g&&a!=="original-order"&&(f=b(d,"original-order"),g=b(e,"original-order")),(f>g?1:f<g?-1:0)*c};this.$filteredAtoms.sort(d)},_getSorter:function(a,c){return b.data(a,"isotope-sort-data")[c]},_translate:function(a,b){return{translate:[a,b]}},_positionAbs:function(a,b){return{left:a,top:b}},_pushPosition:function(a,b,c){b=Math.round(b+this.offset.left),c=Math.round(c+this.offset.top);var d=this.getPositionStyles(b,c);this.styleQueue.push({$el:a,style:d}),this.options.itemPositionDataEnabled&&a.data("isotope-item-position",{x:b,y:c})},layout:function(a,b){var c=this.options.layoutMode;this["_"+c+"Layout"](a);if(this.options.resizesContainer){var d=this["_"+c+"GetContainerSize"]();this.styleQueue.push({$el:this.element,style:d})}this._processStyleQueue(a,b),this.isLaidOut=!0},_processStyleQueue:function(a,c){var d=this.isLaidOut?this.isUsingJQueryAnimation?"animate":"css":"css",f=this.options.animationOptions,g=this.options.onLayout,h,i,j,k;i=function(a,b){b.$el[d](b.style,f)};if(this._isInserting&&this.isUsingJQueryAnimation)i=function(a,b){h=b.$el.hasClass("no-transition")?"css":d,b.$el[h](b.style,f)};else if(c||g||f.complete){var l=!1,m=[c,g,f.complete],n=this;j=!0,k=function(){if(l)return;var b;for(var c=0,d=m.length;c<d;c++)b=m[c],typeof b=="function"&&b.call(n.element,a,n);l=!0};if(this.isUsingJQueryAnimation&&d==="animate")f.complete=k,j=!1;else if(e.csstransitions){var o=0,p=this.styleQueue[0],s=p&&p.$el,t;while(!s||!s.length){t=this.styleQueue[o++];if(!t)return;s=t.$el}var u=parseFloat(getComputedStyle(s[0])[r]);u>0&&(i=function(a,b){b.$el[d](b.style,f).one(q,k)},j=!1)}}b.each(this.styleQueue,i),j&&k(),this.styleQueue=[]},resize:function(){this["_"+this.options.layoutMode+"ResizeChanged"]()&&this.reLayout()},reLayout:function(a){this["_"+this.options.layoutMode+"Reset"](),this.layout(this.$filteredAtoms,a)},addItems:function(a,b){var c=this._getAtoms(a);this.$allAtoms=this.$allAtoms.add(c),b&&b(c)},insert:function(a,b){this.element.append(a);var c=this;this.addItems(a,function(a){var d=c._filter(a);c._addHideAppended(d),c._sort(),c.reLayout(),c._revealAppended(d,b)})},appended:function(a,b){var c=this;this.addItems(a,function(a){c._addHideAppended(a),c.layout(a),c._revealAppended(a,b)})},_addHideAppended:function(a){this.$filteredAtoms=this.$filteredAtoms.add(a),a.addClass("no-transition"),this._isInserting=!0,this.styleQueue.push({$el:a,style:this.options.hiddenStyle})},_revealAppended:function(a,b){var c=this;setTimeout(function(){a.removeClass("no-transition"),c.styleQueue.push({$el:a,style:c.options.visibleStyle}),c._isInserting=!1,c._processStyleQueue(a,b)},10)},reloadItems:function(){this.$allAtoms=this._getAtoms(this.element.children())},remove:function(a,b){var c=this,d=function(){c.$allAtoms=c.$allAtoms.not(a),a.remove(),b&&b.call(c.element)};a.filter(":not(."+this.options.hiddenClass+")").length?(this.styleQueue.push({$el:a,style:this.options.hiddenStyle}),this.$filteredAtoms=this.$filteredAtoms.not(a),this._sort(),this.reLayout(d)):d()},shuffle:function(a){this.updateSortData(this.$allAtoms),this.options.sortBy="random",this._sort(),this.reLayout(a)},destroy:function(){var a=this.usingTransforms,b=this.options;this.$allAtoms.removeClass(b.hiddenClass+" "+b.itemClass).each(function(){var b=this.style;b.position="",b.top="",b.left="",b.opacity="",a&&(b[i]="")});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".isotope").undelegate("."+b.hiddenClass,"click").removeClass(b.containerClass).removeData("isotope"),v.unbind(".isotope")},_getSegments:function(a){var b=this.options.layoutMode,c=a?"rowHeight":"columnWidth",d=a?"height":"width",e=a?"rows":"cols",g=this.element[d](),h,i=this.options[b]&&this.options[b][c]||this.$filteredAtoms["outer"+f(d)](!0)||g;h=Math.floor(g/i),h=Math.max(h,1),this[b][e]=h,this[b][c]=i},_checkIfSegmentsChanged:function(a){var b=this.options.layoutMode,c=a?"rows":"cols",d=this[b][c];return this._getSegments(a),this[b][c]!==d},_masonryReset:function(){this.masonry={},this._getSegments();var a=this.masonry.cols;this.masonry.colYs=[];while(a--)this.masonry.colYs.push(0)},_masonryLayout:function(a){var c=this,d=c.masonry;a.each(function(){var a=b(this),e=Math.ceil(a.outerWidth(!0)/d.columnWidth);e=Math.min(e,d.cols);if(e===1)c._masonryPlaceBrick(a,d.colYs);else{var f=d.cols+1-e,g=[],h,i;for(i=0;i<f;i++)h=d.colYs.slice(i,i+e),g[i]=Math.max.apply(Math,h);c._masonryPlaceBrick(a,g)}})},_masonryPlaceBrick:function(a,b){var c=Math.min.apply(Math,b),d=0;for(var e=0,f=b.length;e<f;e++)if(b[e]===c){d=e;break}var g=this.masonry.columnWidth*d,h=c;this._pushPosition(a,g,h);var i=c+a.outerHeight(!0),j=this.masonry.cols+1-f;for(e=0;e<j;e++)this.masonry.colYs[d+e]=i},_masonryGetContainerSize:function(){var a=Math.max.apply(Math,this.masonry.colYs);return{height:a}},_masonryResizeChanged:function(){return this._checkIfSegmentsChanged()},_fitRowsReset:function(){this.fitRows={x:0,y:0,height:0}},_fitRowsLayout:function(a){var c=this,d=this.element.width(),e=this.fitRows;a.each(function(){var a=b(this),f=a.outerWidth(!0),g=a.outerHeight(!0);e.x!==0&&f+e.x>d&&(e.x=0,e.y=e.height),c._pushPosition(a,e.x,e.y),e.height=Math.max(e.y+g,e.height),e.x+=f})},_fitRowsGetContainerSize:function(){return{height:this.fitRows.height}},_fitRowsResizeChanged:function(){return!0},_cellsByRowReset:function(){this.cellsByRow={index:0},this._getSegments(),this._getSegments(!0)},_cellsByRowLayout:function(a){var c=this,d=this.cellsByRow;a.each(function(){var a=b(this),e=d.index%d.cols,f=Math.floor(d.index/d.cols),g=(e+.5)*d.columnWidth-a.outerWidth(!0)/2,h=(f+.5)*d.rowHeight-a.outerHeight(!0)/2;c._pushPosition(a,g,h),d.index++})},_cellsByRowGetContainerSize:function(){return{height:Math.ceil(this.$filteredAtoms.length/this.cellsByRow.cols)*this.cellsByRow.rowHeight+this.offset.top}},_cellsByRowResizeChanged:function(){return this._checkIfSegmentsChanged()},_straightDownReset:function(){this.straightDown={y:0}},_straightDownLayout:function(a){var c=this;a.each(function(a){var d=b(this);c._pushPosition(d,0,c.straightDown.y),c.straightDown.y+=d.outerHeight(!0)})},_straightDownGetContainerSize:function(){return{height:this.straightDown.y}},_straightDownResizeChanged:function(){return!0},_masonryHorizontalReset:function(){this.masonryHorizontal={},this._getSegments(!0);var a=this.masonryHorizontal.rows;this.masonryHorizontal.rowXs=[];while(a--)this.masonryHorizontal.rowXs.push(0)},_masonryHorizontalLayout:function(a){var c=this,d=c.masonryHorizontal;a.each(function(){var a=b(this),e=Math.ceil(a.outerHeight(!0)/d.rowHeight);e=Math.min(e,d.rows);if(e===1)c._masonryHorizontalPlaceBrick(a,d.rowXs);else{var f=d.rows+1-e,g=[],h,i;for(i=0;i<f;i++)h=d.rowXs.slice(i,i+e),g[i]=Math.max.apply(Math,h);c._masonryHorizontalPlaceBrick(a,g)}})},_masonryHorizontalPlaceBrick:function(a,b){var c=Math.min.apply(Math,b),d=0;for(var e=0,f=b.length;e<f;e++)if(b[e]===c){d=e;break}var g=c,h=this.masonryHorizontal.rowHeight*d;this._pushPosition(a,g,h);var i=c+a.outerWidth(!0),j=this.masonryHorizontal.rows+1-f;for(e=0;e<j;e++)this.masonryHorizontal.rowXs[d+e]=i},_masonryHorizontalGetContainerSize:function(){var a=Math.max.apply(Math,this.masonryHorizontal.rowXs);return{width:a}},_masonryHorizontalResizeChanged:function(){return this._checkIfSegmentsChanged(!0)},_fitColumnsReset:function(){this.fitColumns={x:0,y:0,width:0}},_fitColumnsLayout:function(a){var c=this,d=this.element.height(),e=this.fitColumns;a.each(function(){var a=b(this),f=a.outerWidth(!0),g=a.outerHeight(!0);e.y!==0&&g+e.y>d&&(e.x=e.width,e.y=0),c._pushPosition(a,e.x,e.y),e.width=Math.max(e.x+f,e.width),e.y+=g})},_fitColumnsGetContainerSize:function(){return{width:this.fitColumns.width}},_fitColumnsResizeChanged:function(){return!0},_cellsByColumnReset:function(){this.cellsByColumn={index:0},this._getSegments(),this._getSegments(!0)},_cellsByColumnLayout:function(a){var c=this,d=this.cellsByColumn;a.each(function(){var a=b(this),e=Math.floor(d.index/d.rows),f=d.index%d.rows,g=(e+.5)*d.columnWidth-a.outerWidth(!0)/2,h=(f+.5)*d.rowHeight-a.outerHeight(!0)/2;c._pushPosition(a,g,h),d.index++})},_cellsByColumnGetContainerSize:function(){return{width:Math.ceil(this.$filteredAtoms.length/this.cellsByColumn.rows)*this.cellsByColumn.columnWidth}},_cellsByColumnResizeChanged:function(){return this._checkIfSegmentsChanged(!0)},_straightAcrossReset:function(){this.straightAcross={x:0}},_straightAcrossLayout:function(a){var c=this;a.each(function(a){var d=b(this);c._pushPosition(d,c.straightAcross.x,0),c.straightAcross.x+=d.outerWidth(!0)})},_straightAcrossGetContainerSize:function(){return{width:this.straightAcross.x}},_straightAcrossResizeChanged:function(){return!0}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var w=function(b){a.console&&a.console.error(b)};b.fn.isotope=function(a,c){if(typeof a=="string"){var d=Array.prototype.slice.call(arguments,1);this.each(function(){var c=b.data(this,"isotope");if(!c){w("cannot call methods on isotope prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(c[a])||a.charAt(0)==="_"){w("no such method '"+a+"' for isotope instance");return}c[a].apply(c,d)})}else this.each(function(){var d=b.data(this,"isotope");d?(d.option(a),d._init(c)):b.data(this,"isotope",new b.Isotope(a,this,c))});return this}})(window,jQuery);;T;	@�;
+@�I"/projects/bluebooker/;T{;{	;I")<div class="project_box">
+  
+    <a href="http://yalebluprint.com" target="_blank"><h1 class="project_name">Bluebooker</h1></a>
+    <h2 class="project_tools">PHP, Javascript</h2>
+    <a href="http://yalebluprint.com" target="_blank"><img class="project_image" src="images/bluebooker.png" /></a>
+  
+  <div class="project_description">
+    <p>Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it’s since morphed into Yale Bluprint.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalebluprint.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>;T;	I"�Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it's since morphed into Yale Bluprint.
+
+##Collaboration
+Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They're continuing to maintain the site as Yale Bluprint.;T;
+I"<p>Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it’s since morphed into Yale Bluprint.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
+;T;@�I"/images/bluebooker/;T{;{ :versioni

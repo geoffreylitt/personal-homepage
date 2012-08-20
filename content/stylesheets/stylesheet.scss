@@ -1,0 +1,286 @@
+//import CSS reset ("normalize")
+@import "normalize";
+
+//mixins
+$default_corner_radius: 5px;
+@mixin border-radius($radius: $default_corner_radius){
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin border-top-radius($radius: $default_corner_radius){
+  -webkit-border-top-left-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+  -moz-border-radius-topleft: $radius;
+  -moz-border-radius-topright: $radius;
+  border-top-left-radius: $radius;
+  border-top-right-radius: $radius;
+}
+
+$default_x_offset: 2px;
+$default_y_offset: 2px;
+$default_radius: 10px;
+$default_color: #444;
+
+@mixin box-shadow($x_offset: $default_x_offset, $y_offset: $default_y_offset, $radius: $default_radius, $color: $default_color){
+  -moz-box-shadow: $x_offset $y_offset $radius $color;
+  -webkit-box-shadow: $x_offset $y_offset $radius $color;
+  box-shadow: $x_offset $y_offset $radius $color;
+}
+
+@mixin vertical-gradient($top_color, $bottom_color){
+  background: $bottom_color; /* Old browsers */
+  background: -moz-linear-gradient(top, $top_color 0%, $bottom_color 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top_color), color-stop(100%,$bottom_color)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $top_color 0%,$bottom_color 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $top_color 0%,$bottom_color 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $top_color 0%,$bottom_color 100%); /* IE10+ */
+  background: linear-gradient(to bottom, $top_color 0%,$bottom_color 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top_color', endColorstr='$bottom_color',GradientType=0 ); /* IE6-9 */
+}
+
+//layout variables: for easy access
+$site_width: 800px;
+
+//color variables
+$color_blue: #23324c;
+$color_lightblue: #416891;
+$color_about: #C90E0E;
+$color_projects: #30C7A3;
+$color_blog: #F3D42A;
+$color_text: #001530;
+$color_grey: #C9C9C9;
+
+/*----- start main CSS -----*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: $color_text;
+  background-color: #DDD; //fallback for bg-image, and filler during loading
+  background-image: url(images/lghtmesh.png);
+}
+
+a{
+  color: $color_lightblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:active{
+  position: relative;
+  top: 1px;
+}
+
+p{
+  margin-top: 0px;
+}
+
+#header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: $color_blue;
+  @include box-shadow(0, 2px, 10px, #555);
+  @include vertical-gradient(#32436B, $color_blue);
+  z-index: 100; //show over masonry content
+}
+
+#header_content{
+  width: $site_width;
+  margin: 0 auto;
+
+  img#circle_photo{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px 10px 0;
+  }
+
+  #name{
+    float: left;
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+  #links{
+    float: right;
+
+    a.header_tab{
+      float: left;
+      width: 80px;
+      height: 14px;
+      padding: 6px 10px 14px 10px;
+      margin: 20px 0 0 10px;
+      background-color: $color_lightblue;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: normal;
+      @include border-top-radius(3px);
+      @include vertical-gradient(#5181B5, $color_lightblue);
+
+      &:hover{
+        @include vertical-gradient(#4b72a8, #395b7f);
+      }
+    }
+
+    a#about_link{
+      border-bottom: solid 6px $color_about;
+    }
+
+    a#projects_link{
+      border-bottom: solid 6px $color_projects;
+    }
+
+    a#blog_link{
+      border-bottom: solid 6px $color_blog;
+    }
+  }
+}
+
+#panel_container{
+  overflow: hidden;
+  width: auto;
+  padding: 80px 0 50px 0;
+}
+
+.panel{
+  float: left;
+  width: $site_width;
+  background-color: #fff;
+  @include border-radius;
+  @include box-shadow;
+
+  .panel_title{
+    padding: 3px 0 3px 20px;
+    background-color: #E0E5EC;
+    border-bottom: solid thin #B9C5DB;
+
+    span.slashes{
+      color: #919191;
+      font-size: 16px;
+    }
+
+    h1{
+      display: inline;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $color_blue;
+      font-weight: normal;
+    }
+  }
+
+  .panel_content{
+    overflow: hidden; //clearfix
+    padding: 30px 20px 20px 20px;
+  }
+}
+
+.panel#about_panel{
+  border-top: solid 6px $color_about;
+
+  #about_main{
+    float: left;
+    width: 499px;
+    padding: 0 30px 0 0;
+    border-right: solid thin $color_grey;
+  }
+
+  #about_sidebar{
+    float: left;
+    width: 200px;
+    padding: 0 0 0 30px;
+
+    img.about_photo{
+      margin-bottom: 10px;
+      border: solid thin #A3A3A3;
+    }
+
+    ul.contacts{
+      list-style: none;
+      padding: 0;
+
+      li{
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+.panel#projects_panel{
+  border-top: solid 6px $color_projects;
+
+  .project_box{
+    float: left;
+    width: 215px;
+    padding: 10px;
+    margin: 0 16px 16px 0;
+    border: solid thin $color_grey;
+    @include border-radius;
+    background-color: #F1F1F1;
+
+    h1.project_name{
+      font-size: 16px;
+      margin: 0;
+      color: $color_text;
+    }
+
+    h2.project_tools{
+      font-size: 12px;
+      margin-top: 0;
+      font-weight: normal;
+    }
+
+    img.project_image{
+      width: 213px;
+      margin-bottom: 5px;
+      border: solid thin $color_grey;
+      @include border-radius;
+    }
+
+    .project_description{
+      font-size: 12px;
+      line-height: 1.3em;
+
+      h2{
+        margin: 0 0 2px 0;
+        font-size: 10px;
+        text-transform: uppercase;
+        border-bottom: solid thin $color_grey;
+        display: none; //use JS to only show first by default
+      }
+
+      p{
+        margin-bottom: 8px;
+        display: none; //use JS to only show first by default
+      }
+
+      a.view_live{
+        display: block;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        @include border-radius;
+        @include vertical-gradient(#5181B5, $color_lightblue);
+        padding: 5px 0;
+        margin-top: 15px;
+
+        &:hover{
+          @include vertical-gradient(#4b72a8, #395b7f);
+        }
+      }
+    }
+
+    .project_tools{
+      font-size: 12px;
+    }
+  }
+}
+
+.panel#blog_panel{
+  border-top: solid 6px $color_blog;
+}

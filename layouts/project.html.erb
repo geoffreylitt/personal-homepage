@@ -1,0 +1,18 @@
+<div class="project_box">
+  <% if @item.attributes[:live] %>
+    <a href="<%= @item.attributes[:link] %>" target="_blank"><h1 class="project_name"><%= @item.attributes[:title] %></h1></a>
+    <h2 class="project_tools"><%= @item.attributes[:tools] %></h2>
+    <a href="<%= @item.attributes[:link] %>" target="_blank"><img class="project_image" src="<%= @item.attributes[:image_path] %>" /></a>
+  <% else %>
+    <h1 class="project_name"><%= @item.attributes[:title] %></h2>
+    <h2 class="project_tools"><%= @item.attributes[:tools] %></h2>
+    <img class="project_image" src="<%= @item.attributes[:image_path] %>" />
+  <% end %>
+  <div class="project_description">
+    <%= yield %>
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    <% if @item.attributes[:live] %>
+      <a href="<%= @item.attributes[:link] %>" target="_blank" class="view_live">View it live</a>
+    <% end %>
+  </div>
+</div>

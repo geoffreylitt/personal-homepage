@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Geoffrey Litt</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="jquery.isotope.min.js"></script>
+    <script src="jquery.ba-hashchange.min.js"></script>
+    <script src="jquery.imagesloaded.min.js"></script>
+    <script src="main.js"></script>
+
+    <meta name="generator" content="nanoc 3.3.7">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <a class="ajax" href="/#about">
+          <img id="circle_photo" src="images/circle-photo.png" />
+          <div id="name">Geoffrey Litt</div>
+        </a>
+        <div id="links">
+          <a href="/#about" class="ajax header_tab" id="about_link">About Me</a>
+          <a href="/#projects" class="ajax header_tab" id="projects_link">Projects</a>
+          <a href="/#blog" class="ajax header_tab" id="blog_link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel_container">
+      <div id="about_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>About Me</h1>
+</div>
+
+<div class="panel_content">
+  <div id="about_main">
+    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+
+<p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
+
+<p>I also program in <strong>C</strong>. I’m interested in <strong>robotics</strong> and I’ve worked with the <strong>Arduino</strong> and <strong>PIC</strong> microcontrollers, mostly working on code that runs a <a href="https://github.com/geoffreylitt/Yale-Formula-Hybrid" target="_blank">hybrid racecar</a>.</p>
+
+<p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
+
+<p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
+
+  </div>
+
+  <div id="about_sidebar">
+    <img class="about_photo" src="images/about-photo.jpg" />
+    <p>You can find me on:</p>
+    <ul class="contacts">
+      <li><a href="http://www.linkedin.com/in/geoffreylitt" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/geoffreylitt" target="_blank">Github</a></li>
+      <li><a href="http://twitter.com/geoffreylitt" target="_blank">Twitter</a></li>
+      <li><a href="mailto:gklitt@gmail.com">Email</a></li>
+    </ul>
+
+  </div>
+</div>
+
+      </div>
+      <div id="projects_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Projects</h1>
+</div>
+
+<div class="panel_content">
+  <p>These are some of the public web projects I've worked on.</p>
+  <div id="projects_container">
+      <!-- todo: put in a helper -->
+    
+      <div class="project_box">
+  
+    <a href="http://yaleclassroulette.com" target="_blank"><h1 class="project_name">Yale Classroulette</h1></a>
+    <h2 class="project_tools">Javascript, Ruby/Sinatra</h2>
+    <a href="http://yaleclassroulette.com" target="_blank"><img class="project_image" src="images/classroulette.png" /></a>
+  
+  <div class="project_description">
+    <p>Classroulette is a simple online interface to explore the Yale course catalog. It’s designed to mimic the experience of flipping through a physical coursebook and help students find random courses.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yaleclassroulette.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
+    <a href="http://sendquest.in" target="_blank"><img class="project_image" src="images/sendquest.png" /></a>
+  
+  <div class="project_description">
+    <p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://sendquest.in" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
+    <h2 class="project_tools">Static website, brand design</h2>
+    <a href="http://denebre.com" target="_blank"><img class="project_image" src="images/deneb.png" /></a>
+  
+  <div class="project_description">
+    <p>A static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word “deneb” is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company’s name.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://denebre.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript</h2>
+    <a href="http://yalepulse.com" target="_blank"><img class="project_image" src="images/yalepulse.png" /></a>
+  
+  <div class="project_description">
+    <p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalepulse.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
+    <h2 class="project_tools">Static website, visual design</h2>
+    <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
+  
+  <div class="project_description">
+    <h2 id="description">Description</h2>
+<p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://bryandoesitbetter.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalebluprint.com" target="_blank"><h1 class="project_name">Bluebooker</h1></a>
+    <h2 class="project_tools">PHP, Javascript</h2>
+    <a href="http://yalebluprint.com" target="_blank"><img class="project_image" src="images/bluebooker.png" /></a>
+  
+  <div class="project_description">
+    <p>Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it’s since morphed into Yale Bluprint.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalebluprint.com" target="_blank" class="view_live">View it live</a>
+    
+  </div>
+</div>
+    
+  </div>
+</div>
+      </div>
+      <div id="blog_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Blog</h1>
+</div>
+
+<div class="panel_content">
+  Blog content coming soon.
+</div>
+      </div>
+    </div>
+  </body>
+</html>
