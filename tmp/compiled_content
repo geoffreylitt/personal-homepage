@@ -1,4 +1,4 @@
-{:	data{)I"/:ET{:default{:	lastI"è*<!DOCTYPE html>
+{:	data{+I"/:ET{:default{:	lastI"ç+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -213,7 +213,24 @@
 </div>
 
 <div class="panel_content">
-  Blog content coming soon.
+   <!-- todo: put in a helper -->
+  
+    
+  <div class="post">
+    <h1>My first post</h1>
+    <p><p>Welcome to my blog. This is my first post.</p>
+</p>
+  </div>
+
+  
+    
+  <div class="post">
+    <h1>My zeroth post</h1>
+    <p><p>This was published in the past!</p>
+</p>
+  </div>
+
+  
 </div>
       </div>
     </div>
@@ -5401,20 +5418,40 @@ I"o<p>Hi there! Iâ€™m a <strong>web developer and designer</strong>, currently
     <% end %>
   </div>
 </div>;T;
-@JI"/blog/;T{;{;I"“<div class="panel_title">
+@JI"/blog/;T{;{;I"’<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Blog</h1>
 </div>
 
 <div class="panel_content">
-  Blog content coming soon.
-</div>;T;	I"“<div class="panel_title">
+   <!-- todo: put in a helper -->
+  
+    
+  <div class="post">
+    <h1>My first post</h1>
+    <p><p>Welcome to my blog. This is my first post.</p>
+</p>
+  </div>
+
+  
+    
+  <div class="post">
+    <h1>My zeroth post</h1>
+    <p><p>This was published in the past!</p>
+</p>
+  </div>
+
+  
+</div>;T;	I"…<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Blog</h1>
 </div>
 
 <div class="panel_content">
-  Blog content coming soon.
+ <% articles = @items.select{|item| item.attributes[:kind] == 'article'}.sort_by{|article| article.attributes[:created_at]}.reverse %>  <!-- todo: put in a helper -->
+  <% articles.each do |article| %>
+    <%= article.compiled_content(:snapshot => :last) %>
+  <% end %>
 </div>;T;
 @OI"/js/hashchange/;T{;{;I"ö/*
  * jQuery hashchange event - v1.3 - 7/21/2010
@@ -5626,4 +5663,20 @@ I"<p>Bluebooker was a website designed to help students plan long-term course
 
 <h2 id="collaboration">Collaboration</h2>
 <p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. Theyâ€™re continuing to maintain the site as Yale Bluprint.</p>
-;T;@•I"/images/bluebooker/;T{;{ :versioni
+;T;@•I"/images/bluebooker/;T{;{ I"/posts/2013-02-26-nyuad/;T{;{	;I"}
+  <div class="post">
+    <h1>My first post</h1>
+    <p><p>Welcome to my blog. This is my first post.</p>
+</p>
+  </div>
+;T;	I"/Welcome to my blog. This is my first post.;T;
+I"7<p>Welcome to my blog. This is my first post.</p>
+;T;@žI"/posts/2012-02-10-zero/;T{;{	;I"s
+  <div class="post">
+    <h1>My zeroth post</h1>
+    <p><p>This was published in the past!</p>
+</p>
+  </div>
+;T;	I"$This was published in the past!;T;
+I",<p>This was published in the past!</p>
+;T;@¤:versioni

@@ -1,0 +1,6 @@
+<% if @item.attributes[:published] %>
+  <div class="post">
+    <h1><%= @item.attributes[:title] %></h1>
+    <p><%= yield %></p>
+  </div>
+<% end %>

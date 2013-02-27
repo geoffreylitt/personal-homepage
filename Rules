@@ -30,6 +30,11 @@ compile '/projects/*/' do
   layout 'project'
 end
 
+compile '/posts/*' do
+  filter :kramdown
+  layout 'post'
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items

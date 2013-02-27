@@ -4,5 +4,8 @@
 </div>
 
 <div class="panel_content">
-  Blog content coming soon.
+ <% articles = @items.select{|item| item.attributes[:kind] == 'article'}.sort_by{|article| article.attributes[:created_at]}.reverse %>  <!-- todo: put in a helper -->
+  <% articles.each do |article| %>
+    <%= article.compiled_content(:snapshot => :last) %>
+  <% end %>
 </div>
