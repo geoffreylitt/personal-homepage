@@ -1,4 +1,4 @@
-{:	data{1I"/:ET{:default{:	lastI"�U<!DOCTYPE html>
+{:	data{1I"/:ET{:default{:	lastI"VU<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,7 +7,7 @@
     <title>Geoffrey Litt</title>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style2.css" media="screen">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="jquery.isotope.min.js"></script>
     <script src="jquery.ba-hashchange.min.js"></script>
@@ -264,7 +264,7 @@
 
 <h4 id="personalities">Personalities</h4>
 
-<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks.</p>
 
 <p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
 
@@ -290,7 +290,7 @@
     </div>
   </body>
 </html>
-;T:rawI"i<!DOCTYPE html>
+;T:rawI"j<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -299,7 +299,7 @@
     <title>Geoffrey Litt</title>
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/style2.css" media="screen">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="jquery.isotope.min.js"></script>
     <script src="jquery.ba-hashchange.min.js"></script>
@@ -5876,7 +5876,7 @@ I"Y<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
     <% end %>
   </div>
 </div>;T;
-@MI"/blog/;T{;{;I"a+<div class="panel_title">
+@MI"/blog/;T{;{;I"�*<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Blog</h1>
 </div>
@@ -5933,7 +5933,7 @@ I"Y<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
 
 <h4 id="personalities">Personalities</h4>
 
-<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks.</p>
 
 <p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
 
@@ -6174,7 +6174,7 @@ I"<p>Bluebooker was a website designed to help students plan long-term course
 
 <h2 id="collaboration">Collaboration</h2>
 <p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
-;T;@�I"/images/bluebooker/;T{;{ I"/posts/2013-02-26-nyuad/;T{;{	;I"�*
+;T;@�I"/images/bluebooker/;T{;{ I"/posts/2013-02-26-nyuad/;T{;{	;I"8*
   <article>
     <h4 class="date">Feb 27, 2013</h5>
     <h1 class="title">Lessons from a hackathon</h2>
@@ -6224,7 +6224,7 @@ I"<p>Bluebooker was a website designed to help students plan long-term course
 
 <h4 id="personalities">Personalities</h4>
 
-<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks.</p>
 
 <p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
 
@@ -6243,7 +6243,7 @@ I"<p>Bluebooker was a website designed to help students plan long-term course
 <p>I’d encourage everyone to participate in hackathons. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
 </p>
   </article>
-;T;	I"�'![The Grand Mosque](/images/blog/nyuad/mosque.jpg)
+;T;	I"'![The Grand Mosque](/images/blog/nyuad/mosque.jpg)
 
 This past weekend, I participated in the [2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world](http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html), a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That's a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)
 
@@ -6289,7 +6289,7 @@ Because we were all on the same page, I was able to trust all of my teammates 10
 
 #### Personalities
 
-The second (and far more important) factor, though, was __getting along as people__. We all had a blast the entire time, both while we were coding as well as during breaks. I haven't witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.
+The second (and far more important) factor, though, was __getting along as people__. We all had a blast the entire time, both while we were coding as well as during breaks.
 
 This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that __it made the whole weekend so damn fun__. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it's impossible to overestimate the various positive benefits that can arise from good personality vibes.
 
@@ -6306,7 +6306,7 @@ Of course, we took this principle to its absolute extreme because of the time co
 ## Hackathons 
 
 I'd encourage everyone to participate in hackathons. There's really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.;T;
-I"^*<p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
+I"�)<p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
 
 <p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That’s a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)</p>
 
@@ -6352,7 +6352,7 @@ I"^*<p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
 
 <h4 id="personalities">Personalities</h4>
 
-<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks.</p>
 
 <p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
 
