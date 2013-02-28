@@ -4,7 +4,7 @@
 </div>
 
 <div class="panel_content">
-  <p>These are some of the public web projects I've worked on.</p>
+  <p>These are some of the public web projects I've worked on. I can tell you more about my private consulting project history if you contact me directly.</p>
   <div id="projects_container">
     <% projects = @items.select{|item| item.attributes[:kind] == 'project'}.sort_by{|project| project.attributes[:priority]} %>  <!-- todo: put in a helper -->
     <% projects.each do |project| %>

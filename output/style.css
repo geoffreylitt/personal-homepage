@@ -698,3 +698,29 @@ p {
 
 .panel#blog_panel {
   border-top: solid 6px #f3d42a; }
+  .panel#blog_panel .panel_content {
+    padding-top: 10px; }
+  .panel#blog_panel article {
+    margin: 16px 0;
+    padding: 16px 0;
+    border-top: solid thin #ddd;
+    border-bottom: solid thin #ddd; }
+  .panel#blog_panel h1.title {
+    font-size: 24px;
+    margin: 0 0 24px 0;
+    line-height: 1.3em; }
+  .panel#blog_panel h4.date {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+    font-weight: normal; }
+  .panel#blog_panel h2 {
+    font-size: 18px;
+    border-bottom: solid thin #999; }
+  .panel#blog_panel h5 {
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1em; }

@@ -1,4 +1,4 @@
-{:	data{+I"/:ET{:default{:	lastI"�+<!DOCTYPE html>
+{:	data{1I"/:ET{:default{:	lastI"�U<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -41,7 +41,7 @@
 
 <div class="panel_content">
   <div id="about_main">
-    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby on Rails</strong>), as well as designing <strong>static websites</strong>.</p>
 
 <p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
 
@@ -75,7 +75,7 @@
 </div>
 
 <div class="panel_content">
-  <p>These are some of the public web projects I've worked on.</p>
+  <p>These are some of the public web projects I've worked on. I can tell you more about my private consulting project history if you contact me directly.</p>
   <div id="projects_container">
       <!-- todo: put in a helper -->
     
@@ -213,22 +213,76 @@
 </div>
 
 <div class="panel_content">
-   <!-- todo: put in a helper -->
   
     
-  <div class="post">
-    <h1>My first post</h1>
-    <p><p>Welcome to my blog. This is my first post.</p>
-</p>
-  </div>
+  <article>
+    <h4 class="date">Feb 27, 2013</h5>
+    <h1 class="title">Lessons from a hackathon</h2>
+    <p><p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
 
-  
-    
-  <div class="post">
-    <h1>My zeroth post</h1>
-    <p><p>This was published in the past!</p>
+<p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That’s a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)</p>
+
+<p>I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place at the hackathon!</p>
+
+<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app (see the <a href="https://github.com/geoffreylitt/mentorme">git repo</a> if you’re interested). What I’m more interested in writing about are some of <strong>the general principles that contributed to our success</strong>. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project. In a way, a hackathon is like a super-time-compressed version of a full product cycle, where you can experiment with approaches to software development and figure out what works.</p>
+
+<h2 id="structure-breeds-creativity">1. Structure breeds creativity</h2>
+
+<p>I almost hesitate to call this event a “hackathon” because it was very different from any hackathon I’d ever been to in the US. The event was started started in 2011 by an NYU professor named Sana Odeh, and the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it unusual is how focused the goal is – rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.</p>
+
+<p>However, the focus on building useful products also made it a lot harder to decide what to work on. Normally at a hackathon it’s enough to come up with a simple API mashup that shows coding chops, but that didn’t cut it in this case. My friend and I tried to think of some ideas on the plane ride there, but didn’t come up with much. Luckily, the entire first morning of the hackathon was dedicated to structured ideation, including group brainstorming and one-minute pitches.</p>
+
+<p>Now to be honest, when I first heard that half a day was devoted to coming up with ideas, I expected a lot of boredom and unnecessary structure. I would have preferred to just find a team, come up with our best idea in a quick brainstorm, and go for it. But surprisingly, I really ended up enjoying the more structured process. Hearing a wide variety of ideas from different types of people helped build connections and starting points to build off of in my brain. <strong>The magic lightbulb appearing above an inventor’s head is a complete myth</strong>, and a dangerous one for anyone who actually wants to be creative.</p>
+
+<p><img src="/images/blog/nyuad/idea.png" alt="Lightbulb" /></p>
+
+<p>This principle especially applied in this case because I knew nothing about the problems people actually face in the Arab region, and <strong>a product is only useful if it solves a real problem</strong>. For example, I was surprised to see four or five different groups pitch ideas involving improving driving etiquette – who knew that was such an important problem in that part of the world?</p>
+
+<p>Also, the first idea isn’t always the best. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were already kind of set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I’m now confident we made a smart choice. <strong>It’s so important to keep brainstorming without settling too early</strong>.</p>
+
+<h2 id="team-chemistry-is-everything">2. Team chemistry is everything</h2>
+
+<p>The best part of this hackathon for me, <strong>by far</strong>, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.</p>
+
+<p><img src="/images/blog/nyuad/team.jpg" alt="Team Hashtag Wizard" /></p>
+
+<p>From before the event began, I had been planning to work with my friend Seth Thompson from Yale, since we’d done hackathons together before and knew we worked well as a team. But the rest of the team came together completely serendipitously. Through chance encounters that took place everywhere from airport security to the hotel breakfast room, we met Alex Qin, a Rubyist and git wizard attending NYU; Omar Omran, an iOS developer attending the Lebanese American University; Ramsey Nasser, a NY-based hacker/designer who among other cool stuff has developed <a href="http://qlblang.org/">qlb</a>, a Lisp with Arabic syntax; and Max Stoller, an NYU grad with tons of hackathon experience who won second place at the NYUAD event in 2011. Ramsey and Max were there as mentors, which just meant they weren’t allowed to write any code.</p>
+
+<p>It’s pretty hard to believe how well our team got along from the outset. Maybe working outside in the sunny 75-degree weather put us all in good moods…</p>
+
+<p><img src="/images/blog/nyuad/outside.jpg" alt="Working outside" /></p>
+
+<p>Whatever the reason, all of our group work went really smoothly, as we achieved that elusive balance of staying focused and having a ton of fun along the way. Looking back, I think there were two separate factors that made us a great team.</p>
+
+<h4 id="technical-skill">Technical skill</h4>
+
+<p>The first factor was technical skill. The fact of the matter is, <strong>to quickly develop a great product, everyone needs to be on the same page mentally</strong>. Pure intelligence and quickness are crucial for keeping conversations moving, and software development experience is also important, especially in a hackathon setting where huge architectural decisions are made based on gut feeling and there isn’t really time to learn new technologies.</p>
+
+<p>Seth, Alex and I were able to dive right into the Rails project because of our previous experience with the framework, splitting up both frontend and backend work evenly between us. Omar was fast enough with XCode to singlehandedly develop an entire native videochat-enabled iOS app that interfaced with our server in just two days. Our mentors were also really talented developers and could help us out whenever we got stuck.</p>
+
+<p>Because we were all on the same page, I was able to trust all of my teammates 100% with whatever they were working on without feeling any need to check up on them, and that was a rare and exhilarating experience. I’ve never even laid eyes on a lot of the code that’s in our final product, and I love that that’s the case. I hope I can achieve this level of trust on many software projects to come, but it’s not easy – one person not on the same level as everyone else can tear apart the whole web of trust. Steve Jobs and others have referred to this phenomenon as only having “A Players” on a team. I’m not sure I like that way of putting it, but I know what they mean.</p>
+
+<h4 id="personalities">Personalities</h4>
+
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+
+<p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
+
+<h2 id="edge-case">3. Edge case!</h2>
+
+<p><img src="/images/blog/nyuad/nullpointer.png" alt="Null pointer comic " /></p>
+
+<p>(Comic cred: <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>)</p>
+
+<p>After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated “Edge Case,” and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished on time.</p>
+
+<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and <strong>ruthlessly discarding appropriate edge cases is one good way to maintain discipline</strong>.</p>
+
+<h2 id="hackathons">Hackathons</h2>
+
+<p>I’d encourage everyone to participate in hackathons. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
 </p>
-  </div>
+  </article>
 
   
 </div>
@@ -286,7 +340,345 @@
   </body>
 </html>
 ;T:pre@
-I"/stylesheet/;T{;{;I"�3/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+:perma1{;I"aQ<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Geoffrey Litt web design developer Ruby on Rails MUBI Yale">
+    <meta name="description" content="Geoffrey Litt is a web developer and designer currently studying at Yale University.">
+    <title>Geoffrey Litt</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="jquery.isotope.min.js"></script>
+    <script src="jquery.ba-hashchange.min.js"></script>
+    <script src="jquery.imagesloaded.min.js"></script>
+    <script src="main.js"></script>
+
+    <meta name="generator" content="nanoc 3.3.7">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <a class="ajax" href="/#about">
+          <img id="circle_photo" src="images/circle-photo.png" />
+          <div id="name">Geoffrey Litt</div>
+        </a>
+        <div id="links">
+          <a href="/#about" class="ajax header_tab" id="about_link">About Me</a>
+          <a href="/#projects" class="ajax header_tab" id="projects_link">Projects</a>
+          <a href="/#blog" class="ajax header_tab" id="blog_link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel_container">
+      <div id="about_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>About Me</h1>
+</div>
+
+<div class="panel_content">
+  <div id="about_main">
+    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby on Rails</strong>), as well as designing <strong>static websites</strong>.</p>
+
+<p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
+
+<p>I also program in <strong>C</strong>. I’m interested in <strong>robotics</strong> and I’ve worked with the <strong>Arduino</strong> and <strong>PIC</strong> microcontrollers, mostly working on code that runs a <a href="https://github.com/geoffreylitt/Yale-Formula-Hybrid" target="_blank">hybrid racecar</a>.</p>
+
+<p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
+
+<p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
+
+  </div>
+
+  <div id="about_sidebar">
+    <img class="about_photo" src="images/about-photo.jpg" />
+    <p>You can find me on:</p>
+    <ul class="contacts">
+      <li><a href="http://www.linkedin.com/in/geoffreylitt" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/geoffreylitt" target="_blank">Github</a></li>
+      <li><a href="http://twitter.com/geoffreylitt" target="_blank">Twitter</a></li>
+      <li><a href="mailto:gklitt@gmail.com">Email</a></li>
+    </ul>
+
+  </div>
+</div>
+
+      </div>
+      <div id="projects_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Projects</h1>
+</div>
+
+<div class="panel_content">
+  <p>These are some of the public web projects I've worked on. I can tell you more about my private consulting project history if you contact me directly.</p>
+  <div id="projects_container">
+      <!-- todo: put in a helper -->
+    
+      <div class="project_box">
+  
+    <a href="http://yaleclassroulette.com" target="_blank"><h1 class="project_name">Yale Classroulette</h1></a>
+    <h2 class="project_tools">Javascript, Ruby/Sinatra</h2>
+    <a href="http://yaleclassroulette.com" target="_blank"><img class="project_image" src="images/classroulette.png" /></a>
+  
+  <div class="project_description">
+    <p>Classroulette is a simple online interface to explore the Yale course catalog. It’s designed to mimic the experience of flipping through a physical coursebook and help students find random courses.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yaleclassroulette.com" target="_blank" class="view_live">View it live!</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
+    <a href="http://sendquest.in" target="_blank"><img class="project_image" src="images/sendquest.png" /></a>
+  
+  <div class="project_description">
+    <p>Sendquest.in is a live polling service that allows a group to vote on a question over SMS, with the results appearing in real time on a graph. Built in 24 hours for the Yale Hackathon 2012, and won second place.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the Twilio API to interface with users over SMS, and some custom JS – the available libraries weren’t pretty enough :) – to update graphs in realtime. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://sendquest.in" target="_blank" class="view_live">View it live!</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
+    <h2 class="project_tools">Static website, brand design</h2>
+    <a href="http://denebre.com" target="_blank"><img class="project_image" src="images/deneb.png" /></a>
+  
+  <div class="project_description">
+    <p>A static website for Deneb Renewable, a solar energy startup based in Tokyo, Japan. I also did the brand design, including the logo and color scheme.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>I designed the logo to be simple and modern, representing the values of a renewable energy company. The stroke over the word “deneb” is a simplified version of a rising sun, and the Museo Slab font used for the logotype accentuates the inherent symmetry in the company’s name.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://denebre.com" target="_blank" class="view_live">View it live!</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
+    <h2 class="project_tools">Ruby on Rails, Javascript</h2>
+    <a href="http://yalepulse.com" target="_blank"><img class="project_image" src="images/yalepulse.png" /></a>
+  
+  <div class="project_description">
+    <p>YalePulse is a polling website developed for the Yale College Council to gather student opinion. The interface is very simple and focused on maximizing ease of use – for example, you can answer some questions in a poll and quit halfway. Launching fall 2012.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Ruby on Rails on the backend, with some custom JS on the frontend for graphing results. Deployed on Heroku.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalepulse.com" target="_blank" class="view_live">View it live!</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
+    <h2 class="project_tools">Static website, visual design</h2>
+    <a href="http://bryandoesitbetter.com" target="_blank"><img class="project_image" src="images/bryandoesitbetter.png" /></a>
+  
+  <div class="project_description">
+    <p>I designed the website for my friend Bryan’s campaign for Yale College Council Events Director. I also designed his campaign’s visual identity.</p>
+
+<h2 id="visual-design">Visual Design</h2>
+<p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://bryandoesitbetter.com" target="_blank" class="view_live">View it live!</a>
+    
+  </div>
+</div>
+    
+      <div class="project_box">
+  
+    <a href="http://yalebluprint.com" target="_blank"><h1 class="project_name">Bluebooker</h1></a>
+    <h2 class="project_tools">PHP, Javascript</h2>
+    <a href="http://yalebluprint.com" target="_blank"><img class="project_image" src="images/bluebooker.png" /></a>
+  
+  <div class="project_description">
+    <p>Bluebooker was a website designed to help students plan long-term course schedules over four years of university, instead of just focusing on one semester. I left the project after our beta was a finalist at the Yale College Council App Challenge, and it’s since morphed into Yale Bluprint.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
+
+    <a href="javascript:void(0);" class="toggle_details">Show more details</a>
+    
+      <a href="http://yalebluprint.com" target="_blank" class="view_live">View it live!</a>
+    
+  </div>
+</div>
+    
+  </div>
+</div>
+      </div>
+      <div id="blog_panel" class="panel">
+        
+        <div class="panel_title">
+  <span class="slashes">// </span>
+  <h1>Blog</h1>
+</div>
+
+<div class="panel_content">
+  
+    
+  <article>
+    <h4 class="date">Feb 27, 2013</h5>
+    <h1 class="title">Lessons from a hackathon</h2>
+    <p><p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience (check out the Grand Mosque photo below…). I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place!</p>
+
+<p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
+
+<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app. What I’m more interested in writing about some of <strong>the general principles that contributed to our success</strong>, since those are what I really took away from this event. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project.</p>
+
+<h2 id="structure-breeds-creativity">1. Structure breeds creativity</h2>
+
+<p>I almost hesitate to call this event a “hackathon” because it was very different from any hackathon I’d ever been to in the US. It was started started in 2011 by an NYU professor named Sana Odeh, and is truly an international event, since the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it more unusual is how focused the goal is – rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.</p>
+
+<p>However, the focus on building useful products also made it a lot harder to decide what to work on. Normally at a hackathon it’s enough to come up with a silly API mashup that shows coding chops, but that didn’t cut it in this case. Luckily, the entire first morning of the hackathon was dedicated to structured ideation, including group brainstorming and one-minute pitches.</p>
+
+<p>To be honest, when I first heard that half a day was devoted to coming up with ideas, I expected a lot of boredom and unnecessary structure. I would have preferred to just find a team, come up with our best idea in a half-hour brainstorm, and go for it. But in the end, I really ended up enjoying the more structured process.</p>
+
+<p>First, hearing a wide variety of ideas from different types of people helped build connections and starting points to build off of in my brain. <strong>The magic lightbulb appearing above an inventor’s head is a complete myth</strong>, and a dangerous one for anyone who actually wants to be creative.</p>
+
+<p><img src="/images/blog/nyuad/idea.png" alt="Lightbulb" /></p>
+
+<p>This principle especially applied in this case because I knew nothing about the problems people actually face in the Arab region, and a product is only useful if it solves a real problem. For example, I was surprised to see four or five different groups pitch ideas involving improving driving etiquette – who knew that was such an important problem in that part of the world?</p>
+
+<p>Also, <strong>the first idea isn’t always the best</strong>. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I’m now confident we made a smart choice. It’s so important to keep brainstorming without settling too early.</p>
+
+<h2 id="team-chemistry-is-everything">2. Team chemistry is everything</h2>
+
+<p>The best part of this hackathon for me, <strong>by far</strong>, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.</p>
+
+<p><img src="/images/blog/nyuad/team.jpg" alt="Team Hashtag Wizard" /></p>
+
+<p>From before the event began, I had been planning to work with my friend Seth Thompson from Yale, since we’d done hackathons together before and knew we worked well as a team. But the rest of the team came together completely serendipitously. Through chance encounters that took place everywhere from airport security to the hotel breakfast room, we met Alex Qin, a Rubyist and git wizard attending NYU; Omar Omran, an iOS developer attending the Lebanese American University; Ramsey Nasser, a NY-based hacker/designer who among other cool stuff developed <a href="http://qlblang.org/">Qlb</a>, a Lisp with Arabic syntax; and Max Stoller, an NYU grad with tons of hackathon experience who won second place in the NYUAD event the first time it was held. Ramsey and Max were there as mentors, which meant they weren’t allowed to write any code.</p>
+
+<p>It’s pretty hard to believe how well our team got along from the outset. Maybe working outside in the sunny 75-degree weather put us all in good moods…</p>
+
+<p><img src="/images/blog/nyuad/outside.jpg" alt="Working outside" /></p>
+
+<p>Whatever the reason, all of our group work went really smoothly, as we achieved that elusive balance of staying focused and having a ton of fun along the way. Looking back, I think there were two separate factors that made us a great team.</p>
+
+<h4 id="technical-skill">Technical skill</h4>
+
+<p>The first factor was technical skill. The fact of the matter is, <strong>to quickly develop a great product, everyone needs to be on the same page mentally</strong>. Pure intelligence and quickness are crucial for keeping conversations moving, and software development experience is also important, especially in a hackathon setting where huge architectural decisions are made based on gut feeling and there isn’t really time to learn new technologies.</p>
+
+<p>Seth, Alex and I were able to dive right into the Rails project because of our previous experience with the framework, splitting up both frontend and backend work evenly between us. Omar was fast enough with XCode to singlehandedly develop an entire native videochat-enabled iOS app that interfaced with our server in just two days. Our mentors were also really talented developers and could help us out whenever we got stuck.</p>
+
+<p>Because we were all on the same page, I was able to trust all of my teammates 100% with whatever they were working on without feeling any need to check up on them, and that was a rare and exhilarating experience. I’ve never even laid eyes on a lot of the code that’s in our final product, and I love that that’s the case. I hope I can achieve this level of trust on many software projects to come, but it’s not easy – one person not on the same level as everyone else can tear apart the whole web of trust.</p>
+
+<h4 id="personalities">Personalities</h4>
+
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke creation since being at summer camp as a kid, and I vividly remember my mouth being tired from laughing at some point.</p>
+
+<p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. I think that whenever you have a choice over who you work with (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
+
+<h2 id="edge-case">3. Edge case!</h2>
+
+<p><img src="/images/blog/nyuad/nullpointer.png" alt="Null pointer comic " /></p>
+
+<p>(Comic cred: <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>)</p>
+
+<p>After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated “Edge Case,” and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished on time.</p>
+
+<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything in the product demo is core, and absolutely anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Maybe it’s helpful to have one person on a project in charge of the “edge case!” sign.</p>
+</p>
+  </article>
+
+  
+</div>
+      </div>
+    </div>
+  </body>
+</html>
+;T;	I"i<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Geoffrey Litt web design developer Ruby on Rails MUBI Yale">
+    <meta name="description" content="Geoffrey Litt is a web developer and designer currently studying at Yale University.">
+    <title>Geoffrey Litt</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="jquery.isotope.min.js"></script>
+    <script src="jquery.ba-hashchange.min.js"></script>
+    <script src="jquery.imagesloaded.min.js"></script>
+    <script src="main.js"></script>
+
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header_content">
+        <a class="ajax" href="/#about">
+          <img id="circle_photo" src="images/circle-photo.png" />
+          <div id="name">Geoffrey Litt</div>
+        </a>
+        <div id="links">
+          <a href="/#about" class="ajax header_tab" id="about_link">About Me</a>
+          <a href="/#projects" class="ajax header_tab" id="projects_link">Projects</a>
+          <a href="/#blog" class="ajax header_tab" id="blog_link">Blog</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel_container">
+      <div id="about_panel" class="panel">
+        <% about = @items.select{|item| item.identifier == '/about/'}.first %>
+        <%= about.compiled_content(:snapshot => :last) %>
+      </div>
+      <div id="projects_panel" class="panel">
+        <% projects = @items.select{|item| item.identifier == '/projects/'}.first %>
+        <%= projects.compiled_content(:snapshot => :last) %>
+      </div>
+      <div id="blog_panel" class="panel">
+        <% blog = @items.select{|item| item.identifier == '/blog/'}.first %>
+        <%= blog.compiled_content(:snapshot => :last) %>
+      </div>
+    </div>
+  </body>
+</html>
+;T;
+@I"/stylesheet/;T{;{;I"�3/* normalize.css v1.0.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -996,7 +1388,7 @@ a:active{
   display: none;
   border-top: solid 6px $color_teal;
 };T;
-@I"/normalize/;T{;{	;I"<!DOCTYPE HTML>
+@I"/normalize/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -2027,7 +2419,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-;T:	post@I"/images/dark_Tire/;T{;{ I"/images/lghtmesh/;T{;{ I"/images/lghtmesh_@2X/;T{;{ I"/images/circle-photo/;T{;{ I"/_normalize/;T{;{	;I"&<!DOCTYPE HTML>
+;T:	post@I"/images/dark_Tire/;T{;{ I"/images/lghtmesh/;T{;{ I"/images/lghtmesh_@2X/;T{;{ I"/images/circle-photo/;T{;{ I"/_normalize/;T{;{	;I"&<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -3065,7 +3457,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-;T;@&I"/images/favicon/;T{;{ I"/images/favicon (3)/;T{;{ I"/stylesheets/stylesheet/;T{;{;I"�F/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+;T;@)I"/images/favicon/;T{;{ I"/images/favicon (3)/;T{;{ I"/stylesheets/stylesheet/;T{;{;I"�I/* normalize.css v1.0.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -3765,7 +4157,33 @@ p {
 
 .panel#blog_panel {
   border-top: solid 6px #f3d42a; }
-;T;	I".//import CSS reset ("normalize")
+  .panel#blog_panel .panel_content {
+    padding-top: 10px; }
+  .panel#blog_panel article {
+    margin: 16px 0;
+    padding: 16px 0;
+    border-top: solid thin #ddd;
+    border-bottom: solid thin #ddd; }
+  .panel#blog_panel h1.title {
+    font-size: 24px;
+    margin: 0 0 24px 0;
+    line-height: 1.3em; }
+  .panel#blog_panel h4.date {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+    font-weight: normal; }
+  .panel#blog_panel h2 {
+    font-size: 18px;
+    border-bottom: solid thin #999; }
+  .panel#blog_panel h5 {
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1em; }
+;T;	I"�//import CSS reset ("normalize")
 @import "normalize";
 
 //mixins
@@ -4068,8 +4486,48 @@ p{
 
 .panel#blog_panel{
   border-top: solid 6px $color_blog;
+
+  .panel_content{
+    padding-top: 10px;
+  }
+
+  article{
+    margin: 16px 0;
+    padding: 16px 0;
+    border-top: solid thin #ddd; 
+    border-bottom: solid thin #ddd;
+
+  }
+
+  h1.title{
+    font-size: 24px;
+    margin: 0 0 24px 0;
+    line-height: 1.3em;
+  }
+
+  h4.date{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  h2{
+    font-size: 18px;
+    border-bottom: solid thin #999;
+  }
+
+  h5{
+    //image caption
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1em;
+  }
 };T;
-@2I"/stylesheets/_normalize/;T{;{;I"`"/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+@5I"/stylesheets/_normalize/;T{;{;I"`"/* normalize.css v1.0.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -4995,7 +5453,7 @@ table {
     border-spacing: 0;
 }
 ;T;
-@7I"/js/main/;T{;{;I"C/*
+@:I"/js/main/;T{;{;I"C/*
 Main JS for geoffreylitt.com
 By Geoffrey Litt
 */
@@ -5210,8 +5668,8 @@ By Geoffrey Litt
 
   });
 
-})();;T;	@<;
-@<I"/js/jquery/;T{;{;I"[/**
+})();;T;	@?;
+@?I"/js/jquery/;T{;{;I"[/**
  * jQuery Masonry v2.1.05
  * A dynamic layout plugin for jQuery
  * The flip-side of CSS Floats
@@ -5220,15 +5678,15 @@ By Geoffrey Litt
  * Licensed under the MIT license.
  * Copyright 2012 David DeSandro
  */
-(function(a,b,c){"use strict";var d=b.event,e;d.special.smartresize={setup:function(){b(this).bind("resize",d.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",d.special.smartresize.handler)},handler:function(a,c){var d=this,f=arguments;a.type="smartresize",e&&clearTimeout(e),e=setTimeout(function(){b.event.handle.apply(d,f)},c==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Mason=function(a,c){this.element=b(c),this._create(a),this._init()},b.Mason.settings={isResizable:!0,isAnimated:!1,animationOptions:{queue:!1,duration:500},gutterWidth:0,isRTL:!1,isFitWidth:!1,containerStyle:{position:"relative"}},b.Mason.prototype={_filterFindBricks:function(a){var b=this.options.itemSelector;return b?a.filter(b).add(a.find(b)):a},_getBricks:function(a){var b=this._filterFindBricks(a).css({position:"absolute"}).addClass("masonry-brick");return b},_create:function(c){this.options=b.extend(!0,{},b.Mason.settings,c),this.styleQueue=[];var d=this.element[0].style;this.originalStyle={height:d.height||""};var e=this.options.containerStyle;for(var f in e)this.originalStyle[f]=d[f]||"";this.element.css(e),this.horizontalDirection=this.options.isRTL?"right":"left",this.offset={x:parseInt(this.element.css("padding-"+this.horizontalDirection),10),y:parseInt(this.element.css("padding-top"),10)},this.isFluid=this.options.columnWidth&&typeof this.options.columnWidth=="function";var g=this;setTimeout(function(){g.element.addClass("masonry")},0),this.options.isResizable&&b(a).bind("smartresize.masonry",function(){g.resize()}),this.reloadItems()},_init:function(a){this._getColumns(),this._reLayout(a)},option:function(a,c){b.isPlainObject(a)&&(this.options=b.extend(!0,this.options,a))},layout:function(a,b){for(var c=0,d=a.length;c<d;c++)this._placeBrick(a[c]);var e={};e.height=Math.max.apply(Math,this.colYs);if(this.options.isFitWidth){var f=0;c=this.cols;while(--c){if(this.colYs[c]!==0)break;f++}e.width=(this.cols-f)*this.columnWidth-this.options.gutterWidth}this.styleQueue.push({$el:this.element,style:e});var g=this.isLaidOut?this.options.isAnimated?"animate":"css":"css",h=this.options.animationOptions,i;for(c=0,d=this.styleQueue.length;c<d;c++)i=this.styleQueue[c],i.$el[g](i.style,h);this.styleQueue=[],b&&b.call(a),this.isLaidOut=!0},_getColumns:function(){var a=this.options.isFitWidth?this.element.parent():this.element,b=a.width();this.columnWidth=this.isFluid?this.options.columnWidth(b):this.options.columnWidth||this.$bricks.outerWidth(!0)||b,this.columnWidth+=this.options.gutterWidth,this.cols=Math.floor((b+this.options.gutterWidth)/this.columnWidth),this.cols=Math.max(this.cols,1)},_placeBrick:function(a){var c=b(a),d,e,f,g,h;d=Math.ceil(c.outerWidth(!0)/this.columnWidth),d=Math.min(d,this.cols);if(d===1)f=this.colYs;else{e=this.cols+1-d,f=[];for(h=0;h<e;h++)g=this.colYs.slice(h,h+d),f[h]=Math.max.apply(Math,g)}var i=Math.min.apply(Math,f),j=0;for(var k=0,l=f.length;k<l;k++)if(f[k]===i){j=k;break}var m={top:i+this.offset.y};m[this.horizontalDirection]=this.columnWidth*j+this.offset.x,this.styleQueue.push({$el:c,style:m});var n=i+c.outerHeight(!0),o=this.cols+1-l;for(k=0;k<o;k++)this.colYs[j+k]=n},resize:function(){var a=this.cols;this._getColumns(),(this.isFluid||this.cols!==a)&&this._reLayout()},_reLayout:function(a){var b=this.cols;this.colYs=[];while(b--)this.colYs.push(0);this.layout(this.$bricks,a)},reloadItems:function(){this.$bricks=this._getBricks(this.element.children())},reload:function(a){this.reloadItems(),this._init(a)},appended:function(a,b,c){if(b){this._filterFindBricks(a).css({top:this.element.height()});var d=this;setTimeout(function(){d._appended(a,c)},1)}else this._appended(a,c)},_appended:function(a,b){var c=this._getBricks(a);this.$bricks=this.$bricks.add(c),this.layout(c,b)},remove:function(a){this.$bricks=this.$bricks.not(a),a.remove()},destroy:function(){this.$bricks.removeClass("masonry-brick").each(function(){this.style.position="",this.style.top="",this.style.left=""});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".masonry").removeClass("masonry").removeData("masonry"),b(a).unbind(".masonry")}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var f=function(b){a.console&&a.console.error(b)};b.fn.masonry=function(a){if(typeof a=="string"){var c=Array.prototype.slice.call(arguments,1);this.each(function(){var d=b.data(this,"masonry");if(!d){f("cannot call methods on masonry prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(d[a])||a.charAt(0)==="_"){f("no such method '"+a+"' for masonry instance");return}d[a].apply(d,c)})}else this.each(function(){var c=b.data(this,"masonry");c?(c.option(a||{}),c._init()):b.data(this,"masonry",new b.Mason(a,this))});return this}})(window,jQuery);;T;	@@;
-@@I"/about/;T{;{	;I"�<div class="panel_title">
+(function(a,b,c){"use strict";var d=b.event,e;d.special.smartresize={setup:function(){b(this).bind("resize",d.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",d.special.smartresize.handler)},handler:function(a,c){var d=this,f=arguments;a.type="smartresize",e&&clearTimeout(e),e=setTimeout(function(){b.event.handle.apply(d,f)},c==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Mason=function(a,c){this.element=b(c),this._create(a),this._init()},b.Mason.settings={isResizable:!0,isAnimated:!1,animationOptions:{queue:!1,duration:500},gutterWidth:0,isRTL:!1,isFitWidth:!1,containerStyle:{position:"relative"}},b.Mason.prototype={_filterFindBricks:function(a){var b=this.options.itemSelector;return b?a.filter(b).add(a.find(b)):a},_getBricks:function(a){var b=this._filterFindBricks(a).css({position:"absolute"}).addClass("masonry-brick");return b},_create:function(c){this.options=b.extend(!0,{},b.Mason.settings,c),this.styleQueue=[];var d=this.element[0].style;this.originalStyle={height:d.height||""};var e=this.options.containerStyle;for(var f in e)this.originalStyle[f]=d[f]||"";this.element.css(e),this.horizontalDirection=this.options.isRTL?"right":"left",this.offset={x:parseInt(this.element.css("padding-"+this.horizontalDirection),10),y:parseInt(this.element.css("padding-top"),10)},this.isFluid=this.options.columnWidth&&typeof this.options.columnWidth=="function";var g=this;setTimeout(function(){g.element.addClass("masonry")},0),this.options.isResizable&&b(a).bind("smartresize.masonry",function(){g.resize()}),this.reloadItems()},_init:function(a){this._getColumns(),this._reLayout(a)},option:function(a,c){b.isPlainObject(a)&&(this.options=b.extend(!0,this.options,a))},layout:function(a,b){for(var c=0,d=a.length;c<d;c++)this._placeBrick(a[c]);var e={};e.height=Math.max.apply(Math,this.colYs);if(this.options.isFitWidth){var f=0;c=this.cols;while(--c){if(this.colYs[c]!==0)break;f++}e.width=(this.cols-f)*this.columnWidth-this.options.gutterWidth}this.styleQueue.push({$el:this.element,style:e});var g=this.isLaidOut?this.options.isAnimated?"animate":"css":"css",h=this.options.animationOptions,i;for(c=0,d=this.styleQueue.length;c<d;c++)i=this.styleQueue[c],i.$el[g](i.style,h);this.styleQueue=[],b&&b.call(a),this.isLaidOut=!0},_getColumns:function(){var a=this.options.isFitWidth?this.element.parent():this.element,b=a.width();this.columnWidth=this.isFluid?this.options.columnWidth(b):this.options.columnWidth||this.$bricks.outerWidth(!0)||b,this.columnWidth+=this.options.gutterWidth,this.cols=Math.floor((b+this.options.gutterWidth)/this.columnWidth),this.cols=Math.max(this.cols,1)},_placeBrick:function(a){var c=b(a),d,e,f,g,h;d=Math.ceil(c.outerWidth(!0)/this.columnWidth),d=Math.min(d,this.cols);if(d===1)f=this.colYs;else{e=this.cols+1-d,f=[];for(h=0;h<e;h++)g=this.colYs.slice(h,h+d),f[h]=Math.max.apply(Math,g)}var i=Math.min.apply(Math,f),j=0;for(var k=0,l=f.length;k<l;k++)if(f[k]===i){j=k;break}var m={top:i+this.offset.y};m[this.horizontalDirection]=this.columnWidth*j+this.offset.x,this.styleQueue.push({$el:c,style:m});var n=i+c.outerHeight(!0),o=this.cols+1-l;for(k=0;k<o;k++)this.colYs[j+k]=n},resize:function(){var a=this.cols;this._getColumns(),(this.isFluid||this.cols!==a)&&this._reLayout()},_reLayout:function(a){var b=this.cols;this.colYs=[];while(b--)this.colYs.push(0);this.layout(this.$bricks,a)},reloadItems:function(){this.$bricks=this._getBricks(this.element.children())},reload:function(a){this.reloadItems(),this._init(a)},appended:function(a,b,c){if(b){this._filterFindBricks(a).css({top:this.element.height()});var d=this;setTimeout(function(){d._appended(a,c)},1)}else this._appended(a,c)},_appended:function(a,b){var c=this._getBricks(a);this.$bricks=this.$bricks.add(c),this.layout(c,b)},remove:function(a){this.$bricks=this.$bricks.not(a),a.remove()},destroy:function(){this.$bricks.removeClass("masonry-brick").each(function(){this.style.position="",this.style.top="",this.style.left=""});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".masonry").removeClass("masonry").removeData("masonry"),b(a).unbind(".masonry")}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var f=function(b){a.console&&a.console.error(b)};b.fn.masonry=function(a){if(typeof a=="string"){var c=Array.prototype.slice.call(arguments,1);this.each(function(){var d=b.data(this,"masonry");if(!d){f("cannot call methods on masonry prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(d[a])||a.charAt(0)==="_"){f("no such method '"+a+"' for masonry instance");return}d[a].apply(d,c)})}else this.each(function(){var c=b.data(this,"masonry");c?(c.option(a||{}),c._init()):b.data(this,"masonry",new b.Mason(a,this))});return this}})(window,jQuery);;T;	@C;
+@CI"/about/;T{;{	;I"�<div class="panel_title">
   <span class="slashes">// </span>
   <h1>About Me</h1>
 </div>
 
 <div class="panel_content">
   <div id="about_main">
-    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+    <p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby on Rails</strong>), as well as designing <strong>static websites</strong>.</p>
 
 <p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
 
@@ -5252,7 +5710,7 @@ By Geoffrey Litt
 
   </div>
 </div>
-;T;	I"�Hi there! I'm a **web developer and designer**, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building **dynamic web applications** (mainly in **Ruby**, and some **PHP**), as well as designing **static websites**.
+;T;	I"�Hi there! I'm a **web developer and designer**, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building **dynamic web applications** (mainly in **Ruby on Rails**), as well as designing **static websites**.
 
 I enjoy building **simple and usable interfaces**. You can check out stuff I've built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.
 
@@ -5261,7 +5719,7 @@ I also program in **C**. I'm interested in **robotics** and I've worked with the
 I'm available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.
 
 In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.;T;
-I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby</strong>, and some <strong>PHP</strong>), as well as designing <strong>static websites</strong>.</p>
+I"Y<p>Hi there! I’m a <strong>web developer and designer</strong>, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building <strong>dynamic web applications</strong> (mainly in <strong>Ruby on Rails</strong>), as well as designing <strong>static websites</strong>.</p>
 
 <p>I enjoy building <strong>simple and usable interfaces</strong>. You can check out stuff I’ve built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.</p>
 
@@ -5270,13 +5728,13 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
 <p>I’m available to do <strong>freelance work on web projects</strong>, from simple static site designs to more complex web applications. You can contact me at <a href="mailto:gklitt@gmail.com">gklitt@gmail.com</a>.</p>
 
 <p>In my free time, I enjoy playing the cello with my <a href="http://lowstrungcellos.org" target="_blank">cello rock group</a>.</p>
-;T;@DI"/projects/;T{;{;I"n<div class="panel_title">
+;T;@GI"/projects/;T{;{;I"�<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Projects</h1>
 </div>
 
 <div class="panel_content">
-  <p>These are some of the public web projects I've worked on.</p>
+  <p>These are some of the public web projects I've worked on. I can tell you more about my private consulting project history if you contact me directly.</p>
   <div id="projects_container">
       <!-- todo: put in a helper -->
     
@@ -5404,13 +5862,13 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
 </div>
     
   </div>
-</div>;T;	I"�<div class="panel_title">
+</div>;T;	I"P<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Projects</h1>
 </div>
 
 <div class="panel_content">
-  <p>These are some of the public web projects I've worked on.</p>
+  <p>These are some of the public web projects I've worked on. I can tell you more about my private consulting project history if you contact me directly.</p>
   <div id="projects_container">
     <% projects = @items.select{|item| item.attributes[:kind] == 'project'}.sort_by{|project| project.attributes[:priority]} %>  <!-- todo: put in a helper -->
     <% projects.each do |project| %>
@@ -5418,42 +5876,95 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
     <% end %>
   </div>
 </div>;T;
-@JI"/blog/;T{;{;I"�<div class="panel_title">
+@MI"/blog/;T{;{;I"a+<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Blog</h1>
 </div>
 
 <div class="panel_content">
-   <!-- todo: put in a helper -->
   
     
-  <div class="post">
-    <h1>My first post</h1>
-    <p><p>Welcome to my blog. This is my first post.</p>
+  <article>
+    <h4 class="date">Feb 27, 2013</h5>
+    <h1 class="title">Lessons from a hackathon</h2>
+    <p><p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
+
+<p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That’s a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)</p>
+
+<p>I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place at the hackathon!</p>
+
+<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app (see the <a href="https://github.com/geoffreylitt/mentorme">git repo</a> if you’re interested). What I’m more interested in writing about are some of <strong>the general principles that contributed to our success</strong>. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project. In a way, a hackathon is like a super-time-compressed version of a full product cycle, where you can experiment with approaches to software development and figure out what works.</p>
+
+<h2 id="structure-breeds-creativity">1. Structure breeds creativity</h2>
+
+<p>I almost hesitate to call this event a “hackathon” because it was very different from any hackathon I’d ever been to in the US. The event was started started in 2011 by an NYU professor named Sana Odeh, and the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it unusual is how focused the goal is – rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.</p>
+
+<p>However, the focus on building useful products also made it a lot harder to decide what to work on. Normally at a hackathon it’s enough to come up with a simple API mashup that shows coding chops, but that didn’t cut it in this case. My friend and I tried to think of some ideas on the plane ride there, but didn’t come up with much. Luckily, the entire first morning of the hackathon was dedicated to structured ideation, including group brainstorming and one-minute pitches.</p>
+
+<p>Now to be honest, when I first heard that half a day was devoted to coming up with ideas, I expected a lot of boredom and unnecessary structure. I would have preferred to just find a team, come up with our best idea in a quick brainstorm, and go for it. But surprisingly, I really ended up enjoying the more structured process. Hearing a wide variety of ideas from different types of people helped build connections and starting points to build off of in my brain. <strong>The magic lightbulb appearing above an inventor’s head is a complete myth</strong>, and a dangerous one for anyone who actually wants to be creative.</p>
+
+<p><img src="/images/blog/nyuad/idea.png" alt="Lightbulb" /></p>
+
+<p>This principle especially applied in this case because I knew nothing about the problems people actually face in the Arab region, and <strong>a product is only useful if it solves a real problem</strong>. For example, I was surprised to see four or five different groups pitch ideas involving improving driving etiquette – who knew that was such an important problem in that part of the world?</p>
+
+<p>Also, the first idea isn’t always the best. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were already kind of set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I’m now confident we made a smart choice. <strong>It’s so important to keep brainstorming without settling too early</strong>.</p>
+
+<h2 id="team-chemistry-is-everything">2. Team chemistry is everything</h2>
+
+<p>The best part of this hackathon for me, <strong>by far</strong>, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.</p>
+
+<p><img src="/images/blog/nyuad/team.jpg" alt="Team Hashtag Wizard" /></p>
+
+<p>From before the event began, I had been planning to work with my friend Seth Thompson from Yale, since we’d done hackathons together before and knew we worked well as a team. But the rest of the team came together completely serendipitously. Through chance encounters that took place everywhere from airport security to the hotel breakfast room, we met Alex Qin, a Rubyist and git wizard attending NYU; Omar Omran, an iOS developer attending the Lebanese American University; Ramsey Nasser, a NY-based hacker/designer who among other cool stuff has developed <a href="http://qlblang.org/">qlb</a>, a Lisp with Arabic syntax; and Max Stoller, an NYU grad with tons of hackathon experience who won second place at the NYUAD event in 2011. Ramsey and Max were there as mentors, which just meant they weren’t allowed to write any code.</p>
+
+<p>It’s pretty hard to believe how well our team got along from the outset. Maybe working outside in the sunny 75-degree weather put us all in good moods…</p>
+
+<p><img src="/images/blog/nyuad/outside.jpg" alt="Working outside" /></p>
+
+<p>Whatever the reason, all of our group work went really smoothly, as we achieved that elusive balance of staying focused and having a ton of fun along the way. Looking back, I think there were two separate factors that made us a great team.</p>
+
+<h4 id="technical-skill">Technical skill</h4>
+
+<p>The first factor was technical skill. The fact of the matter is, <strong>to quickly develop a great product, everyone needs to be on the same page mentally</strong>. Pure intelligence and quickness are crucial for keeping conversations moving, and software development experience is also important, especially in a hackathon setting where huge architectural decisions are made based on gut feeling and there isn’t really time to learn new technologies.</p>
+
+<p>Seth, Alex and I were able to dive right into the Rails project because of our previous experience with the framework, splitting up both frontend and backend work evenly between us. Omar was fast enough with XCode to singlehandedly develop an entire native videochat-enabled iOS app that interfaced with our server in just two days. Our mentors were also really talented developers and could help us out whenever we got stuck.</p>
+
+<p>Because we were all on the same page, I was able to trust all of my teammates 100% with whatever they were working on without feeling any need to check up on them, and that was a rare and exhilarating experience. I’ve never even laid eyes on a lot of the code that’s in our final product, and I love that that’s the case. I hope I can achieve this level of trust on many software projects to come, but it’s not easy – one person not on the same level as everyone else can tear apart the whole web of trust. Steve Jobs and others have referred to this phenomenon as only having “A Players” on a team. I’m not sure I like that way of putting it, but I know what they mean.</p>
+
+<h4 id="personalities">Personalities</h4>
+
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+
+<p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
+
+<h2 id="edge-case">3. Edge case!</h2>
+
+<p><img src="/images/blog/nyuad/nullpointer.png" alt="Null pointer comic " /></p>
+
+<p>(Comic cred: <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>)</p>
+
+<p>After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated “Edge Case,” and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished on time.</p>
+
+<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and <strong>ruthlessly discarding appropriate edge cases is one good way to maintain discipline</strong>.</p>
+
+<h2 id="hackathons">Hackathons</h2>
+
+<p>I’d encourage everyone to participate in hackathons. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
 </p>
-  </div>
+  </article>
 
   
-    
-  <div class="post">
-    <h1>My zeroth post</h1>
-    <p><p>This was published in the past!</p>
-</p>
-  </div>
-
-  
-</div>;T;	I"�<div class="panel_title">
+</div>;T;	I"�<div class="panel_title">
   <span class="slashes">// </span>
   <h1>Blog</h1>
 </div>
 
 <div class="panel_content">
- <% articles = @items.select{|item| item.attributes[:kind] == 'article'}.sort_by{|article| article.attributes[:created_at]}.reverse %>  <!-- todo: put in a helper -->
-  <% articles.each do |article| %>
+  <% sorted_articles.each do |article| %>
     <%= article.compiled_content(:snapshot => :last) %>
   <% end %>
 </div>;T;
-@OI"/js/hashchange/;T{;{;I"�/*
+@RI"/js/hashchange/;T{;{;I"�/*
  * jQuery hashchange event - v1.3 - 7/21/2010
  * http://benalman.com/projects/jquery-hashchange-plugin/
  * 
@@ -5461,8 +5972,8 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
  * Dual licensed under the MIT and GPL licenses.
  * http://benalman.com/about/license/
  */
-(function($,e,b){var c="hashchange",h=document,f,g=$.event.special,i=h.documentMode,d="on"+c in e&&(i===b||i>7);function a(j){j=j||location.href;return"#"+j.replace(/^[^#]*#?(.*)$/,"$1")}$.fn[c]=function(j){return j?this.bind(c,j):this.trigger(c)};$.fn[c].delay=50;g[c]=$.extend(g[c],{setup:function(){if(d){return false}$(f.start)},teardown:function(){if(d){return false}$(f.stop)}});f=(function(){var j={},p,m=a(),k=function(q){return q},l=k,o=k;j.start=function(){p||n()};j.stop=function(){p&&clearTimeout(p);p=b};function n(){var r=a(),q=o(m);if(r!==m){l(m=r,q);$(e).trigger(c)}else{if(q!==m){location.href=location.href.replace(/#.*/,"")+q}}p=setTimeout(n,$.fn[c].delay)}$.browser.msie&&!d&&(function(){var q,r;j.start=function(){if(!q){r=$.fn[c].src;r=r&&r+a();q=$('<iframe tabindex="-1" title="empty"/>').hide().one("load",function(){r||l(a());n()}).attr("src",r||"javascript:0").insertAfter("body")[0].contentWindow;h.onpropertychange=function(){try{if(event.propertyName==="title"){q.document.title=h.title}}catch(s){}}}};j.stop=k;o=function(){return a(q.location.href)};l=function(v,s){var u=q.document,t=$.fn[c].domain;if(v!==s){u.title=h.title;u.open();t&&u.write('<script>document.domain="'+t+'"<\/script>');u.close();q.location.hash=v}}})();return j})()})(jQuery,this);;T;	@T;
-@TI"/js/masonry/;T{;{;I"[/**
+(function($,e,b){var c="hashchange",h=document,f,g=$.event.special,i=h.documentMode,d="on"+c in e&&(i===b||i>7);function a(j){j=j||location.href;return"#"+j.replace(/^[^#]*#?(.*)$/,"$1")}$.fn[c]=function(j){return j?this.bind(c,j):this.trigger(c)};$.fn[c].delay=50;g[c]=$.extend(g[c],{setup:function(){if(d){return false}$(f.start)},teardown:function(){if(d){return false}$(f.stop)}});f=(function(){var j={},p,m=a(),k=function(q){return q},l=k,o=k;j.start=function(){p||n()};j.stop=function(){p&&clearTimeout(p);p=b};function n(){var r=a(),q=o(m);if(r!==m){l(m=r,q);$(e).trigger(c)}else{if(q!==m){location.href=location.href.replace(/#.*/,"")+q}}p=setTimeout(n,$.fn[c].delay)}$.browser.msie&&!d&&(function(){var q,r;j.start=function(){if(!q){r=$.fn[c].src;r=r&&r+a();q=$('<iframe tabindex="-1" title="empty"/>').hide().one("load",function(){r||l(a());n()}).attr("src",r||"javascript:0").insertAfter("body")[0].contentWindow;h.onpropertychange=function(){try{if(event.propertyName==="title"){q.document.title=h.title}}catch(s){}}}};j.stop=k;o=function(){return a(q.location.href)};l=function(v,s){var u=q.document,t=$.fn[c].domain;if(v!==s){u.title=h.title;u.open();t&&u.write('<script>document.domain="'+t+'"<\/script>');u.close();q.location.hash=v}}})();return j})()})(jQuery,this);;T;	@W;
+@WI"/js/masonry/;T{;{;I"[/**
  * jQuery Masonry v2.1.05
  * A dynamic layout plugin for jQuery
  * The flip-side of CSS Floats
@@ -5471,11 +5982,11 @@ I"o<p>Hi there! I’m a <strong>web developer and designer</strong>, currently
  * Licensed under the MIT license.
  * Copyright 2012 David DeSandro
  */
-(function(a,b,c){"use strict";var d=b.event,e;d.special.smartresize={setup:function(){b(this).bind("resize",d.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",d.special.smartresize.handler)},handler:function(a,c){var d=this,f=arguments;a.type="smartresize",e&&clearTimeout(e),e=setTimeout(function(){b.event.handle.apply(d,f)},c==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Mason=function(a,c){this.element=b(c),this._create(a),this._init()},b.Mason.settings={isResizable:!0,isAnimated:!1,animationOptions:{queue:!1,duration:500},gutterWidth:0,isRTL:!1,isFitWidth:!1,containerStyle:{position:"relative"}},b.Mason.prototype={_filterFindBricks:function(a){var b=this.options.itemSelector;return b?a.filter(b).add(a.find(b)):a},_getBricks:function(a){var b=this._filterFindBricks(a).css({position:"absolute"}).addClass("masonry-brick");return b},_create:function(c){this.options=b.extend(!0,{},b.Mason.settings,c),this.styleQueue=[];var d=this.element[0].style;this.originalStyle={height:d.height||""};var e=this.options.containerStyle;for(var f in e)this.originalStyle[f]=d[f]||"";this.element.css(e),this.horizontalDirection=this.options.isRTL?"right":"left",this.offset={x:parseInt(this.element.css("padding-"+this.horizontalDirection),10),y:parseInt(this.element.css("padding-top"),10)},this.isFluid=this.options.columnWidth&&typeof this.options.columnWidth=="function";var g=this;setTimeout(function(){g.element.addClass("masonry")},0),this.options.isResizable&&b(a).bind("smartresize.masonry",function(){g.resize()}),this.reloadItems()},_init:function(a){this._getColumns(),this._reLayout(a)},option:function(a,c){b.isPlainObject(a)&&(this.options=b.extend(!0,this.options,a))},layout:function(a,b){for(var c=0,d=a.length;c<d;c++)this._placeBrick(a[c]);var e={};e.height=Math.max.apply(Math,this.colYs);if(this.options.isFitWidth){var f=0;c=this.cols;while(--c){if(this.colYs[c]!==0)break;f++}e.width=(this.cols-f)*this.columnWidth-this.options.gutterWidth}this.styleQueue.push({$el:this.element,style:e});var g=this.isLaidOut?this.options.isAnimated?"animate":"css":"css",h=this.options.animationOptions,i;for(c=0,d=this.styleQueue.length;c<d;c++)i=this.styleQueue[c],i.$el[g](i.style,h);this.styleQueue=[],b&&b.call(a),this.isLaidOut=!0},_getColumns:function(){var a=this.options.isFitWidth?this.element.parent():this.element,b=a.width();this.columnWidth=this.isFluid?this.options.columnWidth(b):this.options.columnWidth||this.$bricks.outerWidth(!0)||b,this.columnWidth+=this.options.gutterWidth,this.cols=Math.floor((b+this.options.gutterWidth)/this.columnWidth),this.cols=Math.max(this.cols,1)},_placeBrick:function(a){var c=b(a),d,e,f,g,h;d=Math.ceil(c.outerWidth(!0)/this.columnWidth),d=Math.min(d,this.cols);if(d===1)f=this.colYs;else{e=this.cols+1-d,f=[];for(h=0;h<e;h++)g=this.colYs.slice(h,h+d),f[h]=Math.max.apply(Math,g)}var i=Math.min.apply(Math,f),j=0;for(var k=0,l=f.length;k<l;k++)if(f[k]===i){j=k;break}var m={top:i+this.offset.y};m[this.horizontalDirection]=this.columnWidth*j+this.offset.x,this.styleQueue.push({$el:c,style:m});var n=i+c.outerHeight(!0),o=this.cols+1-l;for(k=0;k<o;k++)this.colYs[j+k]=n},resize:function(){var a=this.cols;this._getColumns(),(this.isFluid||this.cols!==a)&&this._reLayout()},_reLayout:function(a){var b=this.cols;this.colYs=[];while(b--)this.colYs.push(0);this.layout(this.$bricks,a)},reloadItems:function(){this.$bricks=this._getBricks(this.element.children())},reload:function(a){this.reloadItems(),this._init(a)},appended:function(a,b,c){if(b){this._filterFindBricks(a).css({top:this.element.height()});var d=this;setTimeout(function(){d._appended(a,c)},1)}else this._appended(a,c)},_appended:function(a,b){var c=this._getBricks(a);this.$bricks=this.$bricks.add(c),this.layout(c,b)},remove:function(a){this.$bricks=this.$bricks.not(a),a.remove()},destroy:function(){this.$bricks.removeClass("masonry-brick").each(function(){this.style.position="",this.style.top="",this.style.left=""});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".masonry").removeClass("masonry").removeData("masonry"),b(a).unbind(".masonry")}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var f=function(b){a.console&&a.console.error(b)};b.fn.masonry=function(a){if(typeof a=="string"){var c=Array.prototype.slice.call(arguments,1);this.each(function(){var d=b.data(this,"masonry");if(!d){f("cannot call methods on masonry prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(d[a])||a.charAt(0)==="_"){f("no such method '"+a+"' for masonry instance");return}d[a].apply(d,c)})}else this.each(function(){var c=b.data(this,"masonry");c?(c.option(a||{}),c._init()):b.data(this,"masonry",new b.Mason(a,this))});return this}})(window,jQuery);;T;	@X;
-@XI"/js/imagesloaded/;T{;{;I"�(function(c,n){var k="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";c.fn.imagesLoaded=function(l){function m(){var b=c(h),a=c(g);d&&(g.length?d.reject(e,b,a):d.resolve(e));c.isFunction(l)&&l.call(f,e,b,a)}function i(b,a){b.src===k||-1!==c.inArray(b,j)||(j.push(b),a?g.push(b):h.push(b),c.data(b,"imagesLoaded",{isBroken:a,src:b.src}),o&&d.notifyWith(c(b),[a,e,c(h),c(g)]),e.length===j.length&&(setTimeout(m),e.unbind(".imagesLoaded")))}var f=this,d=c.isFunction(c.Deferred)?c.Deferred():
+(function(a,b,c){"use strict";var d=b.event,e;d.special.smartresize={setup:function(){b(this).bind("resize",d.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",d.special.smartresize.handler)},handler:function(a,c){var d=this,f=arguments;a.type="smartresize",e&&clearTimeout(e),e=setTimeout(function(){b.event.handle.apply(d,f)},c==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Mason=function(a,c){this.element=b(c),this._create(a),this._init()},b.Mason.settings={isResizable:!0,isAnimated:!1,animationOptions:{queue:!1,duration:500},gutterWidth:0,isRTL:!1,isFitWidth:!1,containerStyle:{position:"relative"}},b.Mason.prototype={_filterFindBricks:function(a){var b=this.options.itemSelector;return b?a.filter(b).add(a.find(b)):a},_getBricks:function(a){var b=this._filterFindBricks(a).css({position:"absolute"}).addClass("masonry-brick");return b},_create:function(c){this.options=b.extend(!0,{},b.Mason.settings,c),this.styleQueue=[];var d=this.element[0].style;this.originalStyle={height:d.height||""};var e=this.options.containerStyle;for(var f in e)this.originalStyle[f]=d[f]||"";this.element.css(e),this.horizontalDirection=this.options.isRTL?"right":"left",this.offset={x:parseInt(this.element.css("padding-"+this.horizontalDirection),10),y:parseInt(this.element.css("padding-top"),10)},this.isFluid=this.options.columnWidth&&typeof this.options.columnWidth=="function";var g=this;setTimeout(function(){g.element.addClass("masonry")},0),this.options.isResizable&&b(a).bind("smartresize.masonry",function(){g.resize()}),this.reloadItems()},_init:function(a){this._getColumns(),this._reLayout(a)},option:function(a,c){b.isPlainObject(a)&&(this.options=b.extend(!0,this.options,a))},layout:function(a,b){for(var c=0,d=a.length;c<d;c++)this._placeBrick(a[c]);var e={};e.height=Math.max.apply(Math,this.colYs);if(this.options.isFitWidth){var f=0;c=this.cols;while(--c){if(this.colYs[c]!==0)break;f++}e.width=(this.cols-f)*this.columnWidth-this.options.gutterWidth}this.styleQueue.push({$el:this.element,style:e});var g=this.isLaidOut?this.options.isAnimated?"animate":"css":"css",h=this.options.animationOptions,i;for(c=0,d=this.styleQueue.length;c<d;c++)i=this.styleQueue[c],i.$el[g](i.style,h);this.styleQueue=[],b&&b.call(a),this.isLaidOut=!0},_getColumns:function(){var a=this.options.isFitWidth?this.element.parent():this.element,b=a.width();this.columnWidth=this.isFluid?this.options.columnWidth(b):this.options.columnWidth||this.$bricks.outerWidth(!0)||b,this.columnWidth+=this.options.gutterWidth,this.cols=Math.floor((b+this.options.gutterWidth)/this.columnWidth),this.cols=Math.max(this.cols,1)},_placeBrick:function(a){var c=b(a),d,e,f,g,h;d=Math.ceil(c.outerWidth(!0)/this.columnWidth),d=Math.min(d,this.cols);if(d===1)f=this.colYs;else{e=this.cols+1-d,f=[];for(h=0;h<e;h++)g=this.colYs.slice(h,h+d),f[h]=Math.max.apply(Math,g)}var i=Math.min.apply(Math,f),j=0;for(var k=0,l=f.length;k<l;k++)if(f[k]===i){j=k;break}var m={top:i+this.offset.y};m[this.horizontalDirection]=this.columnWidth*j+this.offset.x,this.styleQueue.push({$el:c,style:m});var n=i+c.outerHeight(!0),o=this.cols+1-l;for(k=0;k<o;k++)this.colYs[j+k]=n},resize:function(){var a=this.cols;this._getColumns(),(this.isFluid||this.cols!==a)&&this._reLayout()},_reLayout:function(a){var b=this.cols;this.colYs=[];while(b--)this.colYs.push(0);this.layout(this.$bricks,a)},reloadItems:function(){this.$bricks=this._getBricks(this.element.children())},reload:function(a){this.reloadItems(),this._init(a)},appended:function(a,b,c){if(b){this._filterFindBricks(a).css({top:this.element.height()});var d=this;setTimeout(function(){d._appended(a,c)},1)}else this._appended(a,c)},_appended:function(a,b){var c=this._getBricks(a);this.$bricks=this.$bricks.add(c),this.layout(c,b)},remove:function(a){this.$bricks=this.$bricks.not(a),a.remove()},destroy:function(){this.$bricks.removeClass("masonry-brick").each(function(){this.style.position="",this.style.top="",this.style.left=""});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".masonry").removeClass("masonry").removeData("masonry"),b(a).unbind(".masonry")}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var f=function(b){a.console&&a.console.error(b)};b.fn.masonry=function(a){if(typeof a=="string"){var c=Array.prototype.slice.call(arguments,1);this.each(function(){var d=b.data(this,"masonry");if(!d){f("cannot call methods on masonry prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(d[a])||a.charAt(0)==="_"){f("no such method '"+a+"' for masonry instance");return}d[a].apply(d,c)})}else this.each(function(){var c=b.data(this,"masonry");c?(c.option(a||{}),c._init()):b.data(this,"masonry",new b.Mason(a,this))});return this}})(window,jQuery);;T;	@[;
+@[I"/js/imagesloaded/;T{;{;I"�(function(c,n){var k="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";c.fn.imagesLoaded=function(l){function m(){var b=c(h),a=c(g);d&&(g.length?d.reject(e,b,a):d.resolve(e));c.isFunction(l)&&l.call(f,e,b,a)}function i(b,a){b.src===k||-1!==c.inArray(b,j)||(j.push(b),a?g.push(b):h.push(b),c.data(b,"imagesLoaded",{isBroken:a,src:b.src}),o&&d.notifyWith(c(b),[a,e,c(h),c(g)]),e.length===j.length&&(setTimeout(m),e.unbind(".imagesLoaded")))}var f=this,d=c.isFunction(c.Deferred)?c.Deferred():
 0,o=c.isFunction(d.notify),e=f.find("img").add(f.filter("img")),j=[],h=[],g=[];e.length?e.bind("load.imagesLoaded error.imagesLoaded",function(b){i(b.target,"error"===b.type)}).each(function(b,a){var e=a.src,d=c.data(a,"imagesLoaded");if(d&&d.src===e)i(a,d.isBroken);else if(a.complete&&a.naturalWidth!==n)i(a,0===a.naturalWidth||0===a.naturalHeight);else if(a.readyState||a.complete)a.src=k,a.src=e}):m();return d?d.promise(f):f}})(jQuery);
-;T;	@\;
-@\I"/images/linkedin/;T{;{ I"/images/github/;T{;{ I"/images/classroulette/;T{;{ I"/images/about-photo/;T{;{ I"/projects/classroulette/;T{;{	;I"�<div class="project_box">
+;T;	@_;
+@_I"/images/linkedin/;T{;{ I"/images/github/;T{;{ I"/images/classroulette/;T{;{ I"/images/about-photo/;T{;{ I"/projects/classroulette/;T{;{	;I"�<div class="project_box">
   
     <a href="http://yaleclassroulette.com" target="_blank"><h1 class="project_name">Yale Classroulette</h1></a>
     <h2 class="project_tools">Javascript, Ruby/Sinatra</h2>
@@ -5500,7 +6011,7 @@ I"�<p>Classroulette is a simple online interface to explore the Yale course ca
 
 <h2 id="tech-stack">Tech Stack</h2>
 <p>The frontend uses the jQuery Isotope layout plugin with some custom sorting logic. The backend is a light Sinatra app serving course info scraped from the Yale site. Deployed on Heroku.</p>
-;T;@lI"/projects/sendquest/;T{;{	;I"�<div class="project_box">
+;T;@oI"/projects/sendquest/;T{;{	;I"�<div class="project_box">
   
     <a href="http://sendquest.in" target="_blank"><h1 class="project_name">Sendquest.in</h1></a>
     <h2 class="project_tools">Ruby on Rails, Javascript, Twilio API</h2>
@@ -5534,7 +6045,7 @@ I"�<p>Sendquest.in is a live polling service that allows a group to vote on a 
 
 <h2 id="collaboration">Collaboration</h2>
 <p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
-;T;@rI"/images/sendquest/;T{;{ I"/images/deneb/;T{;{ I"/projects/deneb/;T{;{	;I"�<div class="project_box">
+;T;@uI"/images/sendquest/;T{;{ I"/images/deneb/;T{;{ I"/projects/deneb/;T{;{	;I"�<div class="project_box">
   
     <a href="http://denebre.com" target="_blank"><h1 class="project_name">DenebRe.com</h1></a>
     <h2 class="project_tools">Static website, brand design</h2>
@@ -5568,7 +6079,7 @@ I"�<p>A static website for Deneb Renewable, a solar energy startup based in To
 
 <h2 id="tech-stack">Tech Stack</h2>
 <p>The site uses the nanoc static site generator to easily compile versions of the site in both Japanese and English, without having to deploy any dynamic code to the server.</p>
-;T;@~I"/images/yalepulse/;T{;{ I"/projects/yalepulse/;T{;{	;I"y<div class="project_box">
+;T;@|I"/images/yalepulse/;T{;{ I"/projects/yalepulse/;T{;{	;I"y<div class="project_box">
   
     <a href="http://yalepulse.com" target="_blank"><h1 class="project_name">YalePulse</h1></a>
     <h2 class="project_tools">Ruby on Rails, Javascript</h2>
@@ -5602,7 +6113,7 @@ I"c<p>YalePulse is a polling website developed for the Yale College Council to
 
 <h2 id="collaboration">Collaboration</h2>
 <p>Built with <a href="http://seth.fm" target="_blank">Seth Thompson</a>. I wrote the backend, he did the beautiful design and graph Javascript.</p>
-;T;@�I"!/projects/bryandoesitbetter/;T{;{	;I"<div class="project_box">
+;T;@�I"!/projects/bryandoesitbetter/;T{;{	;I"<div class="project_box">
   
     <a href="http://bryandoesitbetter.com" target="_blank"><h1 class="project_name">Bryan Does It Better</h1></a>
     <h2 class="project_tools">Static website, visual design</h2>
@@ -5627,7 +6138,7 @@ I"�<p>I designed the website for my friend Bryan’s campaign for Yale College
 
 <h2 id="visual-design">Visual Design</h2>
 <p>The website is no-frills and simply showcases the content, with a classic American color scheme. Many visitors to the site weren’t too interested in details, so I made sure the front page contained a personal pitch with all the important info.</p>
-;T;@�I"/images/bryandoesitbetter/;T{;{ I"/js/isotope/;T{;{;I">/**
+;T;@�I"/images/bryandoesitbetter/;T{;{ I"/js/isotope/;T{;{;I">/**
  * Isotope v1.5.19
  * An exquisite jQuery plugin for magical layouts
  * http://isotope.metafizzy.co
@@ -5637,8 +6148,8 @@ I"�<p>I designed the website for my friend Bryan’s campaign for Yale College
  *
  * Copyright 2012 David DeSandro / Metafizzy
  */
-(function(a,b,c){"use strict";var d=a.document,e=a.Modernizr,f=function(a){return a.charAt(0).toUpperCase()+a.slice(1)},g="Moz Webkit O Ms".split(" "),h=function(a){var b=d.documentElement.style,c;if(typeof b[a]=="string")return a;a=f(a);for(var e=0,h=g.length;e<h;e++){c=g[e]+a;if(typeof b[c]=="string")return c}},i=h("transform"),j=h("transitionProperty"),k={csstransforms:function(){return!!i},csstransforms3d:function(){var a=!!h("perspective");if(a){var c=" -o- -moz- -ms- -webkit- -khtml- ".split(" "),d="@media ("+c.join("transform-3d),(")+"modernizr)",e=b("<style>"+d+"{#modernizr{height:3px}}"+"</style>").appendTo("head"),f=b('<div id="modernizr" />').appendTo("html");a=f.height()===3,f.remove(),e.remove()}return a},csstransitions:function(){return!!j}},l;if(e)for(l in k)e.hasOwnProperty(l)||e.addTest(l,k[l]);else{e=a.Modernizr={_version:"1.6ish: miniModernizr for Isotope"};var m=" ",n;for(l in k)n=k[l](),e[l]=n,m+=" "+(n?"":"no-")+l;b("html").addClass(m)}if(e.csstransforms){var o=e.csstransforms3d?{translate:function(a){return"translate3d("+a[0]+"px, "+a[1]+"px, 0) "},scale:function(a){return"scale3d("+a+", "+a+", 1) "}}:{translate:function(a){return"translate("+a[0]+"px, "+a[1]+"px) "},scale:function(a){return"scale("+a+") "}},p=function(a,c,d){var e=b.data(a,"isoTransform")||{},f={},g,h={},j;f[c]=d,b.extend(e,f);for(g in e)j=e[g],h[g]=o[g](j);var k=h.translate||"",l=h.scale||"",m=k+l;b.data(a,"isoTransform",e),a.style[i]=m};b.cssNumber.scale=!0,b.cssHooks.scale={set:function(a,b){p(a,"scale",b)},get:function(a,c){var d=b.data(a,"isoTransform");return d&&d.scale?d.scale:1}},b.fx.step.scale=function(a){b.cssHooks.scale.set(a.elem,a.now+a.unit)},b.cssNumber.translate=!0,b.cssHooks.translate={set:function(a,b){p(a,"translate",b)},get:function(a,c){var d=b.data(a,"isoTransform");return d&&d.translate?d.translate:[0,0]}}}var q,r;e.csstransitions&&(q={WebkitTransitionProperty:"webkitTransitionEnd",MozTransitionProperty:"transitionend",OTransitionProperty:"oTransitionEnd",transitionProperty:"transitionEnd"}[j],r=h("transitionDuration"));var s=b.event,t;s.special.smartresize={setup:function(){b(this).bind("resize",s.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",s.special.smartresize.handler)},handler:function(a,b){var c=this,d=arguments;a.type="smartresize",t&&clearTimeout(t),t=setTimeout(function(){jQuery.event.handle.apply(c,d)},b==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Isotope=function(a,c,d){this.element=b(c),this._create(a),this._init(d)};var u=["width","height"],v=b(a);b.Isotope.settings={resizable:!0,layoutMode:"masonry",containerClass:"isotope",itemClass:"isotope-item",hiddenClass:"isotope-hidden",hiddenStyle:{opacity:0,scale:.001},visibleStyle:{opacity:1,scale:1},containerStyle:{position:"relative",overflow:"hidden"},animationEngine:"best-available",animationOptions:{queue:!1,duration:800},sortBy:"original-order",sortAscending:!0,resizesContainer:!0,transformsEnabled:!b.browser.opera,itemPositionDataEnabled:!1},b.Isotope.prototype={_create:function(a){this.options=b.extend({},b.Isotope.settings,a),this.styleQueue=[],this.elemCount=0;var c=this.element[0].style;this.originalStyle={};var d=u.slice(0);for(var e in this.options.containerStyle)d.push(e);for(var f=0,g=d.length;f<g;f++)e=d[f],this.originalStyle[e]=c[e]||"";this.element.css(this.options.containerStyle),this._updateAnimationEngine(),this._updateUsingTransforms();var h={"original-order":function(a,b){return b.elemCount++,b.elemCount},random:function(){return Math.random()}};this.options.getSortData=b.extend(this.options.getSortData,h),this.reloadItems(),this.offset={left:parseInt(this.element.css("padding-left")||0,10),top:parseInt(this.element.css("padding-top")||0,10)};var i=this;setTimeout(function(){i.element.addClass(i.options.containerClass)},0),this.options.resizable&&v.bind("smartresize.isotope",function(){i.resize()}),this.element.delegate("."+this.options.hiddenClass,"click",function(){return!1})},_getAtoms:function(a){var b=this.options.itemSelector,c=b?a.filter(b).add(a.find(b)):a,d={position:"absolute"};return this.usingTransforms&&(d.left=0,d.top=0),c.css(d).addClass(this.options.itemClass),this.updateSortData(c,!0),c},_init:function(a){this.$filteredAtoms=this._filter(this.$allAtoms),this._sort(),this.reLayout(a)},option:function(a){if(b.isPlainObject(a)){this.options=b.extend(!0,this.options,a);var c;for(var d in a)c="_update"+f(d),this[c]&&this[c]()}},_updateAnimationEngine:function(){var a=this.options.animationEngine.toLowerCase().replace(/[ _\-]/g,""),b;switch(a){case"css":case"none":b=!1;break;case"jquery":b=!0;break;default:b=!e.csstransitions}this.isUsingJQueryAnimation=b,this._updateUsingTransforms()},_updateTransformsEnabled:function(){this._updateUsingTransforms()},_updateUsingTransforms:function(){var a=this.usingTransforms=this.options.transformsEnabled&&e.csstransforms&&e.csstransitions&&!this.isUsingJQueryAnimation;a||(delete this.options.hiddenStyle.scale,delete this.options.visibleStyle.scale),this.getPositionStyles=a?this._translate:this._positionAbs},_filter:function(a){var b=this.options.filter===""?"*":this.options.filter;if(!b)return a;var c=this.options.hiddenClass,d="."+c,e=a.filter(d),f=e;if(b!=="*"){f=e.filter(b);var g=a.not(d).not(b).addClass(c);this.styleQueue.push({$el:g,style:this.options.hiddenStyle})}return this.styleQueue.push({$el:f,style:this.options.visibleStyle}),f.removeClass(c),a.filter(b)},updateSortData:function(a,c){var d=this,e=this.options.getSortData,f,g;a.each(function(){f=b(this),g={};for(var a in e)!c&&a==="original-order"?g[a]=b.data(this,"isotope-sort-data")[a]:g[a]=e[a](f,d);b.data(this,"isotope-sort-data",g)})},_sort:function(){var a=this.options.sortBy,b=this._getSorter,c=this.options.sortAscending?1:-1,d=function(d,e){var f=b(d,a),g=b(e,a);return f===g&&a!=="original-order"&&(f=b(d,"original-order"),g=b(e,"original-order")),(f>g?1:f<g?-1:0)*c};this.$filteredAtoms.sort(d)},_getSorter:function(a,c){return b.data(a,"isotope-sort-data")[c]},_translate:function(a,b){return{translate:[a,b]}},_positionAbs:function(a,b){return{left:a,top:b}},_pushPosition:function(a,b,c){b=Math.round(b+this.offset.left),c=Math.round(c+this.offset.top);var d=this.getPositionStyles(b,c);this.styleQueue.push({$el:a,style:d}),this.options.itemPositionDataEnabled&&a.data("isotope-item-position",{x:b,y:c})},layout:function(a,b){var c=this.options.layoutMode;this["_"+c+"Layout"](a);if(this.options.resizesContainer){var d=this["_"+c+"GetContainerSize"]();this.styleQueue.push({$el:this.element,style:d})}this._processStyleQueue(a,b),this.isLaidOut=!0},_processStyleQueue:function(a,c){var d=this.isLaidOut?this.isUsingJQueryAnimation?"animate":"css":"css",f=this.options.animationOptions,g=this.options.onLayout,h,i,j,k;i=function(a,b){b.$el[d](b.style,f)};if(this._isInserting&&this.isUsingJQueryAnimation)i=function(a,b){h=b.$el.hasClass("no-transition")?"css":d,b.$el[h](b.style,f)};else if(c||g||f.complete){var l=!1,m=[c,g,f.complete],n=this;j=!0,k=function(){if(l)return;var b;for(var c=0,d=m.length;c<d;c++)b=m[c],typeof b=="function"&&b.call(n.element,a,n);l=!0};if(this.isUsingJQueryAnimation&&d==="animate")f.complete=k,j=!1;else if(e.csstransitions){var o=0,p=this.styleQueue[0],s=p&&p.$el,t;while(!s||!s.length){t=this.styleQueue[o++];if(!t)return;s=t.$el}var u=parseFloat(getComputedStyle(s[0])[r]);u>0&&(i=function(a,b){b.$el[d](b.style,f).one(q,k)},j=!1)}}b.each(this.styleQueue,i),j&&k(),this.styleQueue=[]},resize:function(){this["_"+this.options.layoutMode+"ResizeChanged"]()&&this.reLayout()},reLayout:function(a){this["_"+this.options.layoutMode+"Reset"](),this.layout(this.$filteredAtoms,a)},addItems:function(a,b){var c=this._getAtoms(a);this.$allAtoms=this.$allAtoms.add(c),b&&b(c)},insert:function(a,b){this.element.append(a);var c=this;this.addItems(a,function(a){var d=c._filter(a);c._addHideAppended(d),c._sort(),c.reLayout(),c._revealAppended(d,b)})},appended:function(a,b){var c=this;this.addItems(a,function(a){c._addHideAppended(a),c.layout(a),c._revealAppended(a,b)})},_addHideAppended:function(a){this.$filteredAtoms=this.$filteredAtoms.add(a),a.addClass("no-transition"),this._isInserting=!0,this.styleQueue.push({$el:a,style:this.options.hiddenStyle})},_revealAppended:function(a,b){var c=this;setTimeout(function(){a.removeClass("no-transition"),c.styleQueue.push({$el:a,style:c.options.visibleStyle}),c._isInserting=!1,c._processStyleQueue(a,b)},10)},reloadItems:function(){this.$allAtoms=this._getAtoms(this.element.children())},remove:function(a,b){var c=this,d=function(){c.$allAtoms=c.$allAtoms.not(a),a.remove(),b&&b.call(c.element)};a.filter(":not(."+this.options.hiddenClass+")").length?(this.styleQueue.push({$el:a,style:this.options.hiddenStyle}),this.$filteredAtoms=this.$filteredAtoms.not(a),this._sort(),this.reLayout(d)):d()},shuffle:function(a){this.updateSortData(this.$allAtoms),this.options.sortBy="random",this._sort(),this.reLayout(a)},destroy:function(){var a=this.usingTransforms,b=this.options;this.$allAtoms.removeClass(b.hiddenClass+" "+b.itemClass).each(function(){var b=this.style;b.position="",b.top="",b.left="",b.opacity="",a&&(b[i]="")});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".isotope").undelegate("."+b.hiddenClass,"click").removeClass(b.containerClass).removeData("isotope"),v.unbind(".isotope")},_getSegments:function(a){var b=this.options.layoutMode,c=a?"rowHeight":"columnWidth",d=a?"height":"width",e=a?"rows":"cols",g=this.element[d](),h,i=this.options[b]&&this.options[b][c]||this.$filteredAtoms["outer"+f(d)](!0)||g;h=Math.floor(g/i),h=Math.max(h,1),this[b][e]=h,this[b][c]=i},_checkIfSegmentsChanged:function(a){var b=this.options.layoutMode,c=a?"rows":"cols",d=this[b][c];return this._getSegments(a),this[b][c]!==d},_masonryReset:function(){this.masonry={},this._getSegments();var a=this.masonry.cols;this.masonry.colYs=[];while(a--)this.masonry.colYs.push(0)},_masonryLayout:function(a){var c=this,d=c.masonry;a.each(function(){var a=b(this),e=Math.ceil(a.outerWidth(!0)/d.columnWidth);e=Math.min(e,d.cols);if(e===1)c._masonryPlaceBrick(a,d.colYs);else{var f=d.cols+1-e,g=[],h,i;for(i=0;i<f;i++)h=d.colYs.slice(i,i+e),g[i]=Math.max.apply(Math,h);c._masonryPlaceBrick(a,g)}})},_masonryPlaceBrick:function(a,b){var c=Math.min.apply(Math,b),d=0;for(var e=0,f=b.length;e<f;e++)if(b[e]===c){d=e;break}var g=this.masonry.columnWidth*d,h=c;this._pushPosition(a,g,h);var i=c+a.outerHeight(!0),j=this.masonry.cols+1-f;for(e=0;e<j;e++)this.masonry.colYs[d+e]=i},_masonryGetContainerSize:function(){var a=Math.max.apply(Math,this.masonry.colYs);return{height:a}},_masonryResizeChanged:function(){return this._checkIfSegmentsChanged()},_fitRowsReset:function(){this.fitRows={x:0,y:0,height:0}},_fitRowsLayout:function(a){var c=this,d=this.element.width(),e=this.fitRows;a.each(function(){var a=b(this),f=a.outerWidth(!0),g=a.outerHeight(!0);e.x!==0&&f+e.x>d&&(e.x=0,e.y=e.height),c._pushPosition(a,e.x,e.y),e.height=Math.max(e.y+g,e.height),e.x+=f})},_fitRowsGetContainerSize:function(){return{height:this.fitRows.height}},_fitRowsResizeChanged:function(){return!0},_cellsByRowReset:function(){this.cellsByRow={index:0},this._getSegments(),this._getSegments(!0)},_cellsByRowLayout:function(a){var c=this,d=this.cellsByRow;a.each(function(){var a=b(this),e=d.index%d.cols,f=Math.floor(d.index/d.cols),g=(e+.5)*d.columnWidth-a.outerWidth(!0)/2,h=(f+.5)*d.rowHeight-a.outerHeight(!0)/2;c._pushPosition(a,g,h),d.index++})},_cellsByRowGetContainerSize:function(){return{height:Math.ceil(this.$filteredAtoms.length/this.cellsByRow.cols)*this.cellsByRow.rowHeight+this.offset.top}},_cellsByRowResizeChanged:function(){return this._checkIfSegmentsChanged()},_straightDownReset:function(){this.straightDown={y:0}},_straightDownLayout:function(a){var c=this;a.each(function(a){var d=b(this);c._pushPosition(d,0,c.straightDown.y),c.straightDown.y+=d.outerHeight(!0)})},_straightDownGetContainerSize:function(){return{height:this.straightDown.y}},_straightDownResizeChanged:function(){return!0},_masonryHorizontalReset:function(){this.masonryHorizontal={},this._getSegments(!0);var a=this.masonryHorizontal.rows;this.masonryHorizontal.rowXs=[];while(a--)this.masonryHorizontal.rowXs.push(0)},_masonryHorizontalLayout:function(a){var c=this,d=c.masonryHorizontal;a.each(function(){var a=b(this),e=Math.ceil(a.outerHeight(!0)/d.rowHeight);e=Math.min(e,d.rows);if(e===1)c._masonryHorizontalPlaceBrick(a,d.rowXs);else{var f=d.rows+1-e,g=[],h,i;for(i=0;i<f;i++)h=d.rowXs.slice(i,i+e),g[i]=Math.max.apply(Math,h);c._masonryHorizontalPlaceBrick(a,g)}})},_masonryHorizontalPlaceBrick:function(a,b){var c=Math.min.apply(Math,b),d=0;for(var e=0,f=b.length;e<f;e++)if(b[e]===c){d=e;break}var g=c,h=this.masonryHorizontal.rowHeight*d;this._pushPosition(a,g,h);var i=c+a.outerWidth(!0),j=this.masonryHorizontal.rows+1-f;for(e=0;e<j;e++)this.masonryHorizontal.rowXs[d+e]=i},_masonryHorizontalGetContainerSize:function(){var a=Math.max.apply(Math,this.masonryHorizontal.rowXs);return{width:a}},_masonryHorizontalResizeChanged:function(){return this._checkIfSegmentsChanged(!0)},_fitColumnsReset:function(){this.fitColumns={x:0,y:0,width:0}},_fitColumnsLayout:function(a){var c=this,d=this.element.height(),e=this.fitColumns;a.each(function(){var a=b(this),f=a.outerWidth(!0),g=a.outerHeight(!0);e.y!==0&&g+e.y>d&&(e.x=e.width,e.y=0),c._pushPosition(a,e.x,e.y),e.width=Math.max(e.x+f,e.width),e.y+=g})},_fitColumnsGetContainerSize:function(){return{width:this.fitColumns.width}},_fitColumnsResizeChanged:function(){return!0},_cellsByColumnReset:function(){this.cellsByColumn={index:0},this._getSegments(),this._getSegments(!0)},_cellsByColumnLayout:function(a){var c=this,d=this.cellsByColumn;a.each(function(){var a=b(this),e=Math.floor(d.index/d.rows),f=d.index%d.rows,g=(e+.5)*d.columnWidth-a.outerWidth(!0)/2,h=(f+.5)*d.rowHeight-a.outerHeight(!0)/2;c._pushPosition(a,g,h),d.index++})},_cellsByColumnGetContainerSize:function(){return{width:Math.ceil(this.$filteredAtoms.length/this.cellsByColumn.rows)*this.cellsByColumn.columnWidth}},_cellsByColumnResizeChanged:function(){return this._checkIfSegmentsChanged(!0)},_straightAcrossReset:function(){this.straightAcross={x:0}},_straightAcrossLayout:function(a){var c=this;a.each(function(a){var d=b(this);c._pushPosition(d,c.straightAcross.x,0),c.straightAcross.x+=d.outerWidth(!0)})},_straightAcrossGetContainerSize:function(){return{width:this.straightAcross.x}},_straightAcrossResizeChanged:function(){return!0}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var w=function(b){a.console&&a.console.error(b)};b.fn.isotope=function(a,c){if(typeof a=="string"){var d=Array.prototype.slice.call(arguments,1);this.each(function(){var c=b.data(this,"isotope");if(!c){w("cannot call methods on isotope prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(c[a])||a.charAt(0)==="_"){w("no such method '"+a+"' for isotope instance");return}c[a].apply(c,d)})}else this.each(function(){var d=b.data(this,"isotope");d?(d.option(a),d._init(c)):b.data(this,"isotope",new b.Isotope(a,this,c))});return this}})(window,jQuery);;T;	@�;
-@�I"/projects/bluebooker/;T{;{	;I"*<div class="project_box">
+(function(a,b,c){"use strict";var d=a.document,e=a.Modernizr,f=function(a){return a.charAt(0).toUpperCase()+a.slice(1)},g="Moz Webkit O Ms".split(" "),h=function(a){var b=d.documentElement.style,c;if(typeof b[a]=="string")return a;a=f(a);for(var e=0,h=g.length;e<h;e++){c=g[e]+a;if(typeof b[c]=="string")return c}},i=h("transform"),j=h("transitionProperty"),k={csstransforms:function(){return!!i},csstransforms3d:function(){var a=!!h("perspective");if(a){var c=" -o- -moz- -ms- -webkit- -khtml- ".split(" "),d="@media ("+c.join("transform-3d),(")+"modernizr)",e=b("<style>"+d+"{#modernizr{height:3px}}"+"</style>").appendTo("head"),f=b('<div id="modernizr" />').appendTo("html");a=f.height()===3,f.remove(),e.remove()}return a},csstransitions:function(){return!!j}},l;if(e)for(l in k)e.hasOwnProperty(l)||e.addTest(l,k[l]);else{e=a.Modernizr={_version:"1.6ish: miniModernizr for Isotope"};var m=" ",n;for(l in k)n=k[l](),e[l]=n,m+=" "+(n?"":"no-")+l;b("html").addClass(m)}if(e.csstransforms){var o=e.csstransforms3d?{translate:function(a){return"translate3d("+a[0]+"px, "+a[1]+"px, 0) "},scale:function(a){return"scale3d("+a+", "+a+", 1) "}}:{translate:function(a){return"translate("+a[0]+"px, "+a[1]+"px) "},scale:function(a){return"scale("+a+") "}},p=function(a,c,d){var e=b.data(a,"isoTransform")||{},f={},g,h={},j;f[c]=d,b.extend(e,f);for(g in e)j=e[g],h[g]=o[g](j);var k=h.translate||"",l=h.scale||"",m=k+l;b.data(a,"isoTransform",e),a.style[i]=m};b.cssNumber.scale=!0,b.cssHooks.scale={set:function(a,b){p(a,"scale",b)},get:function(a,c){var d=b.data(a,"isoTransform");return d&&d.scale?d.scale:1}},b.fx.step.scale=function(a){b.cssHooks.scale.set(a.elem,a.now+a.unit)},b.cssNumber.translate=!0,b.cssHooks.translate={set:function(a,b){p(a,"translate",b)},get:function(a,c){var d=b.data(a,"isoTransform");return d&&d.translate?d.translate:[0,0]}}}var q,r;e.csstransitions&&(q={WebkitTransitionProperty:"webkitTransitionEnd",MozTransitionProperty:"transitionend",OTransitionProperty:"oTransitionEnd",transitionProperty:"transitionEnd"}[j],r=h("transitionDuration"));var s=b.event,t;s.special.smartresize={setup:function(){b(this).bind("resize",s.special.smartresize.handler)},teardown:function(){b(this).unbind("resize",s.special.smartresize.handler)},handler:function(a,b){var c=this,d=arguments;a.type="smartresize",t&&clearTimeout(t),t=setTimeout(function(){jQuery.event.handle.apply(c,d)},b==="execAsap"?0:100)}},b.fn.smartresize=function(a){return a?this.bind("smartresize",a):this.trigger("smartresize",["execAsap"])},b.Isotope=function(a,c,d){this.element=b(c),this._create(a),this._init(d)};var u=["width","height"],v=b(a);b.Isotope.settings={resizable:!0,layoutMode:"masonry",containerClass:"isotope",itemClass:"isotope-item",hiddenClass:"isotope-hidden",hiddenStyle:{opacity:0,scale:.001},visibleStyle:{opacity:1,scale:1},containerStyle:{position:"relative",overflow:"hidden"},animationEngine:"best-available",animationOptions:{queue:!1,duration:800},sortBy:"original-order",sortAscending:!0,resizesContainer:!0,transformsEnabled:!b.browser.opera,itemPositionDataEnabled:!1},b.Isotope.prototype={_create:function(a){this.options=b.extend({},b.Isotope.settings,a),this.styleQueue=[],this.elemCount=0;var c=this.element[0].style;this.originalStyle={};var d=u.slice(0);for(var e in this.options.containerStyle)d.push(e);for(var f=0,g=d.length;f<g;f++)e=d[f],this.originalStyle[e]=c[e]||"";this.element.css(this.options.containerStyle),this._updateAnimationEngine(),this._updateUsingTransforms();var h={"original-order":function(a,b){return b.elemCount++,b.elemCount},random:function(){return Math.random()}};this.options.getSortData=b.extend(this.options.getSortData,h),this.reloadItems(),this.offset={left:parseInt(this.element.css("padding-left")||0,10),top:parseInt(this.element.css("padding-top")||0,10)};var i=this;setTimeout(function(){i.element.addClass(i.options.containerClass)},0),this.options.resizable&&v.bind("smartresize.isotope",function(){i.resize()}),this.element.delegate("."+this.options.hiddenClass,"click",function(){return!1})},_getAtoms:function(a){var b=this.options.itemSelector,c=b?a.filter(b).add(a.find(b)):a,d={position:"absolute"};return this.usingTransforms&&(d.left=0,d.top=0),c.css(d).addClass(this.options.itemClass),this.updateSortData(c,!0),c},_init:function(a){this.$filteredAtoms=this._filter(this.$allAtoms),this._sort(),this.reLayout(a)},option:function(a){if(b.isPlainObject(a)){this.options=b.extend(!0,this.options,a);var c;for(var d in a)c="_update"+f(d),this[c]&&this[c]()}},_updateAnimationEngine:function(){var a=this.options.animationEngine.toLowerCase().replace(/[ _\-]/g,""),b;switch(a){case"css":case"none":b=!1;break;case"jquery":b=!0;break;default:b=!e.csstransitions}this.isUsingJQueryAnimation=b,this._updateUsingTransforms()},_updateTransformsEnabled:function(){this._updateUsingTransforms()},_updateUsingTransforms:function(){var a=this.usingTransforms=this.options.transformsEnabled&&e.csstransforms&&e.csstransitions&&!this.isUsingJQueryAnimation;a||(delete this.options.hiddenStyle.scale,delete this.options.visibleStyle.scale),this.getPositionStyles=a?this._translate:this._positionAbs},_filter:function(a){var b=this.options.filter===""?"*":this.options.filter;if(!b)return a;var c=this.options.hiddenClass,d="."+c,e=a.filter(d),f=e;if(b!=="*"){f=e.filter(b);var g=a.not(d).not(b).addClass(c);this.styleQueue.push({$el:g,style:this.options.hiddenStyle})}return this.styleQueue.push({$el:f,style:this.options.visibleStyle}),f.removeClass(c),a.filter(b)},updateSortData:function(a,c){var d=this,e=this.options.getSortData,f,g;a.each(function(){f=b(this),g={};for(var a in e)!c&&a==="original-order"?g[a]=b.data(this,"isotope-sort-data")[a]:g[a]=e[a](f,d);b.data(this,"isotope-sort-data",g)})},_sort:function(){var a=this.options.sortBy,b=this._getSorter,c=this.options.sortAscending?1:-1,d=function(d,e){var f=b(d,a),g=b(e,a);return f===g&&a!=="original-order"&&(f=b(d,"original-order"),g=b(e,"original-order")),(f>g?1:f<g?-1:0)*c};this.$filteredAtoms.sort(d)},_getSorter:function(a,c){return b.data(a,"isotope-sort-data")[c]},_translate:function(a,b){return{translate:[a,b]}},_positionAbs:function(a,b){return{left:a,top:b}},_pushPosition:function(a,b,c){b=Math.round(b+this.offset.left),c=Math.round(c+this.offset.top);var d=this.getPositionStyles(b,c);this.styleQueue.push({$el:a,style:d}),this.options.itemPositionDataEnabled&&a.data("isotope-item-position",{x:b,y:c})},layout:function(a,b){var c=this.options.layoutMode;this["_"+c+"Layout"](a);if(this.options.resizesContainer){var d=this["_"+c+"GetContainerSize"]();this.styleQueue.push({$el:this.element,style:d})}this._processStyleQueue(a,b),this.isLaidOut=!0},_processStyleQueue:function(a,c){var d=this.isLaidOut?this.isUsingJQueryAnimation?"animate":"css":"css",f=this.options.animationOptions,g=this.options.onLayout,h,i,j,k;i=function(a,b){b.$el[d](b.style,f)};if(this._isInserting&&this.isUsingJQueryAnimation)i=function(a,b){h=b.$el.hasClass("no-transition")?"css":d,b.$el[h](b.style,f)};else if(c||g||f.complete){var l=!1,m=[c,g,f.complete],n=this;j=!0,k=function(){if(l)return;var b;for(var c=0,d=m.length;c<d;c++)b=m[c],typeof b=="function"&&b.call(n.element,a,n);l=!0};if(this.isUsingJQueryAnimation&&d==="animate")f.complete=k,j=!1;else if(e.csstransitions){var o=0,p=this.styleQueue[0],s=p&&p.$el,t;while(!s||!s.length){t=this.styleQueue[o++];if(!t)return;s=t.$el}var u=parseFloat(getComputedStyle(s[0])[r]);u>0&&(i=function(a,b){b.$el[d](b.style,f).one(q,k)},j=!1)}}b.each(this.styleQueue,i),j&&k(),this.styleQueue=[]},resize:function(){this["_"+this.options.layoutMode+"ResizeChanged"]()&&this.reLayout()},reLayout:function(a){this["_"+this.options.layoutMode+"Reset"](),this.layout(this.$filteredAtoms,a)},addItems:function(a,b){var c=this._getAtoms(a);this.$allAtoms=this.$allAtoms.add(c),b&&b(c)},insert:function(a,b){this.element.append(a);var c=this;this.addItems(a,function(a){var d=c._filter(a);c._addHideAppended(d),c._sort(),c.reLayout(),c._revealAppended(d,b)})},appended:function(a,b){var c=this;this.addItems(a,function(a){c._addHideAppended(a),c.layout(a),c._revealAppended(a,b)})},_addHideAppended:function(a){this.$filteredAtoms=this.$filteredAtoms.add(a),a.addClass("no-transition"),this._isInserting=!0,this.styleQueue.push({$el:a,style:this.options.hiddenStyle})},_revealAppended:function(a,b){var c=this;setTimeout(function(){a.removeClass("no-transition"),c.styleQueue.push({$el:a,style:c.options.visibleStyle}),c._isInserting=!1,c._processStyleQueue(a,b)},10)},reloadItems:function(){this.$allAtoms=this._getAtoms(this.element.children())},remove:function(a,b){var c=this,d=function(){c.$allAtoms=c.$allAtoms.not(a),a.remove(),b&&b.call(c.element)};a.filter(":not(."+this.options.hiddenClass+")").length?(this.styleQueue.push({$el:a,style:this.options.hiddenStyle}),this.$filteredAtoms=this.$filteredAtoms.not(a),this._sort(),this.reLayout(d)):d()},shuffle:function(a){this.updateSortData(this.$allAtoms),this.options.sortBy="random",this._sort(),this.reLayout(a)},destroy:function(){var a=this.usingTransforms,b=this.options;this.$allAtoms.removeClass(b.hiddenClass+" "+b.itemClass).each(function(){var b=this.style;b.position="",b.top="",b.left="",b.opacity="",a&&(b[i]="")});var c=this.element[0].style;for(var d in this.originalStyle)c[d]=this.originalStyle[d];this.element.unbind(".isotope").undelegate("."+b.hiddenClass,"click").removeClass(b.containerClass).removeData("isotope"),v.unbind(".isotope")},_getSegments:function(a){var b=this.options.layoutMode,c=a?"rowHeight":"columnWidth",d=a?"height":"width",e=a?"rows":"cols",g=this.element[d](),h,i=this.options[b]&&this.options[b][c]||this.$filteredAtoms["outer"+f(d)](!0)||g;h=Math.floor(g/i),h=Math.max(h,1),this[b][e]=h,this[b][c]=i},_checkIfSegmentsChanged:function(a){var b=this.options.layoutMode,c=a?"rows":"cols",d=this[b][c];return this._getSegments(a),this[b][c]!==d},_masonryReset:function(){this.masonry={},this._getSegments();var a=this.masonry.cols;this.masonry.colYs=[];while(a--)this.masonry.colYs.push(0)},_masonryLayout:function(a){var c=this,d=c.masonry;a.each(function(){var a=b(this),e=Math.ceil(a.outerWidth(!0)/d.columnWidth);e=Math.min(e,d.cols);if(e===1)c._masonryPlaceBrick(a,d.colYs);else{var f=d.cols+1-e,g=[],h,i;for(i=0;i<f;i++)h=d.colYs.slice(i,i+e),g[i]=Math.max.apply(Math,h);c._masonryPlaceBrick(a,g)}})},_masonryPlaceBrick:function(a,b){var c=Math.min.apply(Math,b),d=0;for(var e=0,f=b.length;e<f;e++)if(b[e]===c){d=e;break}var g=this.masonry.columnWidth*d,h=c;this._pushPosition(a,g,h);var i=c+a.outerHeight(!0),j=this.masonry.cols+1-f;for(e=0;e<j;e++)this.masonry.colYs[d+e]=i},_masonryGetContainerSize:function(){var a=Math.max.apply(Math,this.masonry.colYs);return{height:a}},_masonryResizeChanged:function(){return this._checkIfSegmentsChanged()},_fitRowsReset:function(){this.fitRows={x:0,y:0,height:0}},_fitRowsLayout:function(a){var c=this,d=this.element.width(),e=this.fitRows;a.each(function(){var a=b(this),f=a.outerWidth(!0),g=a.outerHeight(!0);e.x!==0&&f+e.x>d&&(e.x=0,e.y=e.height),c._pushPosition(a,e.x,e.y),e.height=Math.max(e.y+g,e.height),e.x+=f})},_fitRowsGetContainerSize:function(){return{height:this.fitRows.height}},_fitRowsResizeChanged:function(){return!0},_cellsByRowReset:function(){this.cellsByRow={index:0},this._getSegments(),this._getSegments(!0)},_cellsByRowLayout:function(a){var c=this,d=this.cellsByRow;a.each(function(){var a=b(this),e=d.index%d.cols,f=Math.floor(d.index/d.cols),g=(e+.5)*d.columnWidth-a.outerWidth(!0)/2,h=(f+.5)*d.rowHeight-a.outerHeight(!0)/2;c._pushPosition(a,g,h),d.index++})},_cellsByRowGetContainerSize:function(){return{height:Math.ceil(this.$filteredAtoms.length/this.cellsByRow.cols)*this.cellsByRow.rowHeight+this.offset.top}},_cellsByRowResizeChanged:function(){return this._checkIfSegmentsChanged()},_straightDownReset:function(){this.straightDown={y:0}},_straightDownLayout:function(a){var c=this;a.each(function(a){var d=b(this);c._pushPosition(d,0,c.straightDown.y),c.straightDown.y+=d.outerHeight(!0)})},_straightDownGetContainerSize:function(){return{height:this.straightDown.y}},_straightDownResizeChanged:function(){return!0},_masonryHorizontalReset:function(){this.masonryHorizontal={},this._getSegments(!0);var a=this.masonryHorizontal.rows;this.masonryHorizontal.rowXs=[];while(a--)this.masonryHorizontal.rowXs.push(0)},_masonryHorizontalLayout:function(a){var c=this,d=c.masonryHorizontal;a.each(function(){var a=b(this),e=Math.ceil(a.outerHeight(!0)/d.rowHeight);e=Math.min(e,d.rows);if(e===1)c._masonryHorizontalPlaceBrick(a,d.rowXs);else{var f=d.rows+1-e,g=[],h,i;for(i=0;i<f;i++)h=d.rowXs.slice(i,i+e),g[i]=Math.max.apply(Math,h);c._masonryHorizontalPlaceBrick(a,g)}})},_masonryHorizontalPlaceBrick:function(a,b){var c=Math.min.apply(Math,b),d=0;for(var e=0,f=b.length;e<f;e++)if(b[e]===c){d=e;break}var g=c,h=this.masonryHorizontal.rowHeight*d;this._pushPosition(a,g,h);var i=c+a.outerWidth(!0),j=this.masonryHorizontal.rows+1-f;for(e=0;e<j;e++)this.masonryHorizontal.rowXs[d+e]=i},_masonryHorizontalGetContainerSize:function(){var a=Math.max.apply(Math,this.masonryHorizontal.rowXs);return{width:a}},_masonryHorizontalResizeChanged:function(){return this._checkIfSegmentsChanged(!0)},_fitColumnsReset:function(){this.fitColumns={x:0,y:0,width:0}},_fitColumnsLayout:function(a){var c=this,d=this.element.height(),e=this.fitColumns;a.each(function(){var a=b(this),f=a.outerWidth(!0),g=a.outerHeight(!0);e.y!==0&&g+e.y>d&&(e.x=e.width,e.y=0),c._pushPosition(a,e.x,e.y),e.width=Math.max(e.x+f,e.width),e.y+=g})},_fitColumnsGetContainerSize:function(){return{width:this.fitColumns.width}},_fitColumnsResizeChanged:function(){return!0},_cellsByColumnReset:function(){this.cellsByColumn={index:0},this._getSegments(),this._getSegments(!0)},_cellsByColumnLayout:function(a){var c=this,d=this.cellsByColumn;a.each(function(){var a=b(this),e=Math.floor(d.index/d.rows),f=d.index%d.rows,g=(e+.5)*d.columnWidth-a.outerWidth(!0)/2,h=(f+.5)*d.rowHeight-a.outerHeight(!0)/2;c._pushPosition(a,g,h),d.index++})},_cellsByColumnGetContainerSize:function(){return{width:Math.ceil(this.$filteredAtoms.length/this.cellsByColumn.rows)*this.cellsByColumn.columnWidth}},_cellsByColumnResizeChanged:function(){return this._checkIfSegmentsChanged(!0)},_straightAcrossReset:function(){this.straightAcross={x:0}},_straightAcrossLayout:function(a){var c=this;a.each(function(a){var d=b(this);c._pushPosition(d,c.straightAcross.x,0),c.straightAcross.x+=d.outerWidth(!0)})},_straightAcrossGetContainerSize:function(){return{width:this.straightAcross.x}},_straightAcrossResizeChanged:function(){return!0}},b.fn.imagesLoaded=function(a){function h(){a.call(c,d)}function i(a){var c=a.target;c.src!==f&&b.inArray(c,g)===-1&&(g.push(c),--e<=0&&(setTimeout(h),d.unbind(".imagesLoaded",i)))}var c=this,d=c.find("img").add(c.filter("img")),e=d.length,f="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",g=[];return e||h(),d.bind("load.imagesLoaded error.imagesLoaded",i).each(function(){var a=this.src;this.src=f,this.src=a}),c};var w=function(b){a.console&&a.console.error(b)};b.fn.isotope=function(a,c){if(typeof a=="string"){var d=Array.prototype.slice.call(arguments,1);this.each(function(){var c=b.data(this,"isotope");if(!c){w("cannot call methods on isotope prior to initialization; attempted to call method '"+a+"'");return}if(!b.isFunction(c[a])||a.charAt(0)==="_"){w("no such method '"+a+"' for isotope instance");return}c[a].apply(c,d)})}else this.each(function(){var d=b.data(this,"isotope");d?(d.option(a),d._init(c)):b.data(this,"isotope",new b.Isotope(a,this,c))});return this}})(window,jQuery);;T;	@�;
+@�I"/projects/bluebooker/;T{;{	;I"*<div class="project_box">
   
     <a href="http://yalebluprint.com" target="_blank"><h1 class="project_name">Bluebooker</h1></a>
     <h2 class="project_tools">PHP, Javascript</h2>
@@ -5663,20 +6174,208 @@ I"<p>Bluebooker was a website designed to help students plan long-term course
 
 <h2 id="collaboration">Collaboration</h2>
 <p>Built with Stephen Hall and Jan Kolmas. I primarily focused on graphic design, and did a bit of frontend Javascript too. They’re continuing to maintain the site as Yale Bluprint.</p>
-;T;@�I"/images/bluebooker/;T{;{ I"/posts/2013-02-26-nyuad/;T{;{	;I"}
-  <div class="post">
-    <h1>My first post</h1>
-    <p><p>Welcome to my blog. This is my first post.</p>
+;T;@�I"/images/bluebooker/;T{;{ I"/posts/2013-02-26-nyuad/;T{;{	;I"�*
+  <article>
+    <h4 class="date">Feb 27, 2013</h5>
+    <h1 class="title">Lessons from a hackathon</h2>
+    <p><p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
+
+<p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That’s a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)</p>
+
+<p>I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place at the hackathon!</p>
+
+<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app (see the <a href="https://github.com/geoffreylitt/mentorme">git repo</a> if you’re interested). What I’m more interested in writing about are some of <strong>the general principles that contributed to our success</strong>. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project. In a way, a hackathon is like a super-time-compressed version of a full product cycle, where you can experiment with approaches to software development and figure out what works.</p>
+
+<h2 id="structure-breeds-creativity">1. Structure breeds creativity</h2>
+
+<p>I almost hesitate to call this event a “hackathon” because it was very different from any hackathon I’d ever been to in the US. The event was started started in 2011 by an NYU professor named Sana Odeh, and the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it unusual is how focused the goal is – rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.</p>
+
+<p>However, the focus on building useful products also made it a lot harder to decide what to work on. Normally at a hackathon it’s enough to come up with a simple API mashup that shows coding chops, but that didn’t cut it in this case. My friend and I tried to think of some ideas on the plane ride there, but didn’t come up with much. Luckily, the entire first morning of the hackathon was dedicated to structured ideation, including group brainstorming and one-minute pitches.</p>
+
+<p>Now to be honest, when I first heard that half a day was devoted to coming up with ideas, I expected a lot of boredom and unnecessary structure. I would have preferred to just find a team, come up with our best idea in a quick brainstorm, and go for it. But surprisingly, I really ended up enjoying the more structured process. Hearing a wide variety of ideas from different types of people helped build connections and starting points to build off of in my brain. <strong>The magic lightbulb appearing above an inventor’s head is a complete myth</strong>, and a dangerous one for anyone who actually wants to be creative.</p>
+
+<p><img src="/images/blog/nyuad/idea.png" alt="Lightbulb" /></p>
+
+<p>This principle especially applied in this case because I knew nothing about the problems people actually face in the Arab region, and <strong>a product is only useful if it solves a real problem</strong>. For example, I was surprised to see four or five different groups pitch ideas involving improving driving etiquette – who knew that was such an important problem in that part of the world?</p>
+
+<p>Also, the first idea isn’t always the best. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were already kind of set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I’m now confident we made a smart choice. <strong>It’s so important to keep brainstorming without settling too early</strong>.</p>
+
+<h2 id="team-chemistry-is-everything">2. Team chemistry is everything</h2>
+
+<p>The best part of this hackathon for me, <strong>by far</strong>, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.</p>
+
+<p><img src="/images/blog/nyuad/team.jpg" alt="Team Hashtag Wizard" /></p>
+
+<p>From before the event began, I had been planning to work with my friend Seth Thompson from Yale, since we’d done hackathons together before and knew we worked well as a team. But the rest of the team came together completely serendipitously. Through chance encounters that took place everywhere from airport security to the hotel breakfast room, we met Alex Qin, a Rubyist and git wizard attending NYU; Omar Omran, an iOS developer attending the Lebanese American University; Ramsey Nasser, a NY-based hacker/designer who among other cool stuff has developed <a href="http://qlblang.org/">qlb</a>, a Lisp with Arabic syntax; and Max Stoller, an NYU grad with tons of hackathon experience who won second place at the NYUAD event in 2011. Ramsey and Max were there as mentors, which just meant they weren’t allowed to write any code.</p>
+
+<p>It’s pretty hard to believe how well our team got along from the outset. Maybe working outside in the sunny 75-degree weather put us all in good moods…</p>
+
+<p><img src="/images/blog/nyuad/outside.jpg" alt="Working outside" /></p>
+
+<p>Whatever the reason, all of our group work went really smoothly, as we achieved that elusive balance of staying focused and having a ton of fun along the way. Looking back, I think there were two separate factors that made us a great team.</p>
+
+<h4 id="technical-skill">Technical skill</h4>
+
+<p>The first factor was technical skill. The fact of the matter is, <strong>to quickly develop a great product, everyone needs to be on the same page mentally</strong>. Pure intelligence and quickness are crucial for keeping conversations moving, and software development experience is also important, especially in a hackathon setting where huge architectural decisions are made based on gut feeling and there isn’t really time to learn new technologies.</p>
+
+<p>Seth, Alex and I were able to dive right into the Rails project because of our previous experience with the framework, splitting up both frontend and backend work evenly between us. Omar was fast enough with XCode to singlehandedly develop an entire native videochat-enabled iOS app that interfaced with our server in just two days. Our mentors were also really talented developers and could help us out whenever we got stuck.</p>
+
+<p>Because we were all on the same page, I was able to trust all of my teammates 100% with whatever they were working on without feeling any need to check up on them, and that was a rare and exhilarating experience. I’ve never even laid eyes on a lot of the code that’s in our final product, and I love that that’s the case. I hope I can achieve this level of trust on many software projects to come, but it’s not easy – one person not on the same level as everyone else can tear apart the whole web of trust. Steve Jobs and others have referred to this phenomenon as only having “A Players” on a team. I’m not sure I like that way of putting it, but I know what they mean.</p>
+
+<h4 id="personalities">Personalities</h4>
+
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+
+<p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
+
+<h2 id="edge-case">3. Edge case!</h2>
+
+<p><img src="/images/blog/nyuad/nullpointer.png" alt="Null pointer comic " /></p>
+
+<p>(Comic cred: <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>)</p>
+
+<p>After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated “Edge Case,” and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished on time.</p>
+
+<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and <strong>ruthlessly discarding appropriate edge cases is one good way to maintain discipline</strong>.</p>
+
+<h2 id="hackathons">Hackathons</h2>
+
+<p>I’d encourage everyone to participate in hackathons. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
 </p>
-  </div>
-;T;	I"/Welcome to my blog. This is my first post.;T;
-I"7<p>Welcome to my blog. This is my first post.</p>
-;T;@�I"/posts/2012-02-10-zero/;T{;{	;I"s
-  <div class="post">
-    <h1>My zeroth post</h1>
+  </article>
+;T;	I"�'![The Grand Mosque](/images/blog/nyuad/mosque.jpg)
+
+This past weekend, I participated in the [2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world](http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html), a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That's a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)
+
+I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place at the hackathon!
+
+Since this was a project completed in just two and a half days, there's not that much of interest to discuss regarding the technical details of building the app (see the [git repo](https://github.com/geoffreylitt/mentorme) if you're interested). What I'm more interested in writing about are some of __the general principles that contributed to our success__. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project. In a way, a hackathon is like a super-time-compressed version of a full product cycle, where you can experiment with approaches to software development and figure out what works.
+
+## 1. Structure breeds creativity
+
+I almost hesitate to call this event a "hackathon" because it was very different from any hackathon I'd ever been to in the US. The event was started started in 2011 by an NYU professor named Sana Odeh, and the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it unusual is how focused the goal is -- rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.
+
+However, the focus on building useful products also made it a lot harder to decide what to work on. Normally at a hackathon it’s enough to come up with a simple API mashup that shows coding chops, but that didn't cut it in this case. My friend and I tried to think of some ideas on the plane ride there, but didn't come up with much. Luckily, the entire first morning of the hackathon was dedicated to structured ideation, including group brainstorming and one-minute pitches.
+
+Now to be honest, when I first heard that half a day was devoted to coming up with ideas, I expected a lot of boredom and unnecessary structure. I would have preferred to just find a team, come up with our best idea in a quick brainstorm, and go for it. But surprisingly, I really ended up enjoying the more structured process. Hearing a wide variety of ideas from different types of people helped build connections and starting points to build off of in my brain. __The magic lightbulb appearing above an inventor's head is a complete myth__, and a dangerous one for anyone who actually wants to be creative.
+
+![Lightbulb](/images/blog/nyuad/idea.png)
+
+This principle especially applied in this case because I knew nothing about the problems people actually face in the Arab region, and __a product is only useful if it solves a real problem__. For example, I was surprised to see four or five different groups pitch ideas involving improving driving etiquette -- who knew that was such an important problem in that part of the world?
+
+Also, the first idea isn’t always the best. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were already kind of set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I'm now confident we made a smart choice. __It’s so important to keep brainstorming without settling too early__.
+
+## 2. Team chemistry is everything
+
+The best part of this hackathon for me, __by far__, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.
+
+![Team Hashtag Wizard](/images/blog/nyuad/team.jpg)
+
+From before the event began, I had been planning to work with my friend Seth Thompson from Yale, since we'd done hackathons together before and knew we worked well as a team. But the rest of the team came together completely serendipitously. Through chance encounters that took place everywhere from airport security to the hotel breakfast room, we met Alex Qin, a Rubyist and git wizard attending NYU; Omar Omran, an iOS developer attending the Lebanese American University; Ramsey Nasser, a NY-based hacker/designer who among other cool stuff has developed [qlb](http://qlblang.org/), a Lisp with Arabic syntax; and Max Stoller, an NYU grad with tons of hackathon experience who won second place at the NYUAD event in 2011. Ramsey and Max were there as mentors, which just meant they weren't allowed to write any code.
+
+It's pretty hard to believe how well our team got along from the outset. Maybe working outside in the sunny 75-degree weather put us all in good moods...
+
+![Working outside](/images/blog/nyuad/outside.jpg)
+
+Whatever the reason, all of our group work went really smoothly, as we achieved that elusive balance of staying focused and having a ton of fun along the way. Looking back, I think there were two separate factors that made us a great team.
+
+#### Technical skill
+
+The first factor was technical skill. The fact of the matter is, __to quickly develop a great product, everyone needs to be on the same page mentally__. Pure intelligence and quickness are crucial for keeping conversations moving, and software development experience is also important, especially in a hackathon setting where huge architectural decisions are made based on gut feeling and there isn't really time to learn new technologies.
+
+Seth, Alex and I were able to dive right into the Rails project because of our previous experience with the framework, splitting up both frontend and backend work evenly between us. Omar was fast enough with XCode to singlehandedly develop an entire native videochat-enabled iOS app that interfaced with our server in just two days. Our mentors were also really talented developers and could help us out whenever we got stuck.
+
+Because we were all on the same page, I was able to trust all of my teammates 100% with whatever they were working on without feeling any need to check up on them, and that was a rare and exhilarating experience. I've never even laid eyes on a lot of the code that's in our final product, and I love that that's the case. I hope I can achieve this level of trust on many software projects to come, but it's not easy -- one person not on the same level as everyone else can tear apart the whole web of trust. Steve Jobs and others have referred to this phenomenon as only having "A Players" on a team. I'm not sure I like that way of putting it, but I know what they mean.
+
+#### Personalities
+
+The second (and far more important) factor, though, was __getting along as people__. We all had a blast the entire time, both while we were coding as well as during breaks. I haven't witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.
+
+This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that __it made the whole weekend so damn fun__. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it's impossible to overestimate the various positive benefits that can arise from good personality vibes.
+
+## 3. Edge case!
+
+![Null pointer comic ](/images/blog/nyuad/nullpointer.png)
+
+(Comic cred: [Geek and Poke](http://geekandpoke.typepad.com/))
+
+After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated "Edge Case," and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren't relevant to our demo, and we never would have finished on time.
+
+Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. __What is core to the product, and what can be cut?__ In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don't care -- it didn't happen, and we shipped a great demo. When developing real software, security is obviously not just an "edge case"...but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and __ruthlessly discarding appropriate edge cases is one good way to maintain discipline__.
+
+## Hackathons 
+
+I'd encourage everyone to participate in hackathons. There's really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.;T;
+I"^*<p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
+
+<p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That’s a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)</p>
+
+<p>I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place at the hackathon!</p>
+
+<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app (see the <a href="https://github.com/geoffreylitt/mentorme">git repo</a> if you’re interested). What I’m more interested in writing about are some of <strong>the general principles that contributed to our success</strong>. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project. In a way, a hackathon is like a super-time-compressed version of a full product cycle, where you can experiment with approaches to software development and figure out what works.</p>
+
+<h2 id="structure-breeds-creativity">1. Structure breeds creativity</h2>
+
+<p>I almost hesitate to call this event a “hackathon” because it was very different from any hackathon I’d ever been to in the US. The event was started started in 2011 by an NYU professor named Sana Odeh, and the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it unusual is how focused the goal is – rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.</p>
+
+<p>However, the focus on building useful products also made it a lot harder to decide what to work on. Normally at a hackathon it’s enough to come up with a simple API mashup that shows coding chops, but that didn’t cut it in this case. My friend and I tried to think of some ideas on the plane ride there, but didn’t come up with much. Luckily, the entire first morning of the hackathon was dedicated to structured ideation, including group brainstorming and one-minute pitches.</p>
+
+<p>Now to be honest, when I first heard that half a day was devoted to coming up with ideas, I expected a lot of boredom and unnecessary structure. I would have preferred to just find a team, come up with our best idea in a quick brainstorm, and go for it. But surprisingly, I really ended up enjoying the more structured process. Hearing a wide variety of ideas from different types of people helped build connections and starting points to build off of in my brain. <strong>The magic lightbulb appearing above an inventor’s head is a complete myth</strong>, and a dangerous one for anyone who actually wants to be creative.</p>
+
+<p><img src="/images/blog/nyuad/idea.png" alt="Lightbulb" /></p>
+
+<p>This principle especially applied in this case because I knew nothing about the problems people actually face in the Arab region, and <strong>a product is only useful if it solves a real problem</strong>. For example, I was surprised to see four or five different groups pitch ideas involving improving driving etiquette – who knew that was such an important problem in that part of the world?</p>
+
+<p>Also, the first idea isn’t always the best. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were already kind of set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I’m now confident we made a smart choice. <strong>It’s so important to keep brainstorming without settling too early</strong>.</p>
+
+<h2 id="team-chemistry-is-everything">2. Team chemistry is everything</h2>
+
+<p>The best part of this hackathon for me, <strong>by far</strong>, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.</p>
+
+<p><img src="/images/blog/nyuad/team.jpg" alt="Team Hashtag Wizard" /></p>
+
+<p>From before the event began, I had been planning to work with my friend Seth Thompson from Yale, since we’d done hackathons together before and knew we worked well as a team. But the rest of the team came together completely serendipitously. Through chance encounters that took place everywhere from airport security to the hotel breakfast room, we met Alex Qin, a Rubyist and git wizard attending NYU; Omar Omran, an iOS developer attending the Lebanese American University; Ramsey Nasser, a NY-based hacker/designer who among other cool stuff has developed <a href="http://qlblang.org/">qlb</a>, a Lisp with Arabic syntax; and Max Stoller, an NYU grad with tons of hackathon experience who won second place at the NYUAD event in 2011. Ramsey and Max were there as mentors, which just meant they weren’t allowed to write any code.</p>
+
+<p>It’s pretty hard to believe how well our team got along from the outset. Maybe working outside in the sunny 75-degree weather put us all in good moods…</p>
+
+<p><img src="/images/blog/nyuad/outside.jpg" alt="Working outside" /></p>
+
+<p>Whatever the reason, all of our group work went really smoothly, as we achieved that elusive balance of staying focused and having a ton of fun along the way. Looking back, I think there were two separate factors that made us a great team.</p>
+
+<h4 id="technical-skill">Technical skill</h4>
+
+<p>The first factor was technical skill. The fact of the matter is, <strong>to quickly develop a great product, everyone needs to be on the same page mentally</strong>. Pure intelligence and quickness are crucial for keeping conversations moving, and software development experience is also important, especially in a hackathon setting where huge architectural decisions are made based on gut feeling and there isn’t really time to learn new technologies.</p>
+
+<p>Seth, Alex and I were able to dive right into the Rails project because of our previous experience with the framework, splitting up both frontend and backend work evenly between us. Omar was fast enough with XCode to singlehandedly develop an entire native videochat-enabled iOS app that interfaced with our server in just two days. Our mentors were also really talented developers and could help us out whenever we got stuck.</p>
+
+<p>Because we were all on the same page, I was able to trust all of my teammates 100% with whatever they were working on without feeling any need to check up on them, and that was a rare and exhilarating experience. I’ve never even laid eyes on a lot of the code that’s in our final product, and I love that that’s the case. I hope I can achieve this level of trust on many software projects to come, but it’s not easy – one person not on the same level as everyone else can tear apart the whole web of trust. Steve Jobs and others have referred to this phenomenon as only having “A Players” on a team. I’m not sure I like that way of putting it, but I know what they mean.</p>
+
+<h4 id="personalities">Personalities</h4>
+
+<p>The second (and far more important) factor, though, was <strong>getting along as people</strong>. We all had a blast the entire time, both while we were coding as well as during breaks. I haven’t witnessed such rapid inside joke generation since being at summer camp as a kid, and I remember my mouth actually being tired from laughing at some point.</p>
+
+<p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
+
+<h2 id="edge-case">3. Edge case!</h2>
+
+<p><img src="/images/blog/nyuad/nullpointer.png" alt="Null pointer comic " /></p>
+
+<p>(Comic cred: <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>)</p>
+
+<p>After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated “Edge Case,” and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished on time.</p>
+
+<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and <strong>ruthlessly discarding appropriate edge cases is one good way to maintain discipline</strong>.</p>
+
+<h2 id="hackathons">Hackathons</h2>
+
+<p>I’d encourage everyone to participate in hackathons. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
+;T;@�I"/posts/2012-02-10-zero/;T{;{	;I"�
+  <article>
+    <h1 class="title">My zeroth post</h2>
+    <h2 class="date">Posted on February 10, 2012</h5>
     <p><p>This was published in the past!</p>
 </p>
-  </div>
+  </article>
 ;T;	I"$This was published in the past!;T;
 I",<p>This was published in the past!</p>
-;T;@�:versioni
+;T;@�I"/images/blog/mosque/;T{;{ I"/images/blog/nyuad/mosque/;T{;{ I"/images/blog/nyuad/team/;T{;{ I"/images/blog/nyuad/idea/;T{;{ I" /images/blog/nyuad/outside/;T{;{ I"$/images/blog/nyuad/nullpointer/;T{;{ :versioni

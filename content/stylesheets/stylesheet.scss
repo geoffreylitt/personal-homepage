@@ -301,4 +301,44 @@ p{
 
 .panel#blog_panel{
   border-top: solid 6px $color_blog;
+
+  .panel_content{
+    padding-top: 10px;
+  }
+
+  article{
+    margin: 16px 0;
+    padding: 16px 0;
+    border-top: solid thin #ddd; 
+    border-bottom: solid thin #ddd;
+
+  }
+
+  h1.title{
+    font-size: 24px;
+    margin: 0 0 24px 0;
+    line-height: 1.3em;
+  }
+
+  h4.date{
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  h2{
+    font-size: 18px;
+    border-bottom: solid thin #999;
+  }
+
+  h5{
+    //image caption
+    margin-top: 0;
+    font-weight: normal;
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1em;
+  }
 }

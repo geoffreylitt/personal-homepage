@@ -1,4 +1,4 @@
-Hi there! I'm a **web developer and designer**, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building **dynamic web applications** (mainly in **Ruby**, and some **PHP**), as well as designing **static websites**.
+Hi there! I'm a **web developer and designer**, currently writing code for <a href="http://mubi.com" target="_blank">MUBI.com</a> and studying at Yale University. I have several years of experience building **dynamic web applications** (mainly in **Ruby on Rails**), as well as designing **static websites**.
 
 I enjoy building **simple and usable interfaces**. You can check out stuff I've built on the <a href="/#projects">projects page</a>. My most recent web project, <a href="http://yaleclassroulette.com" target="_blank">Classroulette</a>, is a serendipity-inducing interface to the Yale course catalog.
 

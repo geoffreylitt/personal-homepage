@@ -1,6 +1,7 @@
 <% if @item.attributes[:published] %>
-  <div class="post">
-    <h1><%= @item.attributes[:title] %></h1>
+  <article>
+    <h4 class="date"><%= @item.attributes[:created_at].strftime("%b %e, %Y") %></h5>
+    <h1 class="title"><%= @item.attributes[:title] %></h2>
     <p><%= yield %></p>
-  </div>
+  </article>
 <% end %>
