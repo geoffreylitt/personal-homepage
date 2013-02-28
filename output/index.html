@@ -217,16 +217,18 @@
     
   <article>
     <h4 class="date">Feb 27, 2013</h5>
-    <h1 class="title">Lessons from a hackathon</h2>
+    <h1 class="title">Three lessons learned from a hackathon</h2>
     <p><p><img src="/images/blog/nyuad/mosque.jpg" alt="The Grand Mosque" /></p>
 
 <p>This past weekend, I participated in the <a href="http://nyuad.nyu.edu/news-events/conferences/nyuad-hackathon-2013.html">2013 NYU Abu Dhabi International Hackathon for Social Good in the Arab world</a>, a three day hackathon held in Abu Dhabi, the capital of the United Arab Emirates. It was my first time in the Arab region, so it was a fascinating cultural experience. (That’s a photo above of the Sheikh Zayed Grand Mosque, which was mind blowing to visit.)</p>
 
 <p>I also ended up meeting the coolest teammates and mentors ever, and we built a video mentoring web + mobile app called TakeFlight that won first place at the hackathon!</p>
 
-<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app (see the <a href="https://github.com/geoffreylitt/mentorme">git repo</a> if you’re interested). What I’m more interested in writing about are some of <strong>the general principles that contributed to our success</strong>. I think some of these principles apply more broadly to software development, and even to completing any kind of creative, collaborative project. In a way, a hackathon is like a super-time-compressed version of a full product cycle, where you can experiment with approaches to software development and figure out what works.</p>
+<p>Since this was a project completed in just two and a half days, there’s not that much of interest to discuss regarding the technical details of building the app (see the <a href="https://github.com/geoffreylitt/mentorme">git repo</a> if you’re interested).</p>
 
-<h2 id="structure-breeds-creativity">1. Structure breeds creativity</h2>
+<p>What I’d like to write about instead are three of <strong>the general principles that contributed to our success</strong>. I think these ideas could be useful to keep in mind for anyone thinking of participating in a hackathon, and could also apply more broadly to long-term software development and any kind of creative, collaborative project.</p>
+
+<h2 id="lesson-1-structure-breeds-creativity">Lesson #1: Structure breeds creativity</h2>
 
 <p>I almost hesitate to call this event a “hackathon” because it was very different from any hackathon I’d ever been to in the US. The event was started started in 2011 by an NYU professor named Sana Odeh, and the organizers invite students, mentors, and judges from all over the world (especially from Arab countries) to participate. What makes it unusual is how focused the goal is – rather than hack around on random silly stuff, at this event everyone is working on applications for social good in the Arab world. As much as I love silliness, this was a refreshing change from other hackathons. It feels great to build something with the goal of actually solving a real problem.</p>
 
@@ -240,7 +242,7 @@
 
 <p>Also, the first idea isn’t always the best. My group had come up with a pretty cool idea involving crowd-sourcing map data collection, but one of our mentors forced us to keep brainstorming after we were already kind of set on that one. We eventually came up with another idea: a platform that addresses youth unemployment by connecting students with mentors in their career fields of interest, and helping them conveniently schedule videochat mentoring sessions. I wasn’t that into this other idea when I first heard it, but it really grew on me over the course of three days as we built the product, and I’m now confident we made a smart choice. <strong>It’s so important to keep brainstorming without settling too early</strong>.</p>
 
-<h2 id="team-chemistry-is-everything">2. Team chemistry is everything</h2>
+<h2 id="lesson-2-team-chemistry-is-everything">Lesson #2: Team chemistry is everything</h2>
 
 <p>The best part of this hackathon for me, <strong>by far</strong>, was the team I got to work with. Giant shoutout to Team Hashtag Wizard.</p>
 
@@ -268,19 +270,19 @@
 
 <p>This meshing of personalities definitely led to our success as a programming team, but even that result seems irrelevant compared to the simple fact that <strong>it made the whole weekend so damn fun</strong>. By the time the award ceremony came around, winning first place was just the icing on the cake compared to the friendships I made. I think that whenever you have a choice of who you work with on a project (e.g. when founding a startup), it’s impossible to overestimate the various positive benefits that can arise from good personality vibes.</p>
 
-<h2 id="edge-case">3. Edge case!</h2>
+<h2 id="lesson-3-edge-case">3. Lesson #3: Edge case!</h2>
 
 <p><img src="/images/blog/nyuad/nullpointer.png" alt="Null pointer comic " /></p>
 
 <p>(Comic cred: <a href="http://geekandpoke.typepad.com/">Geek and Poke</a>)</p>
 
-<p>After calling us out a couple times on caring too much about edge cases during our first day of coding, our mentor Max was officially designated “Edge Case,” and he even made a nice sign with those words on it to hold up in our faces. Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished on time.</p>
+<p>In CS classes you learn to carefully consider edge cases and handle them, but in a hackathon, that mindset will prevent you from ever finishing in time. Our mentor Max called us out so often when we were thinking too much about edge cases that we gave him the official title of “Edge Case.” Over the course of three days, he saved us countless times from going down rabbit holes of premature optimization, and made us focus on building the core product. Without his edge case prevention heroics, we would have spent way too much time dealing with useless side considerations that weren’t relevant to our demo, and we never would have finished our app. </p>
 
-<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and <strong>ruthlessly discarding appropriate edge cases is one good way to maintain discipline</strong>.</p>
+<p>Of course, we took this principle to its absolute extreme because of the time constraints we faced in this hackathon. But the general idea is crucial to keep in mind when doing any software development. <strong>What is core to the product, and what can be cut?</strong> In a hackathon, anything shown in the product demo is core, and literally anything else, including any semblance of security, is just useless fluff. Any malicious user could pretty easily mess up our application, but I don’t care – it didn’t happen, and we shipped a great demo. When developing real software, security is obviously not just an “edge case”…but what is? Sticking to a lean development cycle that moves towards an MVP is easier said than done, and <strong>ruthlessly discarding appropriate edge cases is one good way to avoid feature creep and and endless development</strong>.</p>
 
 <h2 id="hackathons">Hackathons</h2>
 
-<p>I’d encourage everyone to participate in hackathons. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
+<p><strong>I’d encourage everyone to participate in hackathons</strong>. There’s really no better way to get your hands dirty in a low-risk and enjoyable programming environment. Three days in Abu Dhabi taught me to think in whole new ways about software development, and I was lucky enough to have an awesome time and make some new friends along the way.</p>
 </p>
   </article>
 
