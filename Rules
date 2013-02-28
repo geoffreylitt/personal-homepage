@@ -44,7 +44,7 @@ compile '*' do
 end
 
 route '/stylesheets/stylesheet/' do
-  '/style.css'
+  '/style2.css'
 end
 
 route '/stylesheets/_normalize/' do
